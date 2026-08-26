@@ -4,8 +4,13 @@
     "mondayRunTime": "08:00",
     "approvalRecipient": "dannyemmett@kw.com",
     "handoffRecipient": "stacygriemelgar@cyberbacker.com",
-    "approvalBaseUrl": "",
+    "approvalBaseUrl": "https://gwinnett-newsletter-approval.netlify.app/.netlify/functions/newsletter-approve",
     "subscriberDistributionEnabled": false,
     "automaticAssistantHandoffEnabled": false
+  },
+  "approval": {
+    "baseUrl": "https://gwinnett-newsletter-approval.netlify.app/.netlify/functions/newsletter-approve",
+    "tokenLifetimeHours": 168,
+    "blobStore": "newsletter-approvals"
   }
 }

@@ -57,7 +57,11 @@ Dry run is the default and prints the complete approval copy:
 .\scripts\send-monday-approval.ps1 -IssueDate 2026-09-02
 ```
 
+This command creates a fresh one-time token, stores only its hash in the site-scoped `newsletter-approvals` Netlify Blobs store, and renders the approval email with a large hosted `APPROVE NEWSLETTER` button. Add `-Live` to send only to the configured approval recipient.
+
 Live approval mail requires the explicit `-Live` switch plus `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, and optionally `SMTP_FROM` / `SMTP_SECURE`. Install the optional Node transport with `npm install`. Never commit credentials. The approval email goes only to `newsletter.approvalRecipient`; it contains the review checklist and Command compliance reminder.
+
+The production approval endpoint is `https://gwinnett-newsletter-approval.netlify.app/.netlify/functions/newsletter-approve`. It uses strong-consistency Netlify Blobs reads, verifies the deployed dated HTML hash, persists `APPROVED`, and rejects expired or reused tokens. Netlify requires `APPROVAL_RECIPIENT=dannyemmett@kw.com`; no SMTP credentials are required by the approval function.
 
 ## Configuration and safety
 

@@ -4,7 +4,13 @@
   "scripts": {
     "generate": "node generate.js",
     "verify": "node scripts/verify-root-newsletter.js",
-    "test:recovery": "node scripts/recovery-test.js"
+    "test:recovery": "node scripts/recovery-test.js",
+    "test:hosted-approval": "node scripts/hosted-approval-test.js"
   },
-  "optionalDependencies": { "nodemailer": "^7.0.0" }
+  "optionalDependencies": {
+    "nodemailer": "^9.0.5"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.0.1"
+  }
 }

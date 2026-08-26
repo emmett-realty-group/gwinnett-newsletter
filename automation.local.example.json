@@ -4,8 +4,13 @@
     "mondayRunTime": "08:00",
     "approvalRecipient": "dannyemmett@kw.com",
     "handoffRecipient": "assistant@example.com",
-    "approvalBaseUrl": "https://approval.example.com",
+    "approvalBaseUrl": "https://example.netlify.app/.netlify/functions/newsletter-approve",
     "subscriberDistributionEnabled": false,
     "automaticAssistantHandoffEnabled": false
+  },
+  "approval": {
+    "baseUrl": "https://example.netlify.app/.netlify/functions/newsletter-approve",
+    "tokenLifetimeHours": 168,
+    "blobStore": "newsletter-approvals"
   }
 }

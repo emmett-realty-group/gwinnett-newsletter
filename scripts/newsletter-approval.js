@@ -15,7 +15,9 @@ function prepareApproval({ issueDate, configPath, stateDir = defaultStateDir, to
   const config = readConfig(configPath);
   const html = fs.readFileSync(htmlPath(issueDate));
   const rawToken = token || crypto.randomBytes(32).toString("base64url");
-  const record = { issueDate, approvalRecipient: config.newsletter.approvalRecipient, htmlPath: path.relative(root, htmlPath(issueDate)).replaceAll("\\", "/"), htmlHash: sha256(html), tokenHash: sha256(rawToken), status: "SENT_FOR_APPROVAL", preparedAt: new Date().toISOString() };
+  const preparedAt = new Date();
+  const lifetimeHours = Number(config.approval?.tokenLifetimeHours || 168);
+  const record = { issueDate, approvalRecipient: config.newsletter.approvalRecipient, htmlPath: path.relative(root, htmlPath(issueDate)).replaceAll("\\", "/"), htmlHash: sha256(html), tokenHash: sha256(rawToken), status: "SENT_FOR_APPROVAL", preparedAt: preparedAt.toISOString(), expiresAt: new Date(preparedAt.getTime() + lifetimeHours * 3600000).toISOString() };
   writeRecord(record, stateDir);
   return { token: rawToken, record };
 }
@@ -25,13 +27,14 @@ function approve({ issueDate, token, configPath, stateDir = defaultStateDir } = 
   const record = readRecord(issueDate, stateDir);
   if (record.issueDate !== issueDate) throw new Error("Issue-date validation failed");
   if (record.approvalRecipient !== config.newsletter.approvalRecipient) throw new Error("Approval-recipient validation failed");
+  if (record.expiresAt && Date.now() >= Date.parse(record.expiresAt)) throw new Error("Approval token expired");
   const supplied = Buffer.from(sha256(token || ""), "hex");
   const expected = Buffer.from(record.tokenHash, "hex");
   if (supplied.length !== expected.length || !crypto.timingSafeEqual(supplied, expected)) throw new Error("Invalid approval token");
   const currentHash = sha256(fs.readFileSync(path.join(root, record.htmlPath)));
   if (currentHash !== record.htmlHash) throw new Error("HTML hash validation failed; prepare a new approval");
-  if (record.status !== "SENT_FOR_APPROVAL" && record.status !== "APPROVED") throw new Error(`Cannot approve from ${record.status}`);
-  record.status = "APPROVED"; record.approvedAt = record.approvedAt || new Date().toISOString();
+  if (record.status !== "SENT_FOR_APPROVAL") throw new Error(record.status === "APPROVED" ? "Approval token already used" : `Cannot approve from ${record.status}`);
+  record.status = "APPROVED"; record.approvedAt = new Date().toISOString();
   writeRecord(record, stateDir);
   return { record, emailsSent: 0, assistantEmailsSent: 0, subscriberEmailsSent: 0, approvedHtmlPath: path.join(root, record.htmlPath) };
 }
