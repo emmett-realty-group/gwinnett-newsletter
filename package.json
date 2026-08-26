@@ -1,0 +1,10 @@
+{
+  "name": "gwinnett-newsletter",
+  "private": true,
+  "scripts": {
+    "generate": "node generate.js",
+    "verify": "node scripts/verify-root-newsletter.js",
+    "test:recovery": "node scripts/recovery-test.js"
+  },
+  "optionalDependencies": { "nodemailer": "^7.0.0" }
+}

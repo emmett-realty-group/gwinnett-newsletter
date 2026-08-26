@@ -1,0 +1,11 @@
+const fs = require("fs");
+const path = require("path");
+const root = path.resolve(__dirname, "..");
+const iso = process.argv[2];
+if (!/^\d{4}-\d{2}-\d{2}$/.test(iso || "")) throw new Error("Usage: node scripts/prepare-root-issue.js YYYY-MM-DD");
+const dated = path.join(root, `${iso}.json`);
+if (!fs.existsSync(dated)) throw new Error(`Issue data not found: ${dated}`);
+const data = JSON.parse(fs.readFileSync(dated, "utf8"));
+if (data.issueDateIso !== iso) throw new Error("Issue-date mismatch in dated data");
+fs.writeFileSync(path.join(root, "newsletter-data.json"), JSON.stringify({ issueDateIso: iso, source: `${iso}.json`, note: "Active issue pointer; the dated file is canonical." }, null, 2) + "\n");
+console.log(`Prepared root pointer for ${iso}`);

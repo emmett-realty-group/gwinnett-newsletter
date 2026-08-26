@@ -1,0 +1,30 @@
+{
+  "issueDateIso": "2026-09-02",
+  "issueDate": "Wednesday, September 2, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "A local coffee spotlight, a seasonal home check, and the latest county market snapshot.",
+  "rotationWeek": 1,
+  "dannysNote": "Hey friends,\n\nSeptember is here, and the school-year rhythm is starting to feel a little more settled.\n\nThis week I pulled together a quick local business spotlight, a simple home check that fits the season, and a short look at what the latest county numbers are showing.",
+  "marketSnapshot": {
+    "title": "July brought buyers more choices",
+    "intro": "The latest verified county data offers a useful snapshot—not a prediction—of asking prices, available inventory, and market pace.",
+    "period": "July 2026",
+    "sourceLabel": "Realtor.com Economic Research county inventory data",
+    "sourceUrl": "https://www.realtor.com/research/data/",
+    "counties": [
+      { "name": "Gwinnett County", "medianListingPrice": "$457,000", "activeListings": "3,802", "medianDaysOnMarket": "50 days" },
+      { "name": "Rockdale County", "medianListingPrice": "$325,000", "activeListings": "514", "medianDaysOnMarket": "69 days" }
+    ]
+  },
+  "features": [
+    { "type": "Local Business Spotlight", "title": "Cips Coffee Roasters", "location": "Suwanee, Georgia", "paragraphs": ["Cips Coffee Roasters brings a locally roasted coffee stop to Suwanee. If you enjoy discovering neighborhood businesses, take a look at their current coffees and shop details before your visit."], "items": [], "sourceUrl": "https://cipscoffeeroasters.com/" },
+    { "type": "Homeowner / Seasonal Home Tip", "title": "Give your HVAC filter a back-to-routine check.", "paragraphs": ["With daily routines settling back in, this is a good week to check the filter and airflow around your heating and cooling system."], "items": ["Inspect the filter and replace it if it is dirty or due under the manufacturer's schedule.", "Keep supply and return vents clear of furniture, rugs, and curtains.", "If you notice unusual noise, weak airflow, or moisture, contact a qualified HVAC professional."], "sourceUrl": "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist" }
+  ],
+  "cartoon": {
+    "imageUrl": "",
+    "imageAlt": "A homeowner holding a clean HVAC filter while a dog investigates the air vent",
+    "fallbackText": "A dog studies the freshly changed air filter and thinks: ‘Finally, management is listening.’",
+    "caption": "The household comfort committee approves.",
+    "imagePrompt": "Create a warm, family-friendly horizontal newsletter cartoon set in a tidy suburban Georgia home. A smiling homeowner holds a clean HVAC filter while a curious dog investigates a nearby air vent. Early September daylight, polished editorial cartoon style, natural colors, no brands, logos, captions, or text."
+  }
+}

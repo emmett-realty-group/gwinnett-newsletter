@@ -1,0 +1,11 @@
+{
+  "newsletter": {
+    "timeZone": "America/New_York",
+    "mondayRunTime": "08:00",
+    "approvalRecipient": "dannyemmett@kw.com",
+    "handoffRecipient": "stacygriemelgar@cyberbacker.com",
+    "approvalBaseUrl": "",
+    "subscriberDistributionEnabled": false,
+    "automaticAssistantHandoffEnabled": false
+  }
+}

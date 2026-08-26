@@ -1,77 +1,68 @@
-# Gwinnett & Beyond Weekly Newsletter Builder
+# Gwinnett & Beyond Weekly
 
-The finished email is `dist/newsletter.html`. `index.html` is an identical browser-preview copy.
+This repository is the permanent source of truth for the newsletter. Historical July 2026 issues and assets remain intact. The active system uses the root dated JSON file, `newsletter-template.html`, and `generate.js`.
 
-## Build this week's newsletter
+## September recovery issue
 
-1. Open `newsletter-data.json`.
-2. Replace the weekly text, links, and image URLs.
-3. Set `quiz.include` to `true` only for the first issue of a month.
-4. Advance `themeIndex` and `footerImageIndex` by one. Both indexes start at `0`; they wrap automatically.
-5. Double-click `build-newsletter.cmd`. If Node.js is already installed, you can instead run `node generate.js`.
+```powershell
+node scripts/prepare-root-issue.js 2026-09-02
+node generate.js
+node scripts/verify-root-newsletter.js --issue=2026-09-02
+npm run test:recovery
+```
 
-The generator creates:
+Generated output is written to `dist/newsletter.html` and a permanent dated file. If dated content changes, the generator adds `-v2`, `-v3`, and so on rather than overwriting a prior dated revision. `index.html` is the latest browser preview.
 
-- `dist/newsletter.html` as the latest issue
-- A separately dated HTML file such as `dist/gwinnett-and-beyond-wednesday-july-15-2026.html`
-- `index.html` as the local browser preview
+## Monday workflow
 
-Each dated HTML file is a complete standalone email file beginning with `<!DOCTYPE html>` and can be retained as the permanent archive or uploaded to Command.
+Schedule this command for Mondays at 8:00 AM Eastern:
 
-## Cloudinary image hosting
+```powershell
+node scripts/prepare-monday-newsletter.js
+```
 
-`upload-cloudinary.js` uploads the five footer images and the current cartoon, then writes their public HTTPS URLs into `newsletter-data.json`.
+For a deterministic local rehearsal:
 
-Only the Cloud Name and an **unsigned upload preset** are used. API keys and API secrets are not stored in this project.
+```powershell
+node scripts/prepare-monday-newsletter.js --run-date=2026-08-31
+```
 
-## Rotation indexes
+The script calculates Wednesday as Monday + 2 calendar days, determines the numbered-week rotation, requires researched dated content, generates HTML, verifies it, and creates a secure approval record. It never sends to subscribers or automatically sends to an assistant.
 
-Background themes:
+## Approval
 
-- `0` Light Blue
-- `1` Soft Peach
-- `2` Pale Green
-- `3` Soft Lavender
-- `4` Light Cream
+`newsletter-approval.js prepare` generates a cryptographically random per-issue token and stores only its SHA-256 hash. The record binds approval to the issue date, Danny's configured approval address, and the exact HTML SHA-256 hash.
 
-The five Around Gwinnett footer designs rotate automatically:
+```powershell
+node scripts/newsletter-approval.js prepare --issue=2026-09-02
+node scripts/newsletter-approval.js approve --issue=2026-09-02 --token=TOKEN_SHOWN_ONCE
+node scripts/newsletter-approval.js status --issue=2026-09-02
+```
 
-- Issue 1: footer 1
-- Issue 2: footer 2
-- Issue 3: footer 3
-- Issue 4: footer 4
-- Issue 5: footer 5
-- Issue 6: footer 1 again
+Statuses are `DRAFT`, `SENT_FOR_APPROVAL`, `APPROVED`, and `HANDED_OFF`. Approval ends at `APPROVED`. It performs no email operation and leaves the exact approved HTML available for a later, separate handoff.
 
-Set `footerImageIndex` to `0` through `4`; the generator wraps the rotation automatically. Local image paths support the browser preview. Before sending email, replace them with public hosted image URLs.
+The local endpoint is optional:
 
-## Copy into Keller Williams Command
+```powershell
+node scripts/approval-endpoint.js
+```
 
-1. Generate the newsletter.
-2. Open `dist/newsletter.html` in a plain-text editor and select all.
-3. Copy only the HTML, beginning with `<!DOCTYPE html>`.
-4. Paste it into Command's HTML/source editor.
-5. Confirm the cartoon and footer image URLs are hosted and publicly accessible.
-6. Remove the orange market verification reminder only after checking the May 2026 references.
-7. Verify the event page, date, time, location, buttons, brokerage address, and unsubscribe footer.
-8. Send a test to Danny and check it on desktop and mobile before scheduling Wednesday at 12:00 PM.
+Do not expose it directly to the internet. A production deployment must add HTTPS, trusted proxy/host controls, request throttling, and secure state storage appropriate to its host.
 
-## Quiz tracking
+## Approval email and SMTP
 
-Track replies in a sheet with: Date, Name, Email, Answer, Correct?, Winner?, Follow-Up Needed?
+Dry run is the default and prints the complete approval copy:
 
-## Permanent market coverage
+```powershell
+.\scripts\send-monday-approval.ps1 -IssueDate 2026-09-02
+```
 
-The newsletter's primary market is **Gwinnett County, Georgia**.
+Live approval mail requires the explicit `-Live` switch plus `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, and optionally `SMTP_FROM` / `SMTP_SECURE`. Install the optional Node transport with `npm install`. Never commit credentials. The approval email goes only to `newsletter.approvalRecipient`; it contains the review checklist and Command compliance reminder.
 
-The surrounding research area includes:
+## Configuration and safety
 
-- Barrow County
-- Walton County
-- Rockdale County
-- DeKalb County
-- Jackson County
+Edit `automation.local.json` to change `newsletter.handoffRecipient`; no source change is required. Handoff remains a separate explicit action. `newsletter.subscriberDistributionEnabled` and `newsletter.automaticAssistantHandoffEnabled` must remain `false`, and verification fails if subscriber distribution is enabled.
 
-Research should lead with Gwinnett and use the surrounding counties when they provide a useful comparison, local story, event, homeowner issue, or referral opportunity. It is not necessary to mention all six counties every week.
+No subscriber-distribution implementation exists in this repository. Copy verified HTML into the authorized email platform only after approval and final compliance checks.
 
-The detailed source hierarchy, preferred metrics, and research rules are stored in `market-research-config.json`.
+See `docs/master-newsletter-prompt.md` for permanent structure, rotation, editorial, CTA, and output rules.
