@@ -46,7 +46,8 @@ jobs:
         run: |
           git config user.name "Gwinnett Newsletter Automation"
           git config user.email "actions@users.noreply.github.com"
-          git add drafts/*.json assets/cartoons/*.png
+          git add assets/cartoons/*.png
+          git add drafts/*.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Prepare weekly newsletter draft"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
