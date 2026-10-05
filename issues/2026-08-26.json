@@ -1,0 +1,99 @@
+{
+  "issueDate": "Wednesday, August 26, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Gwinnett County market notes, Duluth Multicultural Week, On Golden Pond in Sugar Hill, and a late-summer laundry reset.",
+  "themeIndex": 1,
+  "dannysNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "August is wrapping up, but the calendar still feels full. Between school routines, late-summer heat, and the first hints of fall plans, this is a good week to handle one small home task before September arrives.",
+      "This week's quick check takes only a few minutes, and the local calendar has several easy ways to get out around Gwinnett this weekend."
+    ]
+  },
+  "market": {
+    "title": "Gwinnett County market snapshot for July 2026",
+    "featuredCounty": "Gwinnett County",
+    "reportingPeriod": "July 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "Realtor.com reported 3,802 active listings in Gwinnett County during July 2026, 8.5% higher from one year earlier.",
+      "The median listing price was $457,000. Median days on market came in at 50 days, 8.7% higher year over year.",
+      "For homeowners, the useful takeaway is that local conditions matter. Price, preparation, and neighborhood-level competition still shape the result for any individual home."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for July 2026."
+  },
+  "rotatingFeatures": [
+    {
+      "include": true,
+      "key": "community-spotlight",
+      "type": "Community Spotlight",
+      "label": "COMMUNITY SPOTLIGHT",
+      "title": "Multicultural Week in Downtown Duluth",
+      "cityState": "Duluth, Georgia",
+      "availability": "August 26-30, 2026",
+      "paragraphs": [
+        "Downtown Duluth is closing August with several free community events celebrating cultures from around the world. Friday's Rock the Block: Multicultural Night is scheduled for 6:00 to 9:00 PM with cultural performances and international food trucks, followed by creativity workshops on Sunday."
+      ],
+      "closing": "Review the event page before leaving because some Sunday workshops require registration.",
+      "link": "https://www.exploregwinnett.org/events/multicultural-week/",
+      "source": "Source: Explore Gwinnett event listing for Multicultural Week in Downtown Duluth.",
+      "imageUrl": "",
+      "imageAlt": "Multicultural Week in Downtown Duluth",
+      "imageRights": "No image used."
+    },
+    {
+      "include": true,
+      "key": "weekend-idea",
+      "type": "Weekend Idea",
+      "label": "WEEKEND IDEA",
+      "title": "On Golden Pond at The Eagle Theatre",
+      "cityState": "Sugar Hill, Georgia",
+      "availability": "Friday, August 28 through Sunday, August 30, 2026, with additional performances September 4-6.",
+      "driveTimeFromGwinnett": "about 20 to 40 minutes from central Gwinnett",
+      "paragraphs": [
+        "Players Guild opens its production of On Golden Pond at The Eagle Theatre this weekend. The classic American comedy-drama has performances Friday evening, twice Saturday, and Sunday afternoon."
+      ],
+      "closing": "Check the event page for tickets and final showtimes before heading out.",
+      "link": "https://www.exploregwinnett.org/events/players-guild-presents-on-golden-pond/",
+      "source": "Source: Explore Gwinnett event listing for Players Guild Presents: On Golden Pond, August 28-September 6, 2026.",
+      "imageUrl": "",
+      "imageAlt": "The Eagle Theatre in Sugar Hill, Georgia",
+      "imageRights": "No image used."
+    }
+  ],
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1787748095/gwinnett-newsletter/cartoons/2026-08-26-dryer-sock.png",
+    "imageAlt": "A cheerful homeowner finding a missing sock attached to a freshly cleaned dryer lint screen",
+    "caption": "\"The missing-sock investigation finally has a lead.\"",
+    "closing": "Clean airflow and one mystery solved.",
+    "imagePrompt": "A bright, family-friendly 16:9 editorial cartoon in a suburban laundry room. A cheerful homeowner discovers a single missing sock stuck to the outside of a clean dryer lint screen, with folded towels and a laundry basket nearby. Warm late-summer daylight, polished colorful newspaper-cartoon style, no logos and no text in the artwork."
+  },
+  "referralShare": {
+    "title": "Know someone who may find this helpful?",
+    "copy": "Feel free to forward this along. I am always glad to be a local resource for your friends, family, and neighbors."
+  },
+  "footerImageIndex": 1,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "automation": {
+    "issueIsoDate": "2026-08-26",
+    "featuredCounty": "Gwinnett County",
+    "marketRotationIndex": 4,
+    "rotatingFeatureWeek": 4,
+    "rotatingFeatureTypes": [
+      "Community Spotlight",
+      "Weekend Idea"
+    ],
+    "preparedForApproval": true,
+    "manuallyRebuiltAt": "2026-08-26T00:00:00.000Z",
+    "rebuildNotes": "Migrated August 26 issue to the master prompt v2 structure with two rotating features.",
+    "quickNoteUpdatedAt": "2026-08-26T00:00:00.000Z",
+    "homeownerTipTitle": "Give the dryer a safer late-summer reset.",
+    "cartoonImageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1787748095/gwinnett-newsletter/cartoons/2026-08-26-dryer-sock.png"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "about": "Verified upcoming local events for Gwinnett & Beyond Weekly. Add events here ahead of time (Danny, Stacy, or an AI agent). Each event is used at most once. On preparation day the script re-fetches 'link' and requires the page to load and to mention the event; if the page does not show the date in plain text (some sites render with JavaScript), the event is only accepted when 'verifiedAt' is within 30 days and 'verifiedBy' is filled in. Never add an event you have not confirmed on an official or organizer page.",
+  "events": [
+    {
+      "eventId": "2026-norcross-art-splash",
+      "title": "Norcross Art Splash",
+      "shortName": "Norcross Art Splash",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-04",
+      "availability": "Saturday, October 3, 10 AM-6 PM, and Sunday, October 4, 10 AM-5 PM; free admission",
+      "cityState": "Norcross, Georgia",
+      "paragraphs": [
+        "Downtown Norcross fills Thrasher Park with about one hundred artists from across the country, showing folk art, ceramics, paintings, photography, fiber art, metalwork, and jewelry.",
+        "There is also a Kidz Zone with face painting and sand art, plus festival food. Leashed pets are welcome, and admission is free."
+      ],
+      "closing": "Thrasher Park, 93 Park Drive, Norcross. Several downtown lots offer parking, with accessible parking on Wingo Street.",
+      "link": "https://www.splashfestivals.com/events-festivals/norcross-art-splash/visitor-information/",
+      "source": "Source: Splash Festivals, Norcross Art Splash visitor information.",
+      "verifyTerms": ["Norcross Art Splash", "October 3"],
+      "verifiedAt": "2026-09-28",
+      "verifiedBy": "Claude (Cowork) research session; organizer visitor-information page"
+    },
+    {
+      "eventId": "2026-loganville-autumnfest",
+      "title": "Loganville Autumnfest",
+      "shortName": "Loganville's Autumnfest",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "availability": "Saturday, October 17, 2026, 10 AM-4 PM",
+      "cityState": "Loganville, Georgia",
+      "paragraphs": [
+        "Loganville's Autumnfest takes over Main Street on the third Saturday in October, with more than 175 food, arts, and crafts vendors.",
+        "The city lists live music, local performances, and a Kids Zone with activities for children."
+      ],
+      "closing": "Main Street, downtown Loganville. Check the city's events page for parking and any schedule changes.",
+      "link": "https://www.loganville-ga.gov/community/events.php",
+      "source": "Source: City of Loganville community events page.",
+      "verifyTerms": ["Autumnfest", "October 17"],
+      "verifiedAt": "2026-09-28",
+      "verifiedBy": "Claude (Cowork) research session; City of Loganville events page"
+    },
+    {
+      "eventId": "2026-lawrenceville-boo-fest",
+      "title": "BOO Fest in Downtown Lawrenceville",
+      "shortName": "Lawrenceville's BOO Fest",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
+      "availability": "Friday, October 23, 2026, evening (starts at 6 PM); free",
+      "cityState": "Lawrenceville, Georgia",
+      "paragraphs": [
+        "Downtown Lawrenceville's BOO Fest is a free, family-friendly Halloween evening on the Lawrenceville Lawn, Bicentennial Plaza, and South Clayton Street.",
+        "Expect costumes, a treat trail, food vendors, and a few friendly spooky surprises."
+      ],
+      "closing": "The event page lists a 6 PM start; check it before heading out for the final end time.",
+      "link": "https://www.downtownlawrencevillega.com/193/BOO-Fest",
+      "source": "Source: Downtown Lawrenceville, BOO Fest event page.",
+      "verifyTerms": ["BOO Fest", "October 23"],
+      "verifiedAt": "2026-09-28",
+      "verifiedBy": "Claude (Cowork) research session; Downtown Lawrenceville event page"
+    },
+    {
+      "eventId": "2026-snellville-fall-festival",
+      "title": "17th Annual Snellville Fall Festival",
+      "shortName": "the Snellville Fall Festival",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "availability": "Saturday, October 24, 2026, 12-6 PM; free to attend",
+      "cityState": "Snellville, Georgia",
+      "paragraphs": [
+        "Snellville's fall festival is free to attend, with craft and food vendors, live music, pumpkin decorating, and costume contests for all ages, including dogs.",
+        "A Kids Zone armband covers the rock wall, mini golf, trackless train, and inflatables."
+      ],
+      "closing": "2342 Oak Road, Snellville. The city lists the Kids Zone armband at $15 and pumpkin decorating at $2.",
+      "link": "https://experiencesnellville.com/otherevents/fall-festival/",
+      "source": "Source: Experience Snellville, Fall Festival event page.",
+      "verifyTerms": ["Fall Festival", "October 24"],
+      "verifiedAt": "2026-09-28",
+      "verifiedBy": "Claude (Cowork) research session; City of Snellville event page"
+    },
+    {
+      "eventId": "2026-christmas-canteen-lawrenceville",
+      "title": "Christmas Canteen 2026",
+      "shortName": "Christmas Canteen",
+      "startDate": "2026-11-19",
+      "endDate": "2026-12-23",
+      "availability": "November 19 through December 23, 2026; performance dates and times vary",
+      "cityState": "Lawrenceville, Georgia",
+      "paragraphs": [
+        "Aurora Theatre's Christmas Canteen returns to the Lawrenceville Arts Center with holiday music, dance, and family-friendly comedy.",
+        "Performance dates and ticket availability vary, so check the official event page before choosing a show."
+      ],
+      "closing": "Lawrenceville Arts Center, 128 East Pike Street, Lawrenceville.",
+      "link": "https://www.lvilleartscenter.com/eventer/canteen26/",
+      "source": "Source: Lawrenceville Arts Center, Christmas Canteen 2026 event page.",
+      "verifyTerms": [
+        "Christmas Canteen 2026",
+        "November 19"
+      ],
+      "verifiedAt": "2026-09-28",
+      "verifiedBy": "OpenAI Codex research; official Lawrenceville Arts Center event page"
+    },
+    {
+      "eventId": "2026-snellville-lighted-christmas-parade",
+      "title": "Snellville's 45th Annual Christmas Lighted Parade",
+      "shortName": "Snellville's Christmas Lighted Parade",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-28",
+      "availability": "Saturday, November 28, 2026, 5-8 PM",
+      "cityState": "Snellville, Georgia",
+      "paragraphs": [
+        "Snellville's annual holiday celebration begins with a lighted parade and continues at Towne Green with family activities, treats, and free visits with Santa.",
+        "The organizer lists the parade start at 5:30 PM, with the overall event running from 5 to 8 PM."
+      ],
+      "closing": "Towne Green, 2342 Oak Road, Snellville. Check the official page for parking and activity-ticket details.",
+      "link": "https://experiencesnellville.com/otherevents/lighted-christmas-parade/",
+      "source": "Source: Experience Snellville, official Lighted Christmas Parade event page.",
+      "verifyTerms": [
+        "Christmas Lighted Parade",
+        "November 28"
+      ],
+      "verifiedAt": "2026-09-28",
+      "verifiedBy": "OpenAI Codex research; official Experience Snellville event page"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "issueDate": "Wednesday, September 9, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Gwinnett and DeKalb County market snapshot for August 2026, Easy Apple Salad and Gwinnett Public Safety Fall Festival, and a short note from Danny.",
+  "themeIndex": 1,
+  "dannysNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "September is moving right along, and the first hints of fall are starting to show up around Gwinnett.",
+      "This week I included an easy apple salad for busy days, a free family event with Gwinnett's first responders, and a quick look at the latest Gwinnett and DeKalb County market numbers."
+    ]
+  },
+  "market": {
+    "title": "Gwinnett and DeKalb County market snapshot for August 2026",
+    "featuredCounty": "Gwinnett County, DeKalb County",
+    "reportingPeriod": "August 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "In Gwinnett County, Realtor.com reported 3,828 active listings in August 2026, 11.4% higher from one year earlier. The median listing price was $450,000, and median days on market came in at 54 days, 5.9% higher year over year.",
+      "In DeKalb County, Realtor.com reported 3,082 active listings in August 2026, 15.7% lower from one year earlier. The median listing price was $332,500, and median days on market came in at 58 days, 3.3% lower year over year.",
+      "This month's contrast is worth watching: Gwinnett added inventory while DeKalb had fewer active listings than a year ago. If you are planning a move, the conditions on your street and in your price range deserve a closer look than the broad county averages alone."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for August 2026. Verified counties available to this run: Gwinnett County, Barrow County, Walton County, Rockdale County, DeKalb County, Jackson County."
+  },
+  "rotatingFeatures": [
+    {
+      "include": true,
+      "key": "recipe",
+      "type": "Recipe",
+      "label": "RECIPE",
+      "title": "Easy Apple Salad",
+      "cityState": "",
+      "availability": "",
+      "driveTimeFromGwinnett": "",
+      "paragraphs": [
+        "Georgia apples are in season, and this quick recipe works well as an after-school snack or an easy side."
+      ],
+      "items": [
+        "Cut 2 tart apples into bite-size pieces.",
+        "Toss with 2 tablespoons dried cranberries or raisins, 3 tablespoons plain low-fat yogurt, and 1 tablespoon chopped nuts.",
+        "Add a little honey if you like it sweeter, then serve right away."
+      ],
+      "closing": "Simple, quick, and easy to adjust for your family.",
+      "link": "https://extension.uga.edu/county-offices/banks/family-and-consumer-sciences/ideas-for-apples.html",
+      "source": "UGA Cooperative Extension, Ideas for Apples",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageRights": "",
+      "sourceVerified": true
+    },
+    {
+      "include": true,
+      "key": "local-event",
+      "type": "Local Community Event",
+      "label": "LOCAL COMMUNITY EVENT",
+      "title": "Gwinnett Public Safety Fall Festival",
+      "cityState": "Lawrenceville, Georgia",
+      "availability": "Saturday, September 12, 2026, 11:00 AM-3:00 PM; free admission",
+      "driveTimeFromGwinnett": "",
+      "paragraphs": [
+        "Gwinnett County is bringing local first responders, touch-a-trucks, safety exhibits, food, giveaways, demonstrations, and the Peach State Police Motorcycle Rodeo to Gwinnett Field. It is a free, family-friendly way to meet the people who help keep the community safe."
+      ],
+      "items": [],
+      "closing": "Gwinnett Field, 2500 Buford Drive, Lawrenceville.",
+      "link": "https://www.gwinnettcounty.com/government/departments/police/community/outreach-programs/public-safety-fall-festival",
+      "source": "Gwinnett County Government",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageRights": "",
+      "sourceVerified": true
+    }
+  ],
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1788875242/gwinnett-newsletter/cartoons/2026-09-09-public-safety-picnic.png",
+    "imageAlt": "A family packs apple salad while a child wears an oversized toy firefighter helmet before a community festival",
+    "caption": "\"Ready for lunch, lights, and sirens. Helmet direction still under review.\"",
+    "closing": "A little preparation makes every family outing easier.",
+    "imagePrompt": "A fresh, family-friendly 16:9 editorial cartoon of a suburban family preparing for a local public-safety festival on an early-September morning. A parent packs apple salad while a child wears an oversized toy firefighter helmet backward, with a friendly dog and a generic fire truck in the distance. Polished newspaper-cartoon style, no logos, insignia, readable text, captions, or watermarks."
+  },
+  "referralShare": {
+    "title": "Who would enjoy an easy local read this week?",
+    "copy": "Pass this September 9 update along to a friend or neighbor who might enjoy the recipe, festival idea, or market snapshot. If a real estate question comes up, I am always happy to help."
+  },
+  "footerImageIndex": 1,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "automation": {
+    "issueIsoDate": "2026-09-09",
+    "featuredCounty": "DeKalb County",
+    "marketRotationIndex": 6,
+    "rotatingFeatureWeek": 2,
+    "rotatingFeatureTypes": [
+      "Recipe",
+      "Local Community Event"
+    ],
+    "preparedForApproval": true,
+    "manuallyRebuiltAt": "2026-08-26T00:00:00.000Z",
+    "rebuildNotes": "Migrated August 26 issue to the master prompt v2 structure with two rotating features.",
+    "quickNoteUpdatedAt": "2026-08-26T00:00:00.000Z",
+    "homeownerTipTitle": "Give the dryer a safer late-summer reset.",
+    "cartoonImageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1788875242/gwinnett-newsletter/cartoons/2026-09-09-public-safety-picnic.png"
+  },
+  "approval": {
+    "issueIsoDate": "2026-09-09",
+    "approvalStatus": "SENT_FOR_APPROVAL",
+    "approvalTokenCreatedAt": "2026-09-14T15:03:19.000Z",
+    "approvedHtmlSha256": "82e36660f22aeb28fe59036ba0c3b652e339298bcf0847c1ae743f1e00d56e5f"
+  }
+}

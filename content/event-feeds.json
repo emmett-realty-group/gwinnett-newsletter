@@ -1,0 +1,19 @@
+{
+  "about": "Optional official iCalendar (.ics) feeds used to discover events automatically. Feed events still have to pass the same checks as queued events: future date, never featured before, a direct https event link, and a live event page that mentions the event name and its date. Feeds are disabled until someone confirms the URL returns BEGIN:VCALENDAR from Danny's computer (run: node scripts/check-event-feeds.js).",
+  "feeds": [
+    {
+      "name": "Downtown Lawrenceville calendar (CivicPlus iCal)",
+      "organizer": "Downtown Lawrenceville",
+      "cityState": "Lawrenceville, Georgia",
+      "url": "https://www.downtownlawrencevillega.com/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar",
+      "enabled": false
+    },
+    {
+      "name": "City of Norcross calendar (CivicPlus iCal)",
+      "organizer": "City of Norcross",
+      "cityState": "Norcross, Georgia",
+      "url": "https://www.norcrossga.net/common/modules/iCalendar/iCalendar.aspx?feed=calendar",
+      "enabled": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "issueDate": "Wednesday, September 16, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Gwinnett and Forsyth County market snapshot for August 2026, Try the Refrigerator Door Dollar-Bill Test and Gwinnett County Fair, and a short note from Danny.",
+  "themeIndex": 1,
+  "dannysNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "We are halfway through September, and this is usually when I start noticing the first small signs that fall is not too far away.",
+      "This week I included one quick kitchen-appliance check you can do in seconds, the upcoming Gwinnett County Fair, and a fresh look at the latest Gwinnett and Forsyth County market numbers."
+    ]
+  },
+  "market": {
+    "title": "Gwinnett and Forsyth County market snapshot for August 2026",
+    "featuredCounty": "Gwinnett County, Forsyth County",
+    "reportingPeriod": "August 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "For the Wednesday, September 16, 2026 update, Realtor.com shows 3,828 active listings in Gwinnett County for August 2026, 11.4% higher from one year earlier. The median listing price was $450,000, with a median market time of 54 days, 5.9% higher year over year.",
+      "For the Wednesday, September 16, 2026 update, Realtor.com shows 1,386 active listings in Forsyth County for August 2026, 11.7% higher from one year earlier. The median listing price was $669,945, with a median market time of 56 days, 9.8% higher year over year.",
+      "The practical takeaway for this Wednesday, September 16, 2026 issue is to judge a home against its closest current competition. Countywide figures provide context, but condition, pricing, and the activity in a specific neighborhood still shape the result."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for August 2026. Verified counties available to this run: Gwinnett County, Barrow County, Walton County, Rockdale County, DeKalb County, Jackson County, Forsyth County."
+  },
+  "rotatingFeatures": [
+    {
+      "include": true,
+      "key": "homeowner-tip",
+      "type": "Homeowner / Seasonal Home Tip",
+      "label": "HOMEOWNER / SEASONAL HOME TIP",
+      "title": "Try the Refrigerator Door Dollar-Bill Test",
+      "cityState": "",
+      "availability": "",
+      "driveTimeFromGwinnett": "",
+      "paragraphs": [
+        "A refrigerator door gasket should hold a firm seal. Close the door gently on the edge of a dollar bill, then pull. If the bill slides out very easily, UGA Extension says it may be time to replace the gasket."
+      ],
+      "items": [
+        "Try the check at several spots around the door because one section can wear before another.",
+        "Wipe crumbs and residue from the gasket and the surface it meets.",
+        "If the seal remains loose or damaged, use the appliance manufacturer's replacement guidance or call a qualified service professional."
+      ],
+      "closing": "It is a tiny test, but it can reveal a worn seal before it becomes an easy-to-miss everyday problem.",
+      "link": "https://extension.uga.edu/publications/detail.html?number=C1082",
+      "source": "UGA Cooperative Extension, Home Maintenance Checklist",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageRights": "",
+      "sourceVerified": true
+    },
+    {
+      "include": true,
+      "key": "local-event",
+      "type": "Local Community Event",
+      "label": "LOCAL COMMUNITY EVENT",
+      "title": "Gwinnett County Fair",
+      "cityState": "Lawrenceville, Georgia",
+      "availability": "Thursday, September 17 through Sunday, September 27, 2026",
+      "driveTimeFromGwinnett": "",
+      "paragraphs": [
+        "The Gwinnett County Fair returns to the Gwinnett County Fairgrounds with carnival rides, livestock shows, ground acts, concerts, pageants, and other fair traditions.",
+        "Daily hours, admission, and special-event times vary, so check the official schedule before heading out."
+      ],
+      "items": [],
+      "closing": "Gwinnett County Fairgrounds, 2405 Sugarloaf Parkway, Lawrenceville.",
+      "link": "https://www.gwinnettcountyfair.com/events",
+      "source": "Gwinnett County Fair official event schedule",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageRights": "",
+      "sourceVerified": true
+    }
+  ],
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1789400298/gwinnett-newsletter/cartoons/2026-09-16-refrigerator-inspector.png",
+    "imageAlt": "A homeowner tests a refrigerator door seal while a proud dog guards a snack",
+    "caption": "\"Seal inspection complete. Snack security remains excellent.\"",
+    "closing": "Some household inspections attract more supervision than others.",
+    "imagePrompt": "A fresh, family-friendly 16:9 editorial cartoon in a bright early-fall kitchen. A homeowner tests the refrigerator door seal with the edge of a generic paper bill while a cheerful dog proudly guards a single snack. Polished newspaper-cartoon style, no logos, brand names, readable currency details, captions, speech bubbles, or watermarks."
+  },
+  "referralShare": {
+    "title": "Who could use this week's local update?",
+    "copy": "If someone in your circle would enjoy the Wednesday, September 16, 2026 update, feel free to send it their way. I am always glad to help a neighbor with a local real estate question.",
+    "ps": "Know someone who would appreciate the refrigerator check or fair details? Please forward this September 16 edition to them."
+  },
+  "footerImageIndex": 1,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "automation": {
+    "issueIsoDate": "2026-09-16",
+    "featuredCounty": "Forsyth County",
+    "marketRotationIndex": 7,
+    "rotatingFeatureWeek": 3,
+    "rotatingFeatureTypes": [
+      "Homeowner / Seasonal Home Tip",
+      "Local Community Event"
+    ],
+    "preparedForApproval": true,
+    "manuallyRebuiltAt": "2026-08-26T00:00:00.000Z",
+    "rebuildNotes": "Migrated August 26 issue to the master prompt v2 structure with two rotating features.",
+    "quickNoteUpdatedAt": "2026-08-26T00:00:00.000Z",
+    "homeownerTipTitle": "Give the dryer a safer late-summer reset.",
+    "cartoonImageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1789400298/gwinnett-newsletter/cartoons/2026-09-16-refrigerator-inspector.png",
+    "preparedForDannyEmail": true
+  }
+}

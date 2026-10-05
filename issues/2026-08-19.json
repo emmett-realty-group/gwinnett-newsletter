@@ -1,0 +1,113 @@
+{
+  "issueDate": "Wednesday, August 19, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Barrow County market notes, an August porch reset, a Lawrenceville family outing, and a simple peach-tomato recipe.",
+  "themeIndex": 1,
+  "quickNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "This is the point in August when the school-year rhythm starts to feel real. The first few mornings are behind us, but the evenings are still full of backpacks, practices, late-summer rain, and all the small things that make a house work harder than usual.",
+      "If your home has one little annoyance you have been stepping around, this is a good week to knock it out before September gets here. What is the small fix at your house that would make the biggest difference?"
+    ]
+  },
+  "market": {
+    "title": "Barrow County market snapshot for July 2026",
+    "featuredCounty": "Barrow County",
+    "reportingPeriod": "July 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "Realtor.com reported 607 active listings in Barrow County during July 2026, 25.3% higher from one year earlier.",
+      "The median listing price was $392,233. Median days on market came in at 59 days, 22.9% higher year over year.",
+      "For homeowners, the useful takeaway is that local conditions matter. Price, preparation, and neighborhood-level competition still shape the result for any individual home."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for July 2026."
+  },
+  "homeownerTip": {
+    "title": "Quiet the sticky-door season before fall.",
+    "intro": "Late-August humidity and quick showers can make doors, hinges, and latches act up. Pick one entry door and give it a quick reset:",
+    "items": [
+      "Wipe the threshold and weatherstripping",
+      "Tighten any loose hinge screws",
+      "Add a small amount of lubricant to the latch and hinges",
+      "Check whether the door rubs after rain or only at certain times of day"
+    ],
+    "closing": "A quieter, smoother entry makes busy mornings and grocery runs a little easier."
+  },
+  "localEvent": {
+    "title": "Midsummer JR. at Aurora Theatre",
+    "link": "https://www.downtownlawrencevillega.com/calendar.aspx?CID=14",
+    "intro": "For a close-to-home family outing, downtown Lawrenceville has a short children's theater option this weekend.",
+    "copy": "The Downtown Lawrenceville calendar lists Midsummer JR. at Aurora Theatre on Saturday, August 22, from 11:30 AM to 12:15 PM. The listing describes it as a reimagined Shakespeare comedy for young audiences, with fairies, flowers, and funny mix-ups.",
+    "tip": "Tip: Check the calendar or Aurora Theatre before heading out for tickets, timing, and any schedule updates."
+  },
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1786973963/gwinnett-newsletter/cartoons/2026-08-19-porch-door-reset.png",
+    "imageAlt": "A cheerful late-August front porch scene with a homeowner quieting a squeaky door while carrying groceries and a school backpack",
+    "caption": "\"The door only squeaks when everyone is carrying something.\"",
+    "closing": "A five-minute fix has excellent timing.",
+    "imagePrompt": "A bright, family-friendly 16:9 editorial cartoon of a cheerful suburban front porch after a quick August rain. A homeowner gently holds a squeaky porch door open while carrying groceries, a school backpack, and a small can of lubricant. A child with a lunchbox smiles nearby. Warm golden-hour light, polished newsletter cartoon style, no logos, no text in the artwork."
+  },
+  "footerImageIndex": 1,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "georgiaWeekendIdea": {
+    "title": "Grant Park Conservancy Summer Shade Festival",
+    "cityState": "Atlanta, Georgia",
+    "availability": "Saturday, August 22, 2026, 10:00 AM through Sunday, August 23, 2026, 6:00 PM. Check the event page before leaving for final hours, parking, and weather updates.",
+    "driveTimeFromGwinnett": "about 45 to 65 minutes",
+    "paragraphs": [
+      "Atlanta's city event list includes the Grant Park Conservancy Summer Shade Festival for August 22 and 23. It can be a good late-summer outing if you want music, food, a park setting, and a reason to spend part of the weekend outside before the fall calendar fills up."
+    ],
+    "link": "https://www.atlantaga.gov/i-want-to-/advanced-components/event-list-view",
+    "source": "Source: City of Atlanta event list for Grant Park Conservancy Summer Shade Festival, August 22-23, 2026.",
+    "imageUrl": "",
+    "imageAlt": "Summer festival in Grant Park in Atlanta, Georgia",
+    "imageRights": "No image used."
+  },
+  "realEstateQuestion": {
+    "question": "If days on market are up, should I wait to sell?",
+    "answer": [
+      "Not automatically. Longer market times usually mean buyers are comparing more carefully, so the launch plan matters more. Pricing, prep, photos, and the first two weeks of feedback can tell you more than the countywide average alone."
+    ]
+  },
+  "rotatingFeature": {
+    "include": true,
+    "label": "SEASONAL RECIPE",
+    "title": "Simple Georgia peach and tomato salad",
+    "paragraphs": [
+      "A quick seasonal idea: combine sliced tomatoes, peaches, a little basil, olive oil, and a pinch of salt. Keep it simple and serve chilled or at room temperature."
+    ],
+    "cityState": "",
+    "link": "",
+    "source": "Original newsletter recipe summary.",
+    "imageUrl": "",
+    "imageAlt": "",
+    "imageRights": ""
+  },
+  "automation": {
+    "issueIsoDate": "2026-08-19",
+    "featuredCounty": "Barrow County",
+    "marketRotationIndex": 3,
+    "rotatingFeature": {
+      "key": "recipe",
+      "type": "Seasonal Recipe",
+      "label": "SEASONAL RECIPE",
+      "title": "Simple Georgia peach and tomato salad",
+      "paragraphs": [
+        "A quick seasonal idea: combine sliced tomatoes, peaches, a little basil, olive oil, and a pinch of salt. Keep it simple and serve chilled or at room temperature."
+      ],
+      "source": "Original newsletter recipe summary."
+    },
+    "preparedForApproval": true,
+    "manuallyRebuiltAt": "2026-08-17T13:45:00.000Z",
+    "rebuildNotes": "Prepared August 19 issue with Barrow County market data, Downtown Lawrenceville and Atlanta weekend event references, a fresh porch-door homeowner tip, seasonal recipe feature, and a new porch-door cartoon.",
+    "quickNoteUpdatedAt": "2026-08-17T13:45:00.000Z",
+    "homeownerTipTitle": "Quiet the sticky-door season before fall.",
+    "cartoonImageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1786973963/gwinnett-newsletter/cartoons/2026-08-19-porch-door-reset.png"
+  }
+}

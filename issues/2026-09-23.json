@@ -1,0 +1,109 @@
+{
+  "issueDate": "Wednesday, September 23, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Gwinnett County market snapshot for August 2026, Test Every Smoke Alarm Before Heating Season and Gwinnett Hispanic Latino Heritage Month Celebration, and a short note from Danny.",
+  "themeIndex": 1,
+  "dannysNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "Fall officially arrives this week, and even if the weather has not fully gotten the message yet, it is a good time to handle one small safety check around the house.",
+      "This week I included a quick smoke-alarm reminder, an upcoming Gwinnett celebration, and the latest Gwinnett County market numbers. I hope you find something useful to pass along."
+    ]
+  },
+  "market": {
+    "title": "Gwinnett County market snapshot for August 2026",
+    "featuredCounty": "Gwinnett County",
+    "reportingPeriod": "August 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "For the Wednesday, September 23, 2026 update, Realtor.com shows 3,828 active listings in Gwinnett County for August 2026, 11.4% higher from one year earlier. The median listing price was $450,000, with a median market time of 54 days, 5.9% higher year over year.",
+      "The practical takeaway for this Wednesday, September 23, 2026 issue is to judge a home against its closest current competition. Countywide figures provide context, but condition, pricing, and the activity in a specific neighborhood still shape the result."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for August 2026. Verified counties available to this run: Gwinnett County, Barrow County, Walton County, Rockdale County, DeKalb County, Jackson County, Forsyth County."
+  },
+  "rotatingFeatures": [
+    {
+      "include": true,
+      "key": "homeowner-tip",
+      "type": "Homeowner / Seasonal Home Tip",
+      "label": "HOMEOWNER / SEASONAL HOME TIP",
+      "title": "Test Every Smoke Alarm Before Heating Season",
+      "cityState": "",
+      "availability": "",
+      "driveTimeFromGwinnett": "",
+      "paragraphs": [
+        "Use an early-fall morning to press the test button on every smoke alarm in the house. Replace a unit or battery if the alarm does not sound, and follow the manufacturer's instructions for the model in your home."
+      ],
+      "items": [
+        "Test alarms on every level and near sleeping areas.",
+        "Vacuum dust gently from alarm openings without painting or covering the unit.",
+        "Check the manufacture date and replacement guidance printed on the alarm."
+      ],
+      "closing": "It is a quick check that is easier to handle now than after the first cold night.",
+      "link": "https://extension.uga.edu/publications/detail.html?number=C1082",
+      "source": "UGA Cooperative Extension, Home Maintenance Checklist",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageRights": "",
+      "sourceVerified": true
+    },
+    {
+      "include": true,
+      "key": "local-event",
+      "type": "Local Community Event",
+      "label": "LOCAL COMMUNITY EVENT",
+      "title": "Gwinnett Hispanic Latino Heritage Month Celebration",
+      "cityState": "Lawrenceville, Georgia",
+      "availability": "Friday, October 9, 2026, 6:30 PM-8:30 PM",
+      "driveTimeFromGwinnett": "",
+      "paragraphs": [
+        "Gwinnett County's Hispanic Latino Heritage Month celebration is planned at the Gwinnett Justice and Administration Center with local performers, food vendors, artists, and community activities.",
+        "Check the official county page before attending for the latest program and visitor details."
+      ],
+      "items": [],
+      "closing": "Gwinnett Justice and Administration Center, 75 Langley Drive, Lawrenceville.",
+      "link": "https://www.gwinnettcounty.com/news-events/news-releases",
+      "source": "Gwinnett County Government news releases",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageRights": "",
+      "sourceVerified": true
+    }
+  ],
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1790019697/gwinnett-newsletter/cartoons/2026-09-23-smoke-alarm-test.png",
+    "imageAlt": "A homeowner tests a smoke alarm while a dog covers its ears",
+    "caption": "\"Good news: the alarm works. The dog would like advance notice next time.\"",
+    "closing": "A quick safety test can still be the loudest item on the weekend list.",
+    "imagePrompt": "A fresh, family-friendly 16:9 editorial cartoon in a warm suburban hallway in early fall. A cheerful homeowner safely stands on a sturdy step stool and presses the test button on a ceiling smoke alarm while a friendly dog below humorously covers its ears with its paws. Polished colorful newspaper-cartoon style, no logos, brand names, text, speech bubbles, captions, or watermarks."
+  },
+  "referralShare": {
+    "title": "Know someone getting ready for fall?",
+    "copy": "If someone in your circle would enjoy the Wednesday, September 23, 2026 update, feel free to send it their way. I am always glad to help a neighbor with a local real estate question.",
+    "ps": "Know someone who would appreciate this week's homeowner idea or local event? Please forward this Wednesday, September 23, 2026 edition to them."
+  },
+  "footerImageIndex": 1,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "automation": {
+    "issueIsoDate": "2026-09-23",
+    "featuredCounty": "Gwinnett County",
+    "marketRotationIndex": 0,
+    "rotatingFeatureWeek": 4,
+    "rotatingFeatureTypes": [
+      "Homeowner / Seasonal Home Tip",
+      "Local Community Event"
+    ],
+    "manuallyRebuiltAt": "2026-08-26T00:00:00.000Z",
+    "rebuildNotes": "Migrated August 26 issue to the master prompt v2 structure with two rotating features.",
+    "quickNoteUpdatedAt": "2026-08-26T00:00:00.000Z",
+    "homeownerTipTitle": "Test Every Smoke Alarm Before Heating Season",
+    "cartoonImageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1790019697/gwinnett-newsletter/cartoons/2026-09-23-smoke-alarm-test.png",
+    "preparedForDannyEmail": true
+  }
+}

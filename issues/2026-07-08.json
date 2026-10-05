@@ -1,0 +1,75 @@
+{
+  "issueDate": "Wednesday, July 8, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "A simple summer home check, one useful market thought, and a local Suwanee event.",
+  "themeIndex": 1,
+  "quickNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "I hope you had a safe and enjoyable Fourth of July weekend.",
+      "Summer has a way of moving quickly. Between vacations, family plans, yard work, and trying to stay cool, the weeks can get away from us.",
+      "So this week's note is simple: one helpful thought about today's real estate market, one quick home-maintenance check, and a local event you may want to enjoy with the family.",
+      "As always, if a real estate question comes up, I'm here to help you sort through it - step by step."
+    ]
+  },
+  "market": {
+    "title": "More choices can slow decisions a little",
+    "paragraphs": [
+      "In May 2026, Realtor.com showed that Gwinnett buyers had more active listings to choose from than a year earlier.",
+      "When buyers have more options, homes can take a little longer to stand out unless the price, condition, and first impression all work together.",
+      "That does not mean the market is weak. It means presentation and strategy matter even more when shoppers can compare several homes in the same price range."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for May 2026, released June 3, 2026."
+  },
+  "homeownerTip": {
+    "title": "Give your cooling system a quick summer check.",
+    "intro": "A few minutes this week can help your home stay more comfortable during the hottest stretch of summer:",
+    "items": [
+      "Change or inspect the HVAC filter if it looks dusty.",
+      "Clear leaves, grass, and debris away from the outdoor condenser unit.",
+      "Make sure supply vents inside the house are open and not blocked by furniture.",
+      "If one room always feels warmer than the rest, make a note before a service call so the technician can check airflow."
+    ],
+    "closing": "Small checks now can make it easier to catch a comfort problem before it turns into a mid-summer repair surprise."
+  },
+  "localEvent": {
+    "title": "Suwanee Town Center Summer Walk",
+    "link": "https://www.suwanee.com/",
+    "intro": "If you want a simple nearby outing this week, Suwanee is still a good option.",
+    "copy": "Town Center Park and the nearby walkable area make an easy family stop for an evening stroll, coffee, or a casual bite after the heat starts to fade.",
+    "tip": "Tip: Check the City of Suwanee website before you go for any current event, parking, or weather updates."
+  },
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1782572405/gwinnett-newsletter/cartoons/2026-07-08-cooling-expert.jpg",
+    "imageAlt": "A homeowner proudly pointing at a freshly changed air filter while the family enjoys cool air indoors",
+    "caption": "\"I changed one filter and suddenly I feel like the chief engineer of summer.\"",
+    "closing": "Sometimes the smallest house jobs create the biggest sense of victory.",
+    "imagePrompt": ""
+  },
+  "winnerAnnouncement": {
+    "include": true,
+    "title": "Congratulations, Cathy Jordan!",
+    "copy": "Cathy Jordan is this month's Amazon gift-card winner. Thanks for reading, playing along, and being part of our Gwinnett & Beyond community.",
+    "forwardCta": "Feel free to forward this newsletter to anyone who would like to play next month."
+  },
+  "quiz": {
+    "include": false,
+    "question": "About how many active home listings did Realtor.com report in Gwinnett County during May 2026?",
+    "answers": [
+      "A. 1,408",
+      "B. 2,408",
+      "C. 3,408",
+      "D. 4,408"
+    ],
+    "cta": "Reply next month for another chance to win a $25 Amazon gift card.",
+    "legalLine": "No purchase necessary. One entry per person. Correct entries received by the deadline are eligible for the random drawing."
+  },
+  "footerImageIndex": 1,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "issueDate": "Wednesday, August 5, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Gwinnett County market notes, a back-to-school home reset, Suwanee's August Concert.",
+  "themeIndex": 0,
+  "quickNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "August is here, and a lot of families are shifting from summer mode back into calendars, school traffic, practices, and regular routines.",
+      "I remember when my kids were in school and just coming back to school from summer break, we had to get back into the school time schedule and habits. Did you have any adjustments getting the kids in preparing for school?"
+    ]
+  },
+  "market": {
+    "title": "Gwinnett County market snapshot for June 2026",
+    "featuredCounty": "Gwinnett County",
+    "reportingPeriod": "June 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "Realtor.com reported 3,615 active listings in Gwinnett County during June 2026, about 8.8% higher than one year earlier.",
+      "The median listing price was $465,000, essentially flat year over year. Median days on market came in at 47 days, about 5.6% higher than one year earlier.",
+      "For homeowners, that points to a market with more choices for buyers and a slightly slower pace than last year. Pricing, presentation, and neighborhood-level context still matter more than broad headlines."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for June 2026; FRED series ACTLISCOU13135 confirms 3,615 active listings for Gwinnett County in June 2026."
+  },
+  "homeownerTip": {
+    "title": "Reset the launch zone before school traffic hits.",
+    "intro": "Before the weekly rhythm gets too busy, pick one drop zone near the door and give it a simple job:",
+    "items": [
+      "One hook or basket for each person's bag",
+      "A small tray for keys, badges, and sunglasses",
+      "A shoe spot that does not block the door",
+      "A Sunday evening five-minute reset before Monday starts"
+    ],
+    "closing": "Tiny systems are not fancy, but they save real minutes on the mornings when everyone is moving at once."
+  },
+  "localEvent": {
+    "title": "Suwanee August Concert",
+    "link": "https://www.suwanee.com/Home/Components/Calendar/Event/3072/230?toggle=next30days",
+    "intro": "For an easy local evening, Suwanee has a Saturday concert on the calendar this week.",
+    "copy": "The City of Suwanee lists its August Concert for Saturday, August 8, from 6:00 PM to 10:00 PM. It is a simple close-to-home option if you want music, fresh air, and a summer evening out without making it complicated.",
+    "tip": "Tip: Check the City of Suwanee event page before leaving for parking, weather, performer, and schedule updates."
+  },
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1785848649/gwinnett-newsletter/cartoons/2026-08-05-back-to-school.png",
+    "imageAlt": "A cheerful family in a home entryway with backpacks, lunchboxes, and a proud dog beside a tidy stack of school bags",
+    "caption": "\"The dog has accepted the role of hallway manager.\"",
+    "closing": "Every home needs one highly committed supervisor.",
+    "imagePrompt": "A bright, family-friendly 16:9 cartoon of a suburban home entryway during back-to-school season, with parents, a child, backpacks, lunchboxes, and a proud dog sitting beside a neat stack of bags. No text in the artwork."
+  },
+  "footerImageIndex": 0,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "georgiaWeekendIdea": {
+    "title": "Open House & Fort Tours at Fort Yargo",
+    "cityState": "Winder, Georgia",
+    "availability": "Saturday, August 8, 2026, 9:00 AM to 1:00 PM. The program is listed as free and open to the public; check the official event page before leaving.",
+    "driveTimeFromGwinnett": "about 35 to 50 minutes",
+    "paragraphs": [
+      "Fort Yargo State Park is close enough for a low-pressure Saturday outing, and the open house gives visitors a chance to see the old fort from the inside, tour the grounds, and catch a short history program from a park naturalist. It is a good fit if you want something outdoorsy, educational, and not too far from home."
+    ],
+    "link": "https://exploregeorgia.org/winder/events/history-heritage/open-house-fort-tours",
+    "source": "Source: Explore Georgia listing for Open House & Fort Tours at Fort Yargo State Park.",
+    "imageUrl": "",
+    "imageAlt": "Fort Yargo State Park historic fort tour in Winder, Georgia",
+    "imageRights": "No image used. Explore Georgia notes page images are destination-provided and not owned by Explore Georgia; do not reuse without permission."
+  },
+  "realEstateQuestion": {
+    "question": "Does more inventory mean I missed my chance to sell?",
+    "answer": [
+      "Not necessarily. More inventory usually means buyers have more choices, so preparation and pricing matter more. A well-presented home in the right price range can still stand out, especially when the plan is built around the neighborhood and the home's condition."
+    ]
+  },
+  "rotatingFeature": {
+    "include": false
+  },
+  "automation": {
+    "issueIsoDate": "2026-08-05",
+    "featuredCounty": "Gwinnett County",
+    "marketRotationIndex": 0,
+    "rotatingFeature": {
+      "key": "weekly question",
+      "type": "Rotating Feature",
+      "label": "ROTATING FEATURE",
+      "title": "Rotating Feature"
+    },
+    "preparedForApproval": true,
+    "manuallyRebuiltAt": "2026-08-04T13:27:03.506Z",
+    "rebuildNotes": "Rebuilt with Gwinnett County market data.",
+    "quickNoteUpdatedAt": "2026-08-04T13:49:19.313Z"
+  }
+}

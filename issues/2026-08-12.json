@@ -1,0 +1,96 @@
+{
+  "issueDate": "Wednesday, August 12, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Jackson County market notes, a back-to-school home reset, and fresh weekend ideas.",
+  "themeIndex": 0,
+  "quickNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "By now, most Gwinnett families have a few school mornings under their belt, and that first week back usually tells you pretty quickly what is working and what needs a little adjusting.",
+      "When my kids were in school, it always took us a bit to get the early alarms, evening routine, lunches, papers, and traffic timing back in sync. If your house is still finding the rhythm, you are in good company. What has been the biggest adjustment for your family this year?"
+    ]
+  },
+  "market": {
+    "title": "Jackson County market snapshot for July 2026",
+    "featuredCounty": "Jackson County",
+    "reportingPeriod": "July 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "Realtor.com reported 823 active listings in Jackson County during July 2026, 28.3% higher from one year earlier.",
+      "The median listing price was $467,000. Median days on market came in at 60 days, 1.7% lower year over year.",
+      "For homeowners, the useful takeaway is that local conditions matter. Price, preparation, and neighborhood-level competition still shape the result for any individual home."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for July 2026."
+  },
+  "homeownerTip": {
+    "title": "Do a ten-minute pantry and fridge reset.",
+    "intro": "As school routines settle in, a quick kitchen reset can make weeknights easier:",
+    "items": [
+      "Move older snacks and lunch items to the front",
+      "Toss anything expired or clearly forgotten",
+      "Put easy breakfast options where kids can reach them",
+      "Pick one small shelf or bin for grab-and-go school supplies"
+    ],
+    "closing": "A little order in the kitchen can take pressure off the busiest part of the day."
+  },
+  "localEvent": {
+    "title": "LIVE in the DTL Concert Series: Pandora's Box, A Tribute to Aerosmith",
+    "link": "https://exploregeorgia.org/lawrenceville/events/entertainment/live-in-the-dtl-concert-series-pandoras-box-a-tribute-to-aerosmith",
+    "intro": "For a close-to-home night out, downtown Lawrenceville has live music on the lawn this Friday.",
+    "copy": "Explore Georgia lists LIVE in the DTL for Friday, August 14, from 5:30 PM to 10:00 PM at Lawrenceville Lawn. The featured show is Pandora's Box, A Tribute to Aerosmith, with food and drinks available for purchase and live music beginning at 8:00 PM.",
+    "tip": "Tip: The listing notes free admission and all-ages fun; check the event page before heading out for weather, parking, and schedule updates."
+  },
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1786378355/gwinnett-newsletter/cartoons/2026-08-12-missing-shoe.png",
+    "imageAlt": "A cheerful family kitchen on a school morning with a child looking for a missing shoe while the family dog proudly guards it",
+    "caption": "\"Mystery solved. The shoe had legal counsel.\"",
+    "closing": "Some helpers create the problem before they solve it.",
+    "imagePrompt": "A bright, family-friendly 16:9 cartoon of a cheerful suburban kitchen during a school morning. A parent calmly holds a coffee mug while a child looks under the breakfast table for a missing shoe, and a friendly dog proudly sits beside the shoe as if helping. Warm daylight, polished editorial cartoon style, no logos, no text in the artwork."
+  },
+  "footerImageIndex": 0,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "georgiaWeekendIdea": {
+    "title": "Family Day: Stars, Stripes & Stories - America 250",
+    "cityState": "Cartersville, Georgia",
+    "availability": "Saturday, August 15, 2026, 10:00 AM to 4:00 PM. Explore Georgia lists admission at $9 for non-members and free for members; check the official event page before leaving.",
+    "driveTimeFromGwinnett": "about 60 to 80 minutes",
+    "paragraphs": [
+      "Bartow History Museum is hosting a family-friendly America 250 day with hands-on activities, games, storytelling, and educational experiences built around American history. It is a good weekend idea if you want something indoors, kid-friendly, and a little different from the usual summer routine."
+    ],
+    "link": "https://exploregeorgia.org/cartersville/events/family-friendly/family-day-stars-stripes-stories-america-250",
+    "source": "Source: Explore Georgia listing for Family Day: Stars, Stripes & Stories - America 250 at Bartow History Museum.",
+    "imageUrl": "",
+    "imageAlt": "Family history day at Bartow History Museum in Cartersville, Georgia",
+    "imageRights": "No image used. Explore Georgia notes page images are destination-provided and not owned by Explore Georgia; do not reuse without permission."
+  },
+  "realEstateQuestion": {
+    "question": "Does more inventory mean I missed my chance to sell?",
+    "answer": [
+      "Not necessarily. More inventory usually means buyers have more choices, so preparation and pricing matter more. A well-presented home in the right price range can still stand out, especially when the plan is built around the neighborhood and the home's condition."
+    ]
+  },
+  "rotatingFeature": {
+    "include": false
+  },
+  "automation": {
+    "issueIsoDate": "2026-08-12",
+    "featuredCounty": "Jackson County",
+    "marketRotationIndex": 2,
+    "rotatingFeature": {
+      "key": "reader",
+      "type": "",
+      "label": "MONTHLY reader",
+      "title": ""
+    },
+    "preparedForApproval": true,
+    "manuallyRebuiltAt": "2026-08-04T13:27:03.506Z",
+    "rebuildNotes": "Prepared August 12 issue with Jackson County market data, refreshed August 14/15 events, unique weekly tip/cartoon, and a topical back-to-school quick note.",
+    "quickNoteUpdatedAt": "2026-08-04T13:49:19.296Z"
+  }
+}

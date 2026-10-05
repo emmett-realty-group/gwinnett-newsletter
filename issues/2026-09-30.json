@@ -1,0 +1,120 @@
+{
+  "issueDate": "Wednesday, September 30, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Find the Drafty Door Before the First Cool Night, Norcross Art Splash this weekend, and a quick Gwinnett and Walton market check.",
+  "themeIndex": 2,
+  "dannysNote": {
+    "greeting": "Hey friends,",
+    "author": "automated",
+    "paragraphs": [
+      "September is wrapping up, and October is right around the corner. This week's homeowner tip is a quick draft check around your doors and windows before the cooler nights settle in.",
+      "If you are looking for something to do this weekend, Norcross Art Splash fills Thrasher Park on Saturday and Sunday, and admission is free. If anything here sparks a question, just hit reply."
+    ]
+  },
+  "market": {
+    "title": "Gwinnett and Walton County: August 2026 at a glance",
+    "featuredCounty": "Gwinnett County, Walton County",
+    "reportingPeriod": "August 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "In August 2026, Realtor.com counted 3,828 active listings in Gwinnett County, 11.4% more than a year earlier. The median listing price was $450,000, and homes spent a median of 54 days on the market.",
+      "Walton County had 638 active listings in August 2026, 11.0% more than a year earlier, with a median listing price of $490,000 and a median of 65 days on the market.",
+      "The simple version for Gwinnett and Walton County: buyers have more homes to compare than they did a year ago, so pricing and condition matter more than ever."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data, August 2026 (latest monthly release, downloaded September 28, 2026). Figures are countywide listing data, not closed sales."
+  },
+  "rotatingFeatures": [
+    {
+      "include": true,
+      "key": "homeowner-tip",
+      "type": "Homeowner / Seasonal Home Tip",
+      "label": "HOMEOWNER / SEASONAL HOME TIP",
+      "tipId": "draft-check-doors-windows",
+      "title": "Find the Drafty Door Before the First Cool Night",
+      "topic": "a quick draft check around your doors and windows",
+      "shortTopic": "draft check",
+      "cityState": "",
+      "availability": "",
+      "paragraphs": [
+        "On a breezy afternoon, walk around the inside of your exterior doors and windows and feel for moving air. Worn weatherstripping and small gaps in caulk are easy to miss in summer and easy to notice once the nights cool off."
+      ],
+      "items": [
+        "Look for daylight under or around exterior doors.",
+        "Check weatherstripping for cracks, flattening, or pieces that have pulled loose.",
+        "Note gaps in the caulk where window trim meets the wall."
+      ],
+      "closing": "ENERGY STAR lists weatherstripping doors and caulking windows among the simpler projects that can help a home feel more comfortable. Bigger jobs, like attic air sealing, are worth a pro's opinion.",
+      "link": "https://www.energystar.gov/saveathome/seal_insulate",
+      "source": "Source: ENERGY STAR, Seal and Insulate with ENERGY STAR.",
+      "sourceVerified": true,
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "include": true,
+      "key": "local-event",
+      "type": "Local Community Event",
+      "label": "LOCAL COMMUNITY EVENT",
+      "eventId": "2026-norcross-art-splash",
+      "title": "Norcross Art Splash",
+      "shortName": "Norcross Art Splash",
+      "cityState": "Norcross, Georgia",
+      "availability": "Saturday, October 3, 10 AM-6 PM, and Sunday, October 4, 10 AM-5 PM; free admission",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-04",
+      "paragraphs": [
+        "Downtown Norcross fills Thrasher Park with about one hundred artists from across the country, showing folk art, ceramics, paintings, photography, fiber art, metalwork, and jewelry.",
+        "There is also a Kidz Zone with face painting and sand art, plus festival food. Leashed pets are welcome, and admission is free."
+      ],
+      "items": [],
+      "closing": "Thrasher Park, 93 Park Drive, Norcross. Several downtown lots offer parking, with accessible parking on Wingo Street.",
+      "link": "https://www.splashfestivals.com/events-festivals/norcross-art-splash/visitor-information/",
+      "source": "Source: Splash Festivals, Norcross Art Splash visitor information.",
+      "sourceVerified": true,
+      "verification": {
+        "checkedAt": "2026-09-28T13:38:29.384Z",
+        "loaded": true,
+        "titleFound": true,
+        "dateFound": true,
+        "humanVerified": true,
+        "verifiedBy": "Claude (Cowork) research session; organizer visitor-information page",
+        "verifiedAt": "2026-09-28"
+      },
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  ],
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1790607592/gwinnett-newsletter/cartoons/2026-09-30-draft-check-doors-windows.png",
+    "imageAlt": "Cartoon of a homeowner checking the gap under a front door while a smug orange cat sits in the draft",
+    "caption": "\"Found the draft. The cat found it first.\"",
+    "closing": "Some household inspectors work for treats.",
+    "imagePrompt": "A cheerful homeowner kneels at a front door with a flashlight, checking the gap under the door, while a fluffy orange house cat already sits at the bottom of the door looking smug, its fur gently ruffled by the breeze. A few autumn leaves have drifted in. Style: bright, warm, family-friendly editorial newspaper cartoon for a neighborhood newsletter, clean linework, friendly expressions, soft colors, uncluttered composition, wide 16:9 landscape framing. Absolutely no words, letters, numbers, captions, signs, logos, or brand names anywhere in the image. Nobody looks embarrassed, unsafe, or ridiculed.",
+    "localFile": "assets/cartoons/2026-09-30-draft-check-doors-windows.png",
+    "tipId": "draft-check-doors-windows",
+    "suppliedManually": true
+  },
+  "referralShare": {
+    "title": "Know someone who would like the draft check tip?",
+    "copy": "Some of my favorite conversations start with a forwarded email. If someone you know would enjoy Norcross Art Splash, or is quietly thinking about buying or selling, I would be honored to help.",
+    "ps": "If Norcross Art Splash sounds like someone's kind of outing, feel free to forward this along."
+  },
+  "footerImageIndex": 2,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "automation": {
+    "pipelineVersion": 2,
+    "issueIsoDate": "2026-09-30",
+    "tipId": "draft-check-doors-windows",
+    "eventId": "2026-norcross-art-splash",
+    "featuredCounty": "Walton County",
+    "marketRotationIndex": 1,
+    "preparedBy": "manual (Claude Cowork) 2026-09-28",
+    "preparedAt": "2026-09-28T13:38:29.382Z"
+  }
+}

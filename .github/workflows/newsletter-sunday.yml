@@ -1,0 +1,52 @@
+name: Newsletter Sunday preparation
+
+on:
+  schedule:
+    # Run at both UTC offsets; the Eastern-time gate allows only the correct DST occurrence.
+    - cron: "0 22 * * 0"
+    - cron: "0 23 * * 0"
+  workflow_dispatch:
+    inputs:
+      issue_date:
+        description: "Optional Wednesday issue date (YYYY-MM-DD)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newsletter-sunday
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - id: gate
+        if: github.event_name == 'schedule'
+        run: node scripts/cloud-schedule-gate.js Sunday 18
+      - name: Prepare, generate, host, and verify
+        if: github.event_name == 'workflow_dispatch' || steps.gate.outputs.run == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_IMAGE_MODEL: gpt-image-2.5-flare
+          NEWSLETTER_CARTOON_PROVIDER: openai
+          GWINNETT_SMTP_PASSWORD: ${{ secrets.GWINNETT_SMTP_PASSWORD }}
+        run: node scripts/cloud-sunday-newsletter.js "${{ inputs.issue_date }}"
+      - name: Persist Sunday draft
+        if: success() && (github.event_name == 'workflow_dispatch' || steps.gate.outputs.run == 'true')
+        run: |
+          git config user.name "Gwinnett Newsletter Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add drafts/*.json assets/cartoons/*.png
+          git diff --cached --quiet || git commit -m "Prepare weekly newsletter draft"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -1,6 +1,6 @@
 {
   "issueDate": "Wednesday, July 29, 2026",
-  "subjectLine": "The market can change across one county line",
+  "subjectLine": "A Short Weekly Update",
   "previewText": "Why local market context matters, a simple moving-box system, and a nearby farmers market.",
   "themeIndex": 4,
   "quickNote": {
@@ -12,13 +12,16 @@
     ]
   },
   "market": {
-    "title": "Nearby counties are not moving identically",
+    "title": "Gwinnett County market snapshot for June 2026",
+    "featuredCounty": "Gwinnett County",
+    "reportingPeriod": "June 2026",
+    "source": "Realtor.com Economic Research county inventory data",
     "paragraphs": [
-      "In May 2026, active listings were up about 11.2% year over year in Gwinnett County. But nearby Barrow County was up about 50.3%, while Jackson County was up about 20.9%, according to Realtor.com.",
-      "Those differences matter. More listings can create more choices for buyers, but the effect on an individual home still depends on location, condition, price range, and nearby competition.",
-      "The lesson is not to make a decision from a national headline. Start with the numbers closest to the property you care about."
+      "Realtor.com reported 3,615 active listings in Gwinnett County during June 2026, 0.1% higher from one year earlier.",
+      "The median listing price was $465,000. Median days on market came in at 47 days, 0.1% higher year over year.",
+      "For homeowners, the useful takeaway is that local conditions matter. Price, preparation, and neighborhood-level competition still shape the result for any individual home."
     ],
-    "verificationNote": "Source: Realtor.com Economic Research county inventory data for May 2026, updated June 3, 2026."
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for June 2026."
   },
   "homeownerTip": {
     "title": "Give every moving box a destination.",
@@ -58,5 +61,61 @@
     "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
     "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
     "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
-  ]
+  ],
+  "georgiaWeekendIdea": {
+    "title": "Tallulah Gorge State Park",
+    "cityState": "Tallulah Falls, Georgia",
+    "availability": "Park hours: 8 a.m. to dark; office hours: 8 a.m. to 5 p.m. Check the official park page before leaving.",
+    "driveTimeFromGwinnett": "about 1 hour 30 minutes",
+    "paragraphs": [
+      "Tallulah Gorge State Park is a North Georgia day-trip option with dramatic canyon views, rim trails, overlooks, and a suspension bridge. It is a stronger weekend pick for an early start, especially in summer, because parking and trail conditions can change with weather and crowds."
+    ],
+    "link": "https://gastateparks.org/TallulahGorge",
+    "source": "Source: Georgia State Parks and Historic Sites, Tallulah Gorge State Park official page.",
+    "imageUrl": "",
+    "imageAlt": "Tallulah Gorge State Park canyon views in Tallulah Falls, Georgia",
+    "imageRights": "No image used; use only original, AI-generated, public-domain, or properly licensed images."
+  },
+  "realEstateQuestion": {
+    "question": "Should I get a home value update even if I am not planning to sell?",
+    "answer": [
+      "Yes. A current value range can help with insurance reviews, renovation planning, refinancing questions, and long-term decisions. It does not mean you have to move."
+    ]
+  },
+  "rotatingFeature": {
+    "include": true,
+    "label": "LOCAL HISTORY CORNER",
+    "title": "The 1885 Courthouse on the Lawrenceville Square",
+    "paragraphs": [
+      "The Gwinnett Historic Courthouse gives downtown Lawrenceville one of its most recognizable landmarks. Built in 1885 and listed on the National Register of Historic Places, it served as the county courthouse for generations before county operations moved to the Gwinnett Justice and Administration Center. Gwinnett County later restored the building, reopening it to the public on July 3, 1992. Today, the courthouse and grounds are used for weddings, meetings, special events, self-guided visits, and local history exhibits."
+    ],
+    "cityState": "Lawrenceville, Georgia",
+    "link": "https://www.gwinnettcounty.com/government/departments/parks-recreation/parks/historic-courthouse",
+    "source": "Source: Gwinnett County Parks and Recreation; Explore Georgia listing for Gwinnett Historic Courthouse.",
+    "imageUrl": "",
+    "imageAlt": "Gwinnett Historic Courthouse in Lawrenceville, Georgia",
+    "imageRights": "No image used; use only original, AI-generated, public-domain, or properly licensed images."
+  },
+  "winnerAnnouncement": {
+    "include": false
+  },
+  "automation": {
+    "issueIsoDate": "2026-07-29",
+    "featuredCounty": "Gwinnett County",
+    "marketRotationIndex": 0,
+    "rotatingFeature": {
+      "key": "history",
+      "type": "Local History Corner",
+      "label": "LOCAL HISTORY CORNER",
+      "title": "The 1885 Courthouse on the Lawrenceville Square",
+      "cityState": "Lawrenceville, Georgia",
+      "paragraphs": [
+        "The Gwinnett Historic Courthouse gives downtown Lawrenceville one of its most recognizable landmarks. Built in 1885 and listed on the National Register of Historic Places, it served as the county courthouse for generations before county operations moved to the Gwinnett Justice and Administration Center. Gwinnett County later restored the building, reopening it to the public on July 3, 1992. Today, the courthouse and grounds are used for weddings, meetings, special events, self-guided visits, and local history exhibits."
+      ],
+      "link": "https://www.gwinnettcounty.com/government/departments/parks-recreation/parks/historic-courthouse",
+      "source": "Source: Gwinnett County Parks and Recreation; Explore Georgia listing for Gwinnett Historic Courthouse.",
+      "imageRights": "No image used; use only original, AI-generated, public-domain, or properly licensed images."
+    },
+    "preparedForApproval": true
+  }
 }

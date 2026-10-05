@@ -1,0 +1,1295 @@
+{
+  "about": "Pool of homeowner tips for Gwinnett & Beyond Weekly. Each tip is used at most once, ever. 'months' lists the calendar months (1-12) when the tip is seasonally appropriate. Every tip cites a public source whose page covers the task; the preparation script re-checks each link live before use. Add new tips at the end; never edit or reuse one that has been published.",
+  "sourcesCheckedAt": "2026-09-28",
+  "sources": {
+    "uga-c1082": {
+      "source": "Source: UGA Cooperative Extension, Home Maintenance Checklist (C1082).",
+      "link": "https://fieldreport.caes.uga.edu/publications/C1082/home-maintenance-checklist/"
+    },
+    "energystar-seal": {
+      "source": "Source: ENERGY STAR, Seal and Insulate with ENERGY STAR.",
+      "link": "https://www.energystar.gov/saveathome/seal_insulate"
+    },
+    "epa-watersense-leaks": {
+      "source": "Source: U.S. EPA WaterSense, Fix a Leak Week.",
+      "link": "https://www.epa.gov/watersense/fix-leak-week"
+    },
+    "usfa-heating": {
+      "source": "Source: U.S. Fire Administration, Heating Fire Safety.",
+      "link": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/"
+    }
+  },
+  "tips": [
+    {
+      "id": "draft-check-doors-windows",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "sourceKey": "energystar-seal",
+      "title": "Find the Drafty Door Before the First Cool Night",
+      "topic": "a quick draft check around your doors and windows",
+      "shortTopic": "draft check",
+      "paragraphs": [
+        "On a breezy afternoon, walk around the inside of your exterior doors and windows and feel for moving air. Worn weatherstripping and small gaps in caulk are easy to miss in summer and easy to notice once the nights cool off."
+      ],
+      "items": [
+        "Look for daylight under or around exterior doors.",
+        "Check weatherstripping for cracks, flattening, or pieces that have pulled loose.",
+        "Note gaps in the caulk where window trim meets the wall."
+      ],
+      "closing": "ENERGY STAR lists weatherstripping doors and caulking windows among the simpler projects that can help a home feel more comfortable. Bigger jobs, like attic air sealing, are worth a pro's opinion.",
+      "cartoon": {
+        "prompt": "A cheerful homeowner kneels at a front door with a flashlight, checking the gap under the door, while a fluffy orange house cat already sits at the bottom of the door looking smug, its fur gently ruffled by the breeze. A few autumn leaves have drifted in.",
+        "caption": "\"Found the draft. The cat found it first.\"",
+        "closing": "Some household inspectors work for treats.",
+        "alt": "Cartoon of a homeowner checking the gap under a front door while a smug orange cat sits in the draft"
+      }
+    },
+    {
+      "id": "drain-outdoor-faucets",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Put the Garden Hose to Bed Before a Hard Freeze",
+      "topic": "draining outdoor faucets and putting hoses away",
+      "shortTopic": "hose and spigot",
+      "paragraphs": [
+        "Georgia winters are mild most days, but one hard freeze can still catch a hose that was left connected. UGA Extension's home checklist includes draining outdoor faucets and hoses and storing them for winter."
+      ],
+      "items": [
+        "Disconnect hoses from outdoor spigots.",
+        "Let the hose drain completely before coiling it.",
+        "Store it somewhere it will not sit in standing water.",
+        "If a spigot drips, make a note to have it repaired."
+      ],
+      "closing": "It takes about ten minutes, and your spring self will thank you.",
+      "cartoon": {
+        "prompt": "A homeowner in a light jacket carefully coils a long green garden hose on a suburban side yard, while a squirrel on the fence watches with a tiny thermos as if it is supervising.",
+        "caption": "\"The squirrel says we're cutting it close this year.\"",
+        "closing": "Local wildlife has opinions about our schedules.",
+        "alt": "Cartoon of a homeowner coiling a garden hose while a squirrel on the fence supervises with a tiny thermos"
+      }
+    },
+    {
+      "id": "fireplace-damper-check",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "usfa-heating",
+      "title": "Check the Fireplace Before the First Fire of the Season",
+      "topic": "a fireplace and chimney check before the first fire",
+      "shortTopic": "fireplace",
+      "paragraphs": [
+        "Before the first cozy fire, open the damper, look up with a flashlight, and make sure nothing obvious is blocking the flue. The U.S. Fire Administration recommends having heating equipment and chimneys cleaned and inspected by a professional each year."
+      ],
+      "items": [
+        "Confirm the damper opens and closes fully.",
+        "Clear the hearth area; keep anything that can burn at least 3 feet away.",
+        "Schedule the yearly chimney cleaning and inspection if it is due."
+      ],
+      "closing": "A quick look now beats a smoky living room on the first chilly Friday night.",
+      "cartoon": {
+        "prompt": "A family stands in a living room holding marshmallow roasting sticks and blankets, watching a homeowner kneel at the fireplace shining a flashlight up the chimney, where a surprised owl peeks back down.",
+        "caption": "\"Good news: the chimney is not empty. Bad news: it's rented.\"",
+        "closing": "Always check for tenants before lighting the first fire.",
+        "alt": "Cartoon of a homeowner shining a flashlight up a chimney where a surprised owl peeks down"
+      }
+    },
+    {
+      "id": "space-heater-clearance",
+      "months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "sourceKey": "usfa-heating",
+      "title": "Give Every Space Heater a Three-Foot Bubble",
+      "topic": "space heater safety",
+      "shortTopic": "space heater",
+      "paragraphs": [
+        "Space heaters are handy on cold mornings, but they need room. The U.S. Fire Administration advises keeping anything that can burn at least 3 feet from heat sources and turning space heaters off when you leave the room or go to bed."
+      ],
+      "items": [
+        "Pull blankets, curtains, and paper at least 3 feet away.",
+        "Turn the heater off when you leave the room.",
+        "Turn it off before bed rather than running it overnight."
+      ],
+      "closing": "Warm and careful can happen at the same time.",
+      "cartoon": {
+        "prompt": "A cozy den in winter where a small space heater sits in the middle of a neat, empty circle on the rug, while a golden retriever and a cat politely wait just outside the circle, looking longingly at the warmth.",
+        "caption": "\"We've established a three-foot rule. The pets are appealing.\"",
+        "closing": "The court of warm opinions is now in session.",
+        "alt": "Cartoon of a dog and cat waiting just outside a clear circle around a space heater"
+      }
+    },
+    {
+      "id": "fire-extinguisher-gauge",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Glance at the Fire Extinguisher Gauge",
+      "topic": "a quick fire extinguisher check",
+      "shortTopic": "fire extinguisher",
+      "paragraphs": [
+        "Most of us own a fire extinguisher and have not looked at it since the day we bought it. UGA Extension's checklist includes checking that it is fully charged and recharging or replacing it as needed."
+      ],
+      "items": [
+        "Find it. Make sure everyone in the house knows where it lives.",
+        "Check that the gauge needle sits in the charged zone.",
+        "Look for a cracked hose, missing pin, or heavy rust, and replace it if needed."
+      ],
+      "closing": "Thirty seconds of checking is a good trade for peace of mind.",
+      "cartoon": {
+        "prompt": "A family gathers in a kitchen as one person proudly pulls a fire extinguisher from the back of a crowded cabinet full of pots, pans, and a waffle maker, holding it up like a found treasure.",
+        "caption": "\"Found it. It was behind the waffle maker, which explains a lot.\"",
+        "closing": "Step one of any safety plan: knowing where things are.",
+        "alt": "Cartoon of a person pulling a fire extinguisher out from behind a waffle maker in a crowded cabinet"
+      }
+    },
+    {
+      "id": "family-escape-plan",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Walk Through Your Family's Way Out",
+      "topic": "reviewing your family's home escape plan",
+      "shortTopic": "escape plan",
+      "paragraphs": [
+        "UGA Extension's home checklist suggests reviewing your home evacuation plan regularly. It does not have to be formal. A five-minute walk-through with everyone in the house covers most of it."
+      ],
+      "items": [
+        "Agree on two ways out of each bedroom when possible.",
+        "Make sure windows used as exits actually open.",
+        "Pick one meeting spot outside, like a mailbox or a neighbor's tree."
+      ],
+      "closing": "Kids tend to remember the plan best when they get to help pick the meeting spot.",
+      "cartoon": {
+        "prompt": "A family of four stands in their front yard beside the mailbox, the youngest child holding a clipboard and whistle like a coach, while the parents stand at attention and the dog sits proudly.",
+        "caption": "\"Our youngest has been promoted to safety director. Nobody voted.\"",
+        "closing": "Leadership emerges in unexpected places.",
+        "alt": "Cartoon of a child with a clipboard and whistle leading a family safety drill at the mailbox"
+      }
+    },
+    {
+      "id": "toilet-dye-test",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "epa-watersense-leaks",
+      "title": "Try the Food-Coloring Test on Your Toilets",
+      "topic": "a simple test for a silently leaking toilet",
+      "shortTopic": "toilet leak",
+      "paragraphs": [
+        "A toilet can leak quietly for months. The EPA's WaterSense program suggests a simple check: add a few drops of food coloring to the tank and wait. If any color shows up in the bowl after 10 minutes, you have a leak."
+      ],
+      "items": [
+        "Add a few drops of food coloring to the tank, not the bowl.",
+        "Wait 10 minutes without flushing.",
+        "Flush afterward so the color does not stain.",
+        "If color appears, a worn flapper is a common culprit."
+      ],
+      "closing": "It is one of the cheapest home tests you will ever run.",
+      "cartoon": {
+        "prompt": "A homeowner kneels beside a toilet with a stopwatch and a small bottle of blue food coloring, while a curious toddler and a beagle peer into the bowl as if watching a science experiment.",
+        "caption": "\"Science day at our house is less exciting than the kids hoped.\"",
+        "closing": "Although the dog remains deeply invested.",
+        "alt": "Cartoon of a homeowner timing a food-coloring toilet test while a toddler and beagle watch"
+      }
+    },
+    {
+      "id": "water-meter-leak-check",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "epa-watersense-leaks",
+      "title": "Let the Water Meter Tell You About Hidden Leaks",
+      "topic": "using your water meter to spot hidden leaks",
+      "shortTopic": "water meter",
+      "paragraphs": [
+        "Your water meter can reveal leaks you cannot see. The EPA's WaterSense guidance is simple: check the meter, go two hours without using any water, then check it again. If the meter changes at all, you probably have a leak."
+      ],
+      "items": [
+        "Pick a window when nobody will run water, like during work or errands.",
+        "Snap a photo of the meter before and after.",
+        "If it moved, start by checking toilets, faucets, and outdoor spigots."
+      ],
+      "closing": "If you do not know where your meter is, this is a good excuse to find out.",
+      "cartoon": {
+        "prompt": "A homeowner crouches by an open water meter box at the curb, taking a photo with a phone, while the whole family waits on the porch holding empty cups, clearly not allowed to use any water.",
+        "caption": "\"Two hours without water. The family is holding up.\"",
+        "closing": "Barely.",
+        "alt": "Cartoon of a homeowner photographing a water meter while the family waits on the porch with empty cups"
+      }
+    },
+    {
+      "id": "fix-dripping-faucet",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "epa-watersense-leaks",
+      "title": "That Little Faucet Drip Adds Up",
+      "topic": "fixing a dripping faucet or showerhead",
+      "shortTopic": "dripping faucet",
+      "paragraphs": [
+        "It is easy to live with a slow drip. According to the EPA's WaterSense program, a faucet that drips once per second can waste more than 3,000 gallons a year."
+      ],
+      "items": [
+        "Listen for drips at night when the house is quiet.",
+        "Check faucet handles and showerheads, not just the spout.",
+        "Worn washers and gaskets are common, inexpensive fixes."
+      ],
+      "closing": "If the fix is beyond a quick washer swap, a plumber can usually handle it in one visit.",
+      "cartoon": {
+        "prompt": "At night in a quiet kitchen, a homeowner in pajamas stands at the sink with a flashlight, staring down a single slowly dripping faucet with a determined expression, like a detective in a mystery movie.",
+        "caption": "\"Drip. Drip. Drip. It knows I'm onto it.\"",
+        "closing": "Every house has one small mystery. This one is solvable.",
+        "alt": "Cartoon of a homeowner in pajamas staring down a dripping kitchen faucet with a flashlight"
+      }
+    },
+    {
+      "id": "water-heater-look",
+      "months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Give the Water Heater a Quick Once-Over",
+      "topic": "a quick look at your water heater",
+      "shortTopic": "water heater",
+      "paragraphs": [
+        "The water heater tends to live out of sight until something goes wrong. UGA Extension's home checklist includes inspecting it for leaks and corrosion and testing the temperature and pressure relief valve."
+      ],
+      "items": [
+        "Look for moisture, rust, or mineral crust at the base and fittings.",
+        "Check the drain pan, if you have one, for standing water.",
+        "Follow the manufacturer's instructions before testing the relief valve, or ask a plumber to do it."
+      ],
+      "closing": "Cold showers are a terrible way to learn it needed attention.",
+      "cartoon": {
+        "prompt": "A homeowner in a bathrobe with a towel over one shoulder crouches in a laundry room, inspecting a water heater with a flashlight and a very serious face, while a rubber duck sits on top of the tank.",
+        "caption": "\"We're doing this before the cold shower, not after.\"",
+        "closing": "Lesson learned the hard way, once.",
+        "alt": "Cartoon of a homeowner in a bathrobe inspecting a water heater with a rubber duck on top"
+      }
+    },
+    {
+      "id": "test-gfci-outlets",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Press the Test Button on Your GFCI Outlets",
+      "topic": "testing the GFCI outlets in kitchens and baths",
+      "shortTopic": "GFCI outlet",
+      "paragraphs": [
+        "The outlets with the little Test and Reset buttons, usually in kitchens, bathrooms, garages, and outdoors, are ground fault interrupters. UGA Extension's checklist includes testing them."
+      ],
+      "items": [
+        "Plug in a small lamp or nightlight.",
+        "Press Test. The power should cut off.",
+        "Press Reset to restore power.",
+        "If it does not trip or reset, call a licensed electrician."
+      ],
+      "closing": "It is one of the fastest safety checks in the whole house.",
+      "cartoon": {
+        "prompt": "A homeowner in a bathroom presses the button on a wall outlet while a nightlight plugged into it goes dark, and three family members peek around the doorway looking impressed, as if watching a magic trick.",
+        "caption": "\"And now, for my next trick, I'll make the lamp come back.\"",
+        "closing": "Home maintenance, now with a live audience.",
+        "alt": "Cartoon of a homeowner testing a bathroom outlet while family members watch as if it were a magic trick"
+      }
+    },
+    {
+      "id": "holiday-cord-check",
+      "months": [
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Check the Cords Before the Lights Go Up",
+      "topic": "checking cords before decorating",
+      "shortTopic": "cord check",
+      "paragraphs": [
+        "Before the decorations come out of storage, take a few minutes with the extension cords and light strands. UGA Extension's home checklist includes checking for damaged cords and wires and inspecting outlets for safety."
+      ],
+      "items": [
+        "Look for cracked insulation, exposed wire, and bent or loose plugs.",
+        "Retire any cord that feels warm during normal use.",
+        "Avoid plugging too much into a single outlet."
+      ],
+      "closing": "A damaged strand is cheaper to replace than to worry about.",
+      "cartoon": {
+        "prompt": "In a living room, a homeowner sits in the middle of an enormous tangled ball of holiday light strands and extension cords, while the family cat is fully wrapped in one strand, looking unbothered.",
+        "caption": "\"Inspection is going well. Untangling is on day three.\"",
+        "closing": "Every family has a holiday lights tradition. This is ours.",
+        "alt": "Cartoon of a homeowner surrounded by tangled holiday lights while a cat sits wrapped in one strand"
+      }
+    },
+    {
+      "id": "dust-ceiling-fans",
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Dust the Ceiling Fans Before Switching Seasons",
+      "topic": "dusting the ceiling fans",
+      "shortTopic": "ceiling fan",
+      "paragraphs": [
+        "Ceiling fan blades collect dust quietly, then send it flying the first time you turn them on high. Dusting ceiling fan blades is on UGA Extension's seasonal home checklist."
+      ],
+      "items": [
+        "Turn the fan off and let it stop completely.",
+        "Slide an old pillowcase over each blade and wipe as you pull it back, so the dust stays inside.",
+        "Use a sturdy step stool, not a chair."
+      ],
+      "closing": "The pillowcase trick keeps the dust off the couch and off you.",
+      "cartoon": {
+        "prompt": "A homeowner on a sturdy step stool slides a pillowcase over a ceiling fan blade, while below, the dog sits on the couch wearing a tiny towel on its head like it is expecting a dust storm.",
+        "caption": "\"The dog has read about last year's fan cleaning.\"",
+        "closing": "Some lessons only need to be learned once.",
+        "alt": "Cartoon of a homeowner cleaning a ceiling fan with a pillowcase while the dog waits below wearing a towel"
+      }
+    },
+    {
+      "id": "caulk-grout-wet-areas",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Look Closely at the Caulk Around the Tub",
+      "topic": "checking the caulk and grout around tubs and showers",
+      "shortTopic": "tub caulk",
+      "paragraphs": [
+        "Cracked caulk around a tub or shower lets water sneak behind tile and into places you cannot see. UGA Extension's checklist includes inspecting the caulking and grout around toilets, tubs, showers, and sinks."
+      ],
+      "items": [
+        "Look for gaps, peeling edges, or dark spots that do not wipe clean.",
+        "Press gently on tile near the tub; it should not flex.",
+        "Recaulk small gaps; call a pro if tile is loose or the wall feels soft."
+      ],
+      "closing": "A tube of caulk is a lot cheaper than a new shower wall.",
+      "cartoon": {
+        "prompt": "A homeowner kneels at a bathtub edge with a magnifying glass inspecting a line of caulk, while a rubber duck on the tub rim wears a tiny hard hat, as if it is the site foreman.",
+        "caption": "\"The foreman has signed off on the caulk inspection.\"",
+        "closing": "He's tough but fair.",
+        "alt": "Cartoon of a homeowner inspecting tub caulk with a magnifying glass while a rubber duck in a hard hat supervises"
+      }
+    },
+    {
+      "id": "washer-hoses",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Peek Behind the Washing Machine",
+      "topic": "checking the washing machine hoses",
+      "shortTopic": "washer hose",
+      "paragraphs": [
+        "Washing machine supply hoses sit under pressure all day, every day. UGA Extension's checklist includes cleaning the washer's inlet filters and checking its hoses."
+      ],
+      "items": [
+        "Pull the washer out a few inches if you can do so safely.",
+        "Look for bulges, cracks, or rust at the hose ends.",
+        "Check the floor behind it for dampness or stains."
+      ],
+      "closing": "If the hoses look tired, replacing them is a small job compared to a flooded laundry room.",
+      "cartoon": {
+        "prompt": "A homeowner pulls a washing machine slightly away from the wall, revealing a hidden stash behind it: three single socks, a toy dinosaur, a TV remote, and a birthday card, while a family member points in amazement.",
+        "caption": "\"We came to check the hoses. We found the lost and found.\"",
+        "closing": "The remote has been missing since spring.",
+        "alt": "Cartoon of a family finding socks, a toy dinosaur, and a remote behind a washing machine"
+      }
+    },
+    {
+      "id": "garage-door-safety-reverse",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Make Sure the Garage Door Still Knows When to Stop",
+      "topic": "checking the garage door's safety shut-off",
+      "shortTopic": "garage door",
+      "paragraphs": [
+        "Automatic garage doors are designed to stop and reverse when something is in the way. UGA Extension's home checklist includes checking the garage door safety shut-off."
+      ],
+      "items": [
+        "Wipe the small sensor lenses near the bottom of the tracks.",
+        "Follow your opener's manual for its recommended safety test.",
+        "If the door does not reverse as designed, stop using the opener and call a garage door technician."
+      ],
+      "closing": "It is worth a few minutes, especially with kids, pets, and bikes around.",
+      "cartoon": {
+        "prompt": "A homeowner kneels at an open garage door wiping a small sensor near the bottom of the track, while a line of neighborhood kids on bikes and scooters waits patiently in the driveway like traffic at a checkpoint.",
+        "caption": "\"Traffic is backed up while the sensor gets its checkup.\"",
+        "closing": "Safety first, bike parade second.",
+        "alt": "Cartoon of a homeowner cleaning a garage door sensor while kids on bikes wait in the driveway"
+      }
+    },
+    {
+      "id": "garage-chemical-cleanout",
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Clear Out the Old Paint Cans and Mystery Jugs",
+      "topic": "clearing out old chemicals in the garage",
+      "shortTopic": "garage clean-out",
+      "paragraphs": [
+        "Most garages have a shelf of half-used paint, thinners, and cleaners nobody remembers buying. UGA Extension's checklist includes cleaning out the garage and properly disposing of paint thinners, household cleaners, and pesticides."
+      ],
+      "items": [
+        "Group items by type and check labels for disposal directions.",
+        "Do not pour chemicals down drains or into the yard.",
+        "Check with Gwinnett County or your city for household hazardous waste drop-off options and dates."
+      ],
+      "closing": "Freeing up one shelf feels better than it should.",
+      "cartoon": {
+        "prompt": "A couple stands in a tidy garage in front of a shelf of old paint cans and unlabeled jugs, holding one dusty can up to the light and squinting at it together with puzzled faces.",
+        "caption": "\"Did we ever own a room that was this color?\"",
+        "closing": "Every garage shelf has a history.",
+        "alt": "Cartoon of a couple examining a dusty old paint can in the garage with puzzled faces"
+      }
+    },
+    {
+      "id": "gas-cans-garden-tools",
+      "months": [
+        10,
+        11
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Put the Yard Tools Away the Right Way",
+      "topic": "cleaning and storing yard tools for the season",
+      "shortTopic": "yard tool",
+      "paragraphs": [
+        "Once the fall yard work is done, UGA Extension's home checklist suggests emptying and cleaning gas cans and cleaning and storing garden tools."
+      ],
+      "items": [
+        "Knock dried dirt off shovels, rakes, and pruners.",
+        "Dry metal tools before storing them so they do not rust.",
+        "Store gas cans and fuel equipment away from living spaces, following the manufacturer's directions."
+      ],
+      "closing": "Clean tools in the fall make for an easier start in spring.",
+      "cartoon": {
+        "prompt": "A homeowner hangs freshly cleaned rakes, shovels, and pruners on a neat pegboard wall in a garage, while one rake leans away from the others with a big pile of leaves still stuck to it, looking guilty.",
+        "caption": "\"Every team has one member who didn't get the memo.\"",
+        "closing": "The leaf blower refuses to comment.",
+        "alt": "Cartoon of clean garden tools on a pegboard with one leaf-covered rake leaning off to the side"
+      }
+    },
+    {
+      "id": "lawnmower-spring-service",
+      "months": [
+        2,
+        3,
+        4
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Give the Lawn Mower Its Spring Checkup",
+      "topic": "getting the lawn mower ready for spring",
+      "shortTopic": "lawn mower",
+      "paragraphs": [
+        "Before the grass takes off, UGA Extension's home checklist recommends servicing the lawnmower in the spring."
+      ],
+      "items": [
+        "Check the owner's manual for its recommended spring maintenance.",
+        "Look at the blade for dull or bent edges.",
+        "Clear old clippings from under the deck, with the mower off and cooled."
+      ],
+      "closing": "A mower that starts on the first pull is a small spring luxury.",
+      "cartoon": {
+        "prompt": "A homeowner kneels beside a lawn mower in a sunny spring driveway with a toolkit, while the lawn behind them has grown comically tall, with a garden gnome barely peeking over the grass.",
+        "caption": "\"We may have waited one weekend too long.\"",
+        "closing": "The gnome has been missing since Tuesday.",
+        "alt": "Cartoon of a homeowner servicing a lawn mower in front of very tall grass with a garden gnome peeking out"
+      }
+    },
+    {
+      "id": "exhaust-fan-screens",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Clean the Screens on Your Exhaust Fans",
+      "topic": "cleaning the kitchen and bath exhaust fans",
+      "shortTopic": "exhaust fan",
+      "paragraphs": [
+        "Kitchen and bathroom exhaust fans work quietly until they get clogged. UGA Extension's checklist includes cleaning exhaust fan screens and making sure ductwork exhausts outdoors."
+      ],
+      "items": [
+        "Turn the fan off before removing any cover.",
+        "Wash removable kitchen range-hood filters in warm, soapy water.",
+        "Vacuum dust from bathroom fan grilles.",
+        "Hold a tissue near the grille; it should pull toward the fan when running."
+      ],
+      "closing": "A fan that actually pulls air helps keep moisture and cooking smells in check.",
+      "cartoon": {
+        "prompt": "In a bright bathroom, a homeowner holds a tissue up to the ceiling exhaust fan and the tissue is pulled flat against the grille, while a child cheers as if at a sporting event.",
+        "caption": "\"It passed the tissue test! The crowd goes wild.\"",
+        "closing": "Small wins still count.",
+        "alt": "Cartoon of a homeowner holding a tissue to a bathroom exhaust fan while a child cheers"
+      }
+    },
+    {
+      "id": "garbage-disposal-clean",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Freshen Up the Garbage Disposal",
+      "topic": "freshening up the garbage disposal",
+      "shortTopic": "garbage disposal",
+      "paragraphs": [
+        "If the kitchen sink smells a little off, the disposal is often the reason. Cleaning the garbage disposal is on UGA Extension's seasonal home checklist."
+      ],
+      "items": [
+        "Never put your hand inside the disposal.",
+        "Run cold water while the disposal is on.",
+        "Follow the manufacturer's cleaning directions for your model."
+      ],
+      "closing": "A fresh-smelling kitchen sink makes a surprising difference.",
+      "cartoon": {
+        "prompt": "A family stands around a kitchen sink wearing clothespins on their noses, while one person reads a manufacturer's manual with great ceremony next to the garbage disposal switch.",
+        "caption": "\"We have gathered today to read the instructions.\"",
+        "closing": "A first for this household.",
+        "alt": "Cartoon of a family with clothespins on their noses gathered around a kitchen sink reading a manual"
+      }
+    },
+    {
+      "id": "attic-insulation-look",
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Take a Flashlight Tour of the Attic",
+      "topic": "a quick flashlight tour of the attic",
+      "shortTopic": "attic",
+      "paragraphs": [
+        "Most people only visit the attic to store holiday boxes. UGA Extension's home checklist includes checking attic insulation and vents and inspecting the attic for pests."
+      ],
+      "items": [
+        "Step only on joists or a floored area, never between them.",
+        "Look for insulation that looks flattened, wet, or disturbed.",
+        "Make sure vents are not blocked by boxes or insulation.",
+        "Watch for droppings, nesting material, or daylight where it should not be."
+      ],
+      "closing": "If you spot moisture or pests, a pro can tell you what is going on.",
+      "cartoon": {
+        "prompt": "A homeowner pokes their head up through an attic hatch with a flashlight, discovering the family's holiday decorations already set up in the attic by a group of raccoons having a tiny party.",
+        "caption": "\"So that's where the decorations went.\"",
+        "closing": "The attic has a guest list we did not approve.",
+        "alt": "Cartoon of a homeowner peeking into an attic and finding raccoons using the holiday decorations"
+      }
+    },
+    {
+      "id": "roof-from-the-ground",
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Check the Roof Without Climbing on It",
+      "topic": "checking the roof from the ground",
+      "shortTopic": "roof check",
+      "paragraphs": [
+        "UGA Extension's checklist includes inspecting the roof surface, shingles, eaves, and soffits each season. You do not need to climb a ladder to do a useful first check."
+      ],
+      "items": [
+        "Walk the perimeter and look up with binoculars or a phone zoom.",
+        "Look for missing, curled, or lifted shingles.",
+        "Check eaves and soffits for staining or gaps where animals could enter.",
+        "Leave climbing and repairs to a roofing professional."
+      ],
+      "closing": "Spotting a problem early is almost always cheaper than finding it from the inside.",
+      "cartoon": {
+        "prompt": "A homeowner stands in the front yard looking up at their roof through binoculars, while a neighbor across the street, also holding binoculars, looks at the same roof curiously, and a bird on the gutter looks back at both of them.",
+        "caption": "\"The roof inspection has drawn a small but dedicated crowd.\"",
+        "closing": "The bird has seen better roofs, but it's not complaining.",
+        "alt": "Cartoon of a homeowner and a curious neighbor inspecting a roof with binoculars while a bird looks back"
+      }
+    },
+    {
+      "id": "foundation-crack-walk",
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Walk the Foundation and Look for New Cracks",
+      "topic": "walking the foundation to look for new cracks",
+      "shortTopic": "foundation",
+      "paragraphs": [
+        "UGA Extension's seasonal checklist includes inspecting the foundation and masonry for cracks. The goal is not to diagnose anything. It is simply to notice what is new."
+      ],
+      "items": [
+        "Walk around the house and look at the visible foundation.",
+        "Take dated phone photos of any cracks so you can compare later.",
+        "Note where soil or mulch is piled against siding.",
+        "Ask a qualified professional about cracks that are growing or wider than a hairline."
+      ],
+      "closing": "Photos make it much easier to tell whether anything is actually changing.",
+      "cartoon": {
+        "prompt": "A homeowner crouches beside the brick foundation of a house, photographing a tiny hairline crack with a phone, while a line of ants marches past carrying picnic crumbs, completely ignoring the inspection.",
+        "caption": "\"The ants were not available for comment.\"",
+        "closing": "They were busy with their own renovation.",
+        "alt": "Cartoon of a homeowner photographing a small foundation crack while ants march past with crumbs"
+      }
+    },
+    {
+      "id": "deck-fence-rot",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Poke Around the Deck for Soft Spots",
+      "topic": "checking the deck and fence for soft wood",
+      "shortTopic": "deck check",
+      "paragraphs": [
+        "Georgia humidity is hard on outdoor wood. UGA Extension's seasonal checklist includes inspecting fences and decks for wood rot."
+      ],
+      "items": [
+        "Walk the deck and notice boards that feel spongy or bouncy.",
+        "Check posts and stair stringers where they meet the ground.",
+        "Look for loose railings and popped nails or screws.",
+        "Have a contractor look at anything that affects stairs, railings, or support posts."
+      ],
+      "closing": "The spots closest to the ground usually tell the story first.",
+      "cartoon": {
+        "prompt": "On a backyard deck, a homeowner kneels and gently presses a screwdriver into a deck board, while the family dog lies on the far end of the deck with sunglasses on, clearly refusing to move from its favorite sunny spot.",
+        "caption": "\"Inspection will proceed around the dog.\"",
+        "closing": "Some areas of the deck are simply not up for discussion.",
+        "alt": "Cartoon of a homeowner testing a deck board while a dog in sunglasses naps at the end of the deck"
+      }
+    },
+    {
+      "id": "exterior-paint-trim",
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Look for Peeling Paint on Trim and Siding",
+      "topic": "spotting peeling paint on trim and siding",
+      "shortTopic": "exterior paint",
+      "paragraphs": [
+        "Paint is more than looks. It helps protect wood from moisture. UGA Extension's checklist includes checking the condition of exterior siding, trim, and paint and replacing decaying window and door trim."
+      ],
+      "items": [
+        "Start with the sides that get the most sun and rain.",
+        "Look for peeling, bubbling, or bare wood at window sills and door trim.",
+        "Press gently on suspicious trim; soft wood usually needs replacing, not just painting."
+      ],
+      "closing": "Catching one soft window sill early can save a much bigger repair later.",
+      "cartoon": {
+        "prompt": "A homeowner on a short, sturdy step ladder examines peeling paint on window trim with a tiny paint scraper, while a gardening neighbor next door holds up a scorecard showing a big number, like an Olympic judge.",
+        "caption": "\"The neighbor's judging is harsh but accurate.\"",
+        "closing": "Every street needs one honest critic.",
+        "alt": "Cartoon of a homeowner scraping window trim while a neighbor holds up a scorecard"
+      }
+    },
+    {
+      "id": "trim-overhanging-branches",
+      "months": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Look Up at the Branches Over the Roof",
+      "topic": "looking at the branches hanging over the roof",
+      "shortTopic": "tree branch",
+      "paragraphs": [
+        "Branches that rub the roof or hang over it can cause trouble in a storm. UGA Extension's seasonal checklist includes clearing dead plants and trimming overhanging branches."
+      ],
+      "items": [
+        "Walk the yard and look for dead limbs above the roof, driveway, or power lines.",
+        "Clear dead plants from beds next to the house.",
+        "Leave large limbs, tall trees, and anything near power lines to a licensed tree service."
+      ],
+      "closing": "It is a lot easier to plan a trim than to react to a storm.",
+      "cartoon": {
+        "prompt": "A homeowner stands in the yard pointing up at a long tree branch that hangs over the roof, while a squirrel sits on the branch holding up one tiny paw and looking pleading.",
+        "caption": "\"We're in negotiations with the squirrel about the branch.\"",
+        "closing": "The squirrel has hired representation.",
+        "alt": "Cartoon of a homeowner pointing at a branch over the roof while a squirrel pleads to keep it"
+      }
+    },
+    {
+      "id": "driveway-walkway-cracks",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Keep an Eye on Driveway and Walkway Cracks",
+      "topic": "keeping an eye on driveway and walkway cracks",
+      "shortTopic": "driveway",
+      "paragraphs": [
+        "Small cracks in a driveway or front walk tend to grow as water gets in. UGA Extension's checklist includes repairing driveway and walkway cracks."
+      ],
+      "items": [
+        "Pull weeds that are growing in the cracks.",
+        "Watch for uneven edges that could trip a guest.",
+        "Ask a concrete or paving contractor about cracks that are wide or lifting."
+      ],
+      "closing": "A smooth front walk is also one of the first things guests and buyers notice.",
+      "cartoon": {
+        "prompt": "A homeowner kneels on a driveway pulling a single weed from a crack, and the weed turns out to be comically long, like a rope, with the whole family lined up behind pulling together in a tug-of-war.",
+        "caption": "\"It's a small crack. It's a big weed.\"",
+        "closing": "Teamwork makes the driveway work.",
+        "alt": "Cartoon of a family in a tug-of-war pulling an extremely long weed from a driveway crack"
+      }
+    },
+    {
+      "id": "window-door-operation",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Open Every Window at Least Once",
+      "topic": "making sure every window actually opens",
+      "shortTopic": "window check",
+      "paragraphs": [
+        "Some windows have not been opened in years, and you do not want to discover that during an emergency. UGA Extension's checklist includes checking window and door operation and repairing broken windows."
+      ],
+      "items": [
+        "Open and close each window, including upstairs bedrooms.",
+        "Check that locks latch and screens are in place.",
+        "Note any cracked glass or windows painted shut for repair."
+      ],
+      "closing": "Bedroom windows matter most, since they can double as a way out.",
+      "cartoon": {
+        "prompt": "A homeowner struggles to open an old window that is stuck, pushing with both hands, while a houseplant on the sill leans away dramatically and a cat watches from the bed with mild interest.",
+        "caption": "\"This window has not been opened since the last owners. Maybe the ones before that.\"",
+        "closing": "It has seen things.",
+        "alt": "Cartoon of a homeowner struggling to open a stuck window while a cat watches"
+      }
+    },
+    {
+      "id": "crawlspace-moisture",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Peek Into the Crawl Space or Basement for Moisture",
+      "topic": "checking the crawl space or basement for moisture",
+      "shortTopic": "crawl space",
+      "paragraphs": [
+        "Moisture problems usually start where nobody looks. UGA Extension's checklist includes checking the basement or crawl space for mold, moisture, water damage, and pests."
+      ],
+      "items": [
+        "Look with a flashlight from the access door; you do not have to crawl in.",
+        "Notice musty smells, standing water, or sagging insulation.",
+        "Call a pro to evaluate moisture or pest signs."
+      ],
+      "closing": "A quick look a couple of times a year can catch small problems while they are still small.",
+      "cartoon": {
+        "prompt": "A homeowner lies on their stomach at the small crawl space door with a flashlight, peering in, while the entire family lines up behind them also peering over each other's shoulders, each with their own flashlight.",
+        "caption": "\"Nobody wanted to go in. Everybody wanted to look.\"",
+        "closing": "That is how most home inspections start in our family.",
+        "alt": "Cartoon of a family stacked at a crawl space door, all shining flashlights inside"
+      }
+    },
+    {
+      "id": "sump-pump-floor-drain",
+      "months": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Make Sure the Sump Pump and Floor Drains Are Ready",
+      "topic": "making sure the sump pump and floor drains are ready for spring storms",
+      "shortTopic": "sump pump",
+      "paragraphs": [
+        "If your home has a sump pump or floor drains, spring storms are when they earn their keep. UGA Extension's checklist includes checking that the sump pump and floor drains are working."
+      ],
+      "items": [
+        "Clear debris from floor drain covers.",
+        "Follow the sump pump manufacturer's instructions to confirm it runs.",
+        "Make sure the discharge line outside is not blocked."
+      ],
+      "closing": "If your home does not have either, feel free to enjoy the extra free time this week.",
+      "cartoon": {
+        "prompt": "In a clean basement during a spring rain, a homeowner pours a bucket of water into a sump pit while the whole family watches from the stairs holding umbrellas indoors, looking very serious.",
+        "caption": "\"We're prepared for every outcome. Hence the umbrellas.\"",
+        "closing": "Better safe than soggy.",
+        "alt": "Cartoon of a family on basement stairs holding umbrellas while a homeowner tests a sump pump"
+      }
+    },
+    {
+      "id": "radon-test",
+      "months": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "When Did You Last Test for Radon?",
+      "topic": "a radon test if yours is due",
+      "shortTopic": "radon test",
+      "paragraphs": [
+        "Radon is an invisible gas you cannot smell, so the only way to know your level is to test. UGA Extension's home checklist recommends testing your home for radon every two years."
+      ],
+      "items": [
+        "Check when the last test was done, if ever.",
+        "Follow the kit instructions closely, including where to place it.",
+        "Ask a certified radon professional if your results come back high."
+      ],
+      "closing": "It is a quiet, simple test, and knowing the number is better than guessing.",
+      "cartoon": {
+        "prompt": "A homeowner carefully places a small radon test kit on a low shelf in a basement, following a printed instruction sheet, while the family dog sniffs the kit with great suspicion.",
+        "caption": "\"The dog doesn't trust anything he can't smell.\"",
+        "closing": "Honestly, that's fair.",
+        "alt": "Cartoon of a dog suspiciously sniffing a radon test kit on a basement shelf"
+      }
+    },
+    {
+      "id": "clean-light-fixtures",
+      "months": [
+        11,
+        12,
+        1
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Brighten Up the Light Fixtures for the Dark Evenings",
+      "topic": "cleaning the light fixtures before the long evenings",
+      "shortTopic": "light fixture",
+      "paragraphs": [
+        "With the sun setting early, the house leans on its lights. Cleaning light fixtures is on UGA Extension's home checklist, and dusty globes can make a room feel dimmer than it needs to."
+      ],
+      "items": [
+        "Turn the fixture off and let bulbs cool first.",
+        "Remove glass covers carefully and wash them in warm, soapy water.",
+        "Dry them fully before putting them back."
+      ],
+      "closing": "It is one of those chores where you can actually see the difference afterward.",
+      "cartoon": {
+        "prompt": "A homeowner on a step stool removes a glass ceiling light cover and discovers a surprising collection inside: dead leaves, a lost earring, and a tiny toy car, while a child below gasps.",
+        "caption": "\"How did the toy car get up there?\"",
+        "closing": "Some questions are better left unanswered.",
+        "alt": "Cartoon of a homeowner finding a toy car and an earring inside a ceiling light cover"
+      }
+    },
+    {
+      "id": "dehumidifier-coils",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Give the Dehumidifier Some Attention",
+      "topic": "cleaning the dehumidifier before the muggy months",
+      "shortTopic": "dehumidifier",
+      "paragraphs": [
+        "Georgia summers mean muggy basements and bonus rooms. UGA Extension's checklist includes cleaning dehumidifier coils and replacing filters."
+      ],
+      "items": [
+        "Unplug it before cleaning.",
+        "Wash or replace the filter per the manual.",
+        "Empty and rinse the bucket so it does not grow mildew."
+      ],
+      "closing": "A clean dehumidifier works better and smells a lot better.",
+      "cartoon": {
+        "prompt": "A homeowner in a basement proudly holds up a completely full dehumidifier bucket, and the family looks amazed at how much water it collected, one child holding up a tiny fishing rod hopefully.",
+        "caption": "\"No, you cannot go fishing in it.\"",
+        "closing": "Georgia humidity is very generous.",
+        "alt": "Cartoon of a homeowner holding a full dehumidifier bucket while a child holds a toy fishing rod"
+      }
+    },
+    {
+      "id": "vents-and-returns",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Take a Look at the Vents Room by Room",
+      "topic": "a room-by-room look at your air vents",
+      "shortTopic": "vent",
+      "paragraphs": [
+        "Supply vents and return grilles are easy to cover without noticing. UGA Extension's checklist includes inspecting ductwork and vents and cleaning them as needed."
+      ],
+      "items": [
+        "Make sure rugs, beds, and furniture are not sitting on vents.",
+        "Vacuum dust from vent covers and return grilles.",
+        "Notice any room that always feels warmer or cooler than the rest, and mention it at your next HVAC service."
+      ],
+      "closing": "Sometimes the fix for a stuffy room is just moving the couch.",
+      "cartoon": {
+        "prompt": "A homeowner lifts the corner of a big area rug to reveal a floor vent underneath, while a cat that had been sleeping on the warm spot looks up with betrayal.",
+        "caption": "\"Mystery of the chilly living room: solved.\"",
+        "closing": "The cat knew all along.",
+        "alt": "Cartoon of a homeowner lifting a rug to reveal a vent while a cat looks up in betrayal"
+      }
+    },
+    {
+      "id": "find-water-shutoff",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Know Where Your Main Water Shutoff Is",
+      "topic": "finding your main water shutoff before you need it",
+      "shortTopic": "water shutoff",
+      "paragraphs": [
+        "If a pipe ever bursts, the first question is where to turn off the water. UGA Extension's checklist includes checking the water main and meter."
+      ],
+      "items": [
+        "Find the main shutoff valve inside or where the line enters the house.",
+        "Make sure everyone who might be home alone knows where it is.",
+        "Tag it with a bright label so it is easy to spot in a hurry.",
+        "If it is stuck or hard to turn, have a plumber look at it."
+      ],
+      "closing": "It is the kind of thing you only need to know once, at exactly the wrong moment.",
+      "cartoon": {
+        "prompt": "A homeowner proudly ties a bright red ribbon bow onto a water shutoff valve in a utility closet, while the rest of the family applauds as if it were a ribbon-cutting ceremony.",
+        "caption": "\"We're officially opening the shutoff valve to the public.\"",
+        "closing": "Well, to the family, anyway.",
+        "alt": "Cartoon of a family applauding as a homeowner ties a red bow on the main water shutoff valve"
+      }
+    },
+    {
+      "id": "garden-hose-leaks-spring",
+      "months": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "sourceKey": "epa-watersense-leaks",
+      "title": "Check the Hose Connection Before Watering Season",
+      "topic": "checking the hose and spigot for leaks",
+      "shortTopic": "garden hose",
+      "paragraphs": [
+        "Before the heavy watering months, give the outdoor spigot and hose a quick once-over. The EPA's WaterSense program suggests checking garden hoses for leaks where they connect to the spigot and replacing worn washers as needed."
+      ],
+      "items": [
+        "Turn the water on and watch the connection for drips or spray.",
+        "Replace the small rubber washer inside the hose end if it is cracked.",
+        "Look along the hose for pinholes and splits."
+      ],
+      "closing": "A two-dollar washer can fix a surprising amount of spray.",
+      "cartoon": {
+        "prompt": "A homeowner turns on an outdoor spigot and a small fan of water sprays sideways from the hose connection, directly onto a very surprised garden gnome, while a nearby cat watches from a dry porch.",
+        "caption": "\"We found the leak. So did the gnome.\"",
+        "closing": "The cat is staying on the porch, thank you.",
+        "alt": "Cartoon of a leaking hose connection spraying a surprised garden gnome while a cat watches"
+      }
+    },
+    {
+      "id": "water-filter-check",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Check the Date on Your Water Filters",
+      "topic": "checking your water filters",
+      "shortTopic": "water filter",
+      "paragraphs": [
+        "Refrigerator filters, under-sink filters, and softener systems all need attention on a schedule. UGA Extension's checklist includes checking water-purification and water-softener filters."
+      ],
+      "items": [
+        "Look up each filter's recommended replacement interval.",
+        "Write the install date on the new filter with a marker.",
+        "Set a phone reminder for the next change."
+      ],
+      "closing": "The marker trick means you never have to guess again.",
+      "cartoon": {
+        "prompt": "A homeowner stares at a refrigerator water filter indicator light glowing red, holding a long receipt and a calendar, looking puzzled, while a family member drinks a glass of water and shrugs.",
+        "caption": "\"The little light has been red since… when did we move in?\"",
+        "closing": "Time flies when nobody writes it down.",
+        "alt": "Cartoon of a puzzled homeowner looking at a red filter light on a refrigerator"
+      }
+    },
+    {
+      "id": "termite-pest-inspection",
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Look for Signs of Termites and Wood Pests",
+      "topic": "looking for early signs of termites and wood pests",
+      "shortTopic": "termite check",
+      "paragraphs": [
+        "In Georgia, it pays to keep an eye out for wood-destroying insects. UGA Extension's seasonal checklist includes inspecting wood framing for pests and checking interior walls and floors for termites."
+      ],
+      "items": [
+        "Look for mud tubes on foundation walls or piers.",
+        "Notice wood that sounds hollow when tapped.",
+        "Keep mulch, firewood, and soil from piling against the siding.",
+        "Call a licensed pest control company if you see anything suspicious."
+      ],
+      "closing": "If you have a termite bond, this is also a good reminder to check its renewal date.",
+      "cartoon": {
+        "prompt": "A homeowner taps a wooden porch post with a screwdriver handle and listens closely with one ear, like a doctor with a stethoscope, while a woodpecker on the post does the exact same thing.",
+        "caption": "\"Getting a second opinion from a specialist.\"",
+        "closing": "He's very experienced with wood.",
+        "alt": "Cartoon of a homeowner and a woodpecker both tapping and listening to a porch post"
+      }
+    },
+    {
+      "id": "severe-weather-plan",
+      "months": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "sourceKey": "uga-c1082",
+      "title": "Pick Your Family's Severe Weather Spot",
+      "topic": "choosing your family's severe weather spot",
+      "shortTopic": "storm plan",
+      "paragraphs": [
+        "Spring storms can move through quickly. UGA Extension's checklist includes updating your emergency plans for fire, tornado, and other emergencies."
+      ],
+      "items": [
+        "Choose an interior room on the lowest floor, away from windows.",
+        "Keep a flashlight and shoes there.",
+        "Make sure everyone knows how you will get weather alerts."
+      ],
+      "closing": "Deciding on a calm day makes stormy nights a lot less stressful.",
+      "cartoon": {
+        "prompt": "A family sits together in a small interior hallway with flashlights, blankets, and snacks during a practice drill, while the dog has brought every one of its toys and piled them neatly in the corner.",
+        "caption": "\"The dog has packed for a much longer trip.\"",
+        "closing": "Preparedness looks different for everyone.",
+        "alt": "Cartoon of a family in a hallway with flashlights while the dog has piled all its toys in the corner"
+      }
+    }
+  ]
+}

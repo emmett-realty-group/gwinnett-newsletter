@@ -1,0 +1,69 @@
+{
+  "issueDate": "Wednesday, July 1, 2026",
+  "subjectLine": "What the newest Gwinnett numbers tell us",
+  "previewText": "Fresh Gwinnett market data, a safer July Fourth checklist, and a Saturday stop in Suwanee.",
+  "themeIndex": 0,
+  "quickNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "July is here, and the long holiday weekend is just a few days away.",
+      "Whether your plans include a cookout, fireworks, a little time around town, or simply enjoying the air conditioning, I hope you have a safe and relaxing Fourth of July.",
+      "This week's note includes the newest public Gwinnett housing numbers, a quick holiday safety check, and a local Saturday-morning event.",
+      "As always, if you are wondering what the market means for your own home or plans, I am happy to help you sort through it."
+    ]
+  },
+  "market": {
+    "title": "More homes are available, while activity remains steady",
+    "paragraphs": [
+      "Realtor.com reported 3,408 active listings in Gwinnett County during May 2026, up about 11.2% from May 2025. New listings were up about 1.1%, and pending listings were up about 1.8%.",
+      "That combination suggests buyers have more choices even though the flow of new listings and pending activity remains close to last year's pace. For sellers, nearby competition and a strong first impression matter.",
+      "The county's median listing price was $459,990, about 1.1% lower than one year earlier. That is an asking-price measure, not a completed-sale price, but it shows that prices were relatively steady while inventory expanded."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for May 2026, released June 3, 2026."
+  },
+  "homeownerTip": {
+    "title": "Set up a safer Fourth of July.",
+    "intro": "Before the grill is hot or any legal consumer fireworks come out, take a minute to prepare:",
+    "items": [
+      "Keep the grill well away from siding, deck railings, eaves, and overhanging branches.",
+      "Never leave a lit grill unattended, and keep children and pets away from the cooking area.",
+      "Follow local fireworks laws and label directions, with a responsible adult supervising.",
+      "Keep a garden hose or bucket of water ready, and never try to relight a firework that did not work."
+    ],
+    "closing": "A little preparation keeps the celebration focused on family, food, and fun. For a public fireworks show, leave the setup to the professionals."
+  },
+  "localEvent": {
+    "title": "Suwanee Farmers Market",
+    "link": "https://www.suwanee.com/Home/Components/Calendar/Event/3714/230",
+    "intro": "If you would like an easy local outing before the holiday celebrations begin, here is one Gwinnett option.",
+    "copy": "The Suwanee Farmers Market is scheduled for Saturday, July 4, from 8:00 AM to noon at Town Center Park. Browse seasonal produce and goods from local farmers and makers, then enjoy a walk around the park.",
+    "tip": "Tip: Check the official City of Suwanee event page before leaving for any weather, parking, or schedule updates."
+  },
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1782407144/gwinnett-newsletter/cartoons/2026-07-01-fourth-safety.png",
+    "imageAlt": "Two homeowners preparing a garden hose and bucket of water before a safe backyard July Fourth celebration",
+    "caption": "\"Snacks, chairs, and a safety plan. We are officially ready.\"",
+    "closing": "The best celebrations end with nothing more dramatic than an empty dessert plate.",
+    "imagePrompt": "A bright, family-friendly 16:9 cartoon of two adult homeowners preparing a garden hose and bucket of water before a small, safe July Fourth backyard celebration, with no text in the artwork."
+  },
+  "quiz": {
+    "include": true,
+    "question": "About how many active home listings did Realtor.com report in Gwinnett County during May 2026?",
+    "answers": [
+      "A. 1,408",
+      "B. 2,408",
+      "C. 3,408",
+      "D. 4,408"
+    ],
+    "cta": "Reply with A, B, C, or D by Friday for a chance to win a $25 Amazon gift card.",
+    "legalLine": "No purchase necessary. One entry per person. Correct entries received by the deadline are eligible for the random drawing."
+  },
+  "footerImageIndex": 0,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ]
+}

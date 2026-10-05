@@ -1,0 +1,57 @@
+name: Newsletter Monday email to Danny
+
+on:
+  schedule:
+    # Run at both UTC offsets; the Eastern-time gate allows only 8:00 AM Eastern.
+    - cron: "0 12 * * 1"
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+    inputs:
+      issue_date:
+        description: "Optional Wednesday issue date (YYYY-MM-DD)"
+        required: false
+        type: string
+      force_resend:
+        description: "Allow a revised copy after an earlier successful send"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newsletter-monday
+  cancel-in-progress: false
+
+jobs:
+  email-danny:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - id: gate
+        if: github.event_name == 'schedule'
+        run: node scripts/cloud-schedule-gate.js Monday 8
+      - name: Generate, verify, and email Danny only
+        if: github.event_name == 'workflow_dispatch' || steps.gate.outputs.run == 'true'
+        env:
+          GWINNETT_SMTP_PASSWORD: ${{ secrets.GWINNETT_SMTP_PASSWORD }}
+        run: |
+          ARGS=("${{ inputs.issue_date }}")
+          if [ "${{ inputs.force_resend }}" = "true" ]; then ARGS+=("--force-resend"); fi
+          node scripts/cloud-monday-newsletter.js "${ARGS[@]}"
+      - name: Persist archive and duplicate-send state
+        if: success() && (github.event_name == 'workflow_dispatch' || steps.gate.outputs.run == 'true')
+        run: |
+          git config user.name "Gwinnett Newsletter Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add newsletter-data.json issues/*.json data/newsletter-state.json drafts/*.json
+          git diff --cached --quiet || git commit -m "Archive weekly newsletter delivery"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
