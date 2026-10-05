@@ -1,5 +1,125 @@
 {
-  "issueDateIso": "2026-09-02",
-  "source": "2026-09-02.json",
-  "note": "Active issue pointer; the dated file is canonical."
+  "issueDate": "Wednesday, October 7, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Put the Yard Tools Away the Right Way, Loganville's Autumnfest on Saturday, October 17, and a quick Gwinnett and Jackson market check.",
+  "themeIndex": 3,
+  "dannysNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "A new month is underway, and October has a way of filling up fast. This week's homeowner tip is cleaning and storing yard tools for the season, and it only takes a few minutes.",
+      "And if you want a reason to get out and about, Loganville's Autumnfest is coming up on Saturday, October 17. As always, I am glad you are here."
+    ],
+    "author": "automated",
+    "composedFrom": {
+      "tipId": "gas-cans-garden-tools",
+      "eventId": "2026-loganville-autumnfest"
+    }
+  },
+  "market": {
+    "title": "Gwinnett and Jackson County: September 2026 at a glance",
+    "featuredCounty": "Gwinnett County, Jackson County",
+    "reportingPeriod": "September 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "In September 2026, Realtor.com counted 3,833 active listings in Gwinnett County, 14.3% more listings than a year earlier. The median listing price was $449,945.",
+      "Homes in Jackson County spent a median of 72 days on the market in September 2026, 14.3% longer than a year earlier. About 20% of active listings had a price reduction.",
+      "The simple version for Gwinnett and Jackson County: buyers have more homes to compare than they did a year ago, so pricing and condition matter more than ever."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data, September 2026 (latest monthly release). Figures are countywide listing data, not closed sales."
+  },
+  "rotatingFeatures": [
+    {
+      "include": true,
+      "key": "homeowner-tip",
+      "type": "Homeowner / Seasonal Home Tip",
+      "label": "HOMEOWNER / SEASONAL HOME TIP",
+      "tipId": "gas-cans-garden-tools",
+      "title": "Put the Yard Tools Away the Right Way",
+      "topic": "cleaning and storing yard tools for the season",
+      "shortTopic": "yard tool",
+      "cityState": "",
+      "availability": "",
+      "paragraphs": [
+        "Once the fall yard work is done, UGA Extension's home checklist suggests emptying and cleaning gas cans and cleaning and storing garden tools."
+      ],
+      "items": [
+        "Knock dried dirt off shovels, rakes, and pruners.",
+        "Dry metal tools before storing them so they do not rust.",
+        "Store gas cans and fuel equipment away from living spaces, following the manufacturer's directions."
+      ],
+      "closing": "Clean tools in the fall make for an easier start in spring.",
+      "link": "https://fieldreport.caes.uga.edu/publications/C1082/home-maintenance-checklist/",
+      "source": "Source: UGA Cooperative Extension, Home Maintenance Checklist (C1082).",
+      "sourceVerified": true,
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "include": true,
+      "key": "local-event",
+      "type": "Local Community Event",
+      "label": "LOCAL COMMUNITY EVENT",
+      "eventId": "2026-loganville-autumnfest",
+      "title": "Loganville Autumnfest",
+      "shortName": "Loganville's Autumnfest",
+      "cityState": "Loganville, Georgia",
+      "availability": "Saturday, October 17, 2026, 10 AM-4 PM",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "paragraphs": [
+        "Loganville's Autumnfest takes over Main Street on the third Saturday in October, with more than 175 food, arts, and crafts vendors.",
+        "The city lists live music, local performances, and a Kids Zone with activities for children."
+      ],
+      "items": [],
+      "closing": "Main Street, downtown Loganville. Check the city's events page for parking and any schedule changes.",
+      "link": "https://www.loganville-ga.gov/community/events.php",
+      "source": "Source: City of Loganville community events page.",
+      "sourceVerified": true,
+      "verification": {
+        "checkedAt": "2026-10-05T12:51:54.872Z",
+        "loaded": true,
+        "titleFound": true,
+        "dateFound": true,
+        "humanVerified": true,
+        "verifiedBy": "Claude (Cowork) research session; City of Loganville events page",
+        "verifiedAt": "2026-09-28"
+      },
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  ],
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1791203775/gwinnett-newsletter/cartoons/2026-10-07-gas-cans-garden-tools.png",
+    "imageAlt": "Cartoon of clean garden tools on a pegboard with one leaf-covered rake leaning off to the side",
+    "caption": "\"Every team has one member who didn't get the memo.\"",
+    "closing": "The leaf blower refuses to comment.",
+    "imagePrompt": "A homeowner hangs freshly cleaned rakes, shovels, and pruners on a neat pegboard wall in a garage, while one rake leans away from the others with a big pile of leaves still stuck to it, looking guilty. Style: bright, warm, family-friendly editorial newspaper cartoon for a neighborhood newsletter, clean linework, friendly expressions, soft colors, uncluttered composition, wide 16:9 landscape framing. Absolutely no words, letters, numbers, captions, signs, logos, or brand names anywhere in the image. Nobody looks embarrassed, unsafe, or ridiculed.",
+    "localFile": "assets/cartoons/2026-10-07-gas-cans-garden-tools.png",
+    "tipId": "gas-cans-garden-tools",
+    "suppliedManually": true
+  },
+  "referralShare": {
+    "title": "Know a neighbor who would enjoy Loganville's Autumnfest?",
+    "copy": "If a friend or neighbor is thinking about a move, or just has a real estate question, I would be glad to help. Forwarding this issue is an easy way to share the Loganville's Autumnfest details, too.",
+    "ps": "Forwarding this is an easy way to share Loganville's Autumnfest with a friend who would enjoy it."
+  },
+  "footerImageIndex": 3,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "automation": {
+    "pipelineVersion": 2,
+    "issueIsoDate": "2026-10-07",
+    "tipId": "gas-cans-garden-tools",
+    "eventId": "2026-loganville-autumnfest",
+    "featuredCounty": "Jackson County",
+    "marketRotationIndex": 2,
+    "marketCheckedFor": "2026-10-07",
+    "preparedAt": "2026-10-05T12:51:54.872Z",
+    "preparedBy": "monday"
+  }
 }

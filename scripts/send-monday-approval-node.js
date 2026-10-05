@@ -1,21 +1,13 @@
-const fs = require("fs");
+"use strict";
+// Compatibility wrapper (legacy name). Forwards to scripts/send-newsletter-to-danny.js, which can only email
+// dannyemmett@kw.com. The old --raw-recipient/--raw-subject/--raw-body/--raw-attachment options were removed
+// because they allowed sending to any address.
 const path = require("path");
-const root = path.resolve(__dirname, "..");
-const config = JSON.parse(fs.readFileSync(path.join(root, "automation.local.json"), "utf8"));
-const issue = process.argv[2];
-if (!/^\d{4}-\d{2}-\d{2}$/.test(issue || "")) throw new Error("Usage: node scripts/send-monday-approval-node.js YYYY-MM-DD");
-const record = JSON.parse(fs.readFileSync(path.join(root, ".newsletter-state", "approvals", `${issue}.json`), "utf8"));
-if (record.status !== "SENT_FOR_APPROVAL") throw new Error("Issue is not ready for approval email");
-const featureData = JSON.parse(fs.readFileSync(path.join(root, `${issue}.json`), "utf8"));
-const checklist = ["Review all copy and links", "Confirm market figures and source", "Confirm brokerage footer, physical mailing address, fair housing language, email preferences, and unsubscribe link in Command before subscriber distribution"];
-const hosted = config.approval?.baseUrl || config.newsletter.approvalBaseUrl;
-const token = process.env.NEWSLETTER_APPROVAL_TOKEN;
-const approveUrl = hosted && token ? `${hosted.replace(/\/$/, "")}/approve?issue=${encodeURIComponent(issue)}&token=${encodeURIComponent(token)}` : "";
-if (!approveUrl) throw new Error("Hosted approval URL or one-time token is missing");
-const text = `Gwinnett & Beyond Weekly approval\nIssue: ${featureData.issueDate}\nFeatures: ${featureData.features.map(x => x.type).join("; ")}\n\n${checklist.map(x => `- ${x}`).join("\n")}\n\nAPPROVE NEWSLETTER: ${approveUrl}\n\nApproval ends at APPROVED. The approved HTML remains ready for a separate handoff when you choose.`;
-const html = `<!doctype html><html><body style="margin:0;background:#eef4f7;font-family:Arial,Helvetica,sans-serif;color:#243447;"><table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"><tr><td align="center" style="padding:24px 10px;"><table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width:100%;max-width:600px;background:#fff;"><tr><td style="padding:28px;"><h1 style="margin:0;color:#17324d;font-size:25px;">Gwinnett &amp; Beyond Weekly approval</h1><p><strong>Issue:</strong> ${featureData.issueDate}</p><p><strong>Features:</strong> ${featureData.features.map(x => x.type).join("; ")}</p><h2 style="font-size:18px;color:#17324d;">Review checklist</h2><ul style="line-height:1.6;">${checklist.map(x => `<li>${x}</li>`).join("")}</ul><table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:28px auto;"><tr><td bgcolor="#17324d" style="border-radius:6px;"><a href="${approveUrl.replaceAll("&", "&amp;")}" style="display:inline-block;padding:17px 28px;color:#fff;font-size:18px;font-weight:bold;text-decoration:none;">APPROVE NEWSLETTER</a></td></tr></table><p style="font-size:13px;line-height:1.5;color:#56697a;">Approval ends at <strong>APPROVED</strong>. The approved HTML remains ready for a separate handoff when you choose.</p></td></tr></table></td></tr></table></body></html>`;
-if (process.env.LIVE_SEND_APPROVAL !== "true") { console.log(text); console.log("\nDRY RUN HTML:\n" + html); console.log("\nDRY RUN: no email sent."); process.exit(0); }
-if (!process.env.SMTP_HOST || !process.env.SMTP_USER || !process.env.SMTP_PASS) throw new Error("SMTP_HOST, SMTP_USER, and SMTP_PASS are required");
-const nodemailer = require("nodemailer");
-const transporter = nodemailer.createTransport({ host: process.env.SMTP_HOST, port: Number(process.env.SMTP_PORT || 587), secure: process.env.SMTP_SECURE === "true", auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS } });
-transporter.sendMail({ from: process.env.SMTP_FROM || process.env.SMTP_USER, to: config.newsletter.approvalRecipient, subject: `Approval needed: Gwinnett & Beyond Weekly — ${featureData.issueDate}`, text, html }).then(info => console.log(`Approval email sent to ${config.newsletter.approvalRecipient}: ${info.messageId}`)).catch(error => { console.error(error.message); process.exit(1); });
+const { spawnSync } = require("child_process");
+const forwarded = process.argv.slice(2);
+if (forwarded.some((arg) => /^--raw-/.test(arg))) {
+  console.error("Raw sending was removed. This project can only email the verified newsletter to dannyemmett@kw.com.");
+  process.exit(1);
+}
+const result = spawnSync(process.execPath, [path.join(__dirname, "send-newsletter-to-danny.js"), ...forwarded], { stdio: "inherit" });
+process.exit(result.status === null ? 1 : result.status);

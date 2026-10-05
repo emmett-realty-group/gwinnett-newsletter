@@ -1,6 +1,7 @@
-node_modules/
-.newsletter-state/
-.env
-
-# Local Netlify folder
-.netlify
+*.local.json
+dist/
+clients/*/dist/
+automation-logs/
+data/newsletter-reports/
+drafts/*-dry-run.*
+drafts/*.eml

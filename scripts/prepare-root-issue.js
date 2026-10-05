@@ -1,11 +1,7 @@
-const fs = require("fs");
-const path = require("path");
-const root = path.resolve(__dirname, "..");
-const iso = process.argv[2];
-if (!/^\d{4}-\d{2}-\d{2}$/.test(iso || "")) throw new Error("Usage: node scripts/prepare-root-issue.js YYYY-MM-DD");
-const dated = path.join(root, `${iso}.json`);
-if (!fs.existsSync(dated)) throw new Error(`Issue data not found: ${dated}`);
-const data = JSON.parse(fs.readFileSync(dated, "utf8"));
-if (data.issueDateIso !== iso) throw new Error("Issue-date mismatch in dated data");
-fs.writeFileSync(path.join(root, "newsletter-data.json"), JSON.stringify({ issueDateIso: iso, source: `${iso}.json`, note: "Active issue pointer; the dated file is canonical." }, null, 2) + "\n");
-console.log(`Prepared root pointer for ${iso}`);
+"use strict";
+// Retired. This older helper created next week's issue by copying the previous issue's data, which could carry
+// old content forward. Use the verified workflow instead:
+//   node scripts/prestage-newsletter.js --issue-date YYYY-MM-DD      (pick content and cartoon into drafts/)
+//   node scripts/prepare-monday-newsletter.js --dry-run --issue-date YYYY-MM-DD
+console.error("prepare-root-issue.js is retired. Use scripts/prestage-newsletter.js and scripts/prepare-monday-newsletter.js.");
+process.exit(1);

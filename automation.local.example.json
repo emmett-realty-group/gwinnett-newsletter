@@ -1,16 +1,26 @@
 {
-  "newsletter": {
-    "timeZone": "America/New_York",
-    "mondayRunTime": "08:00",
-    "approvalRecipient": "dannyemmett@kw.com",
-    "handoffRecipient": "assistant@example.com",
-    "approvalBaseUrl": "https://example.netlify.app/.netlify/functions/newsletter-approve",
-    "subscriberDistributionEnabled": false,
-    "automaticAssistantHandoffEnabled": false
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "enableSsl": true,
+    "username": "dannyemmett@gmail.com",
+    "passwordEnv": "GWINNETT_SMTP_PASSWORD",
+    "fromAddress": "dannyemmett@gmail.com",
+    "fromDisplayName": "Danny Emmett"
   },
-  "approval": {
-    "baseUrl": "https://example.netlify.app/.netlify/functions/newsletter-approve",
-    "tokenLifetimeHours": 168,
-    "blobStore": "newsletter-approvals"
+  "mondayDelivery": {
+    "recipient": "dannyemmett@kw.com",
+    "sendTime": "08:00",
+    "prestageTime": "Sunday 18:00",
+    "timeZone": "America/New_York",
+    "taskName": "Gwinnett & Beyond Weekly - Monday 8AM Email to Danny",
+    "note": "The recipient is enforced in code (scripts/lib/common.js) and cannot be changed here."
+  },
+  "cartoon": {
+    "provider": "openai",
+    "model": "gpt-image-2.5-flare",
+    "size": "1536x1024",
+    "quality": "medium",
+    "apiKeyEnv": "OPENAI_API_KEY"
   }
 }

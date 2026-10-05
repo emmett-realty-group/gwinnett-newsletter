@@ -1,1 +1,118 @@
-{"issueDateIso":"2026-09-02","source":"../2026-09-02.json","note":"Canonical issue content is stored in the root dated file."}
+{
+  "issueDate": "Wednesday, September 2, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Gwinnett and Rockdale County market snapshot for July 2026, Cips Coffee Roasters and Give your HVAC filter a back-to-routine check., and a short note from Danny.",
+  "themeIndex": 1,
+  "dannysNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "September is here, and the school-year rhythm is starting to feel a little more settled.",
+      "This week I pulled together a quick local business spotlight, a simple home check that fits the season, and a short look at what the latest county numbers are showing."
+    ]
+  },
+  "market": {
+    "title": "Gwinnett and Rockdale County market snapshot for July 2026",
+    "featuredCounty": "Gwinnett County, Rockdale County",
+    "reportingPeriod": "July 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "In Gwinnett County, Realtor.com reported 3,802 active listings in July 2026, 8.5% higher from one year earlier. The median listing price was $457,000, and median days on market came in at 50 days, 8.7% higher year over year.",
+      "In Rockdale County, Realtor.com reported 514 active listings in July 2026, 11.0% higher from one year earlier. The median listing price was $325,000, and median days on market came in at 69 days, 16.1% higher year over year.",
+      "For homeowners, the useful takeaway is that nearby counties can move at different speeds. Price, preparation, and neighborhood-level competition still matter more than any single countywide average."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data for July 2026. Verified counties available to this run: Gwinnett County, Barrow County, Walton County, Rockdale County, DeKalb County, Jackson County."
+  },
+  "rotatingFeatures": [
+    {
+      "include": true,
+      "key": "local-business",
+      "type": "Local Business Spotlight",
+      "label": "LOCAL BUSINESS SPOTLIGHT",
+      "title": "Cips Coffee Roasters",
+      "cityState": "Suwanee, Georgia",
+      "availability": "",
+      "driveTimeFromGwinnett": "",
+      "paragraphs": [
+        "If your week needs a small local stop, Cips Coffee Roasters in Suwanee is a neighborhood micro-roaster and coffee shop on West Village Drive.",
+        "Their official site lists coffee, organic teas, locally baked pastries, acai smoothie bowls, and mini Belgian waffles. It is an easy kind of spotlight for readers who like finding a local place for a meeting, a treat, or a quieter hour between errands."
+      ],
+      "items": [],
+      "closing": "As always, check the business website before heading over for current hours and ordering details.",
+      "link": "https://cipscoffeeroasters.com/",
+      "source": "Source: Official Cips Coffee Roasters website.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageRights": "",
+      "sourceVerified": true
+    },
+    {
+      "include": true,
+      "key": "homeowner-tip",
+      "type": "Homeowner / Seasonal Home Tip",
+      "label": "HOMEOWNER / SEASONAL HOME TIP",
+      "title": "Give your HVAC filter a back-to-routine check.",
+      "cityState": "",
+      "availability": "",
+      "driveTimeFromGwinnett": "",
+      "paragraphs": [
+        "Early September is a good time for a simple air-flow reset after the heavy-use summer months.",
+        "Check the HVAC filter, make sure return vents are not blocked by furniture or backpacks, and clear leaves or debris from around the outdoor unit. If the filter looks dirty, replace it with the size and rating your system is designed to use."
+      ],
+      "items": [
+        "Check the filter and write the replacement date on the frame.",
+        "Move furniture, shoes, or bags away from return vents.",
+        "Give the outdoor unit a little breathing room by clearing loose leaves and grass clippings.",
+        "If airflow still feels weak, schedule a qualified HVAC pro rather than guessing."
+      ],
+      "closing": "It is not a glamorous chore, but it can help the house feel better as school-year routines settle in.",
+      "link": "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist",
+      "source": "Source: ENERGY STAR heating and cooling maintenance guidance.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageRights": "",
+      "sourceVerified": true
+    }
+  ],
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1788186924/gwinnett-newsletter/cartoons/2026-09-02-hvac-filter.png",
+    "imageAlt": "A family-friendly cartoon of a homeowner changing an HVAC filter while school-year clutter gathers nearby",
+    "caption": "\"The filter was not emotionally prepared for August either.\"",
+    "closing": "Small home chores have a way of finding the busiest week.",
+    "imagePrompt": "A bright, family-friendly 16:9 editorial cartoon for a neighborhood newsletter dated Wednesday, September 2, 2026. In a warm suburban hallway, a cheerful homeowner changes an HVAC air filter while a backpack, lunchbox, and calendar sit nearby to suggest back-to-school routines. Polished newspaper-cartoon style, no logos, no readable text in the artwork."
+  },
+  "referralShare": {
+    "title": "Know someone who may find this helpful?",
+    "copy": "Feel free to forward this along. I am always glad to be a local resource for your friends, family, and neighbors."
+  },
+  "footerImageIndex": 1,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "automation": {
+    "issueIsoDate": "2026-09-02",
+    "featuredCounty": "Rockdale County",
+    "marketRotationIndex": 5,
+    "rotatingFeatureWeek": 1,
+    "rotatingFeatureTypes": [
+      "Local Business Spotlight",
+      "Homeowner / Seasonal Home Tip"
+    ],
+    "preparedForApproval": true,
+    "manuallyRebuiltAt": "2026-08-26T00:00:00.000Z",
+    "rebuildNotes": "Migrated August 26 issue to the master prompt v2 structure with two rotating features.",
+    "quickNoteUpdatedAt": "2026-08-26T00:00:00.000Z",
+    "homeownerTipTitle": "Give the dryer a safer late-summer reset.",
+    "cartoonImageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1788186924/gwinnett-newsletter/cartoons/2026-09-02-hvac-filter.png"
+  },
+  "approval": {
+    "issueIsoDate": "2026-09-02",
+    "approvalStatus": "SENT_FOR_APPROVAL",
+    "approvalTokenCreatedAt": "2026-09-01T13:32:32.693Z",
+    "approvedHtmlSha256": "75784a01d4ebdc75f88858eae58492191237f93b791668530cd6efd8cb3dfc61",
+    "approvedAt": "2026-08-26T19:40:30.313Z"
+  }
+}
