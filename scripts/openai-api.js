@@ -47,7 +47,7 @@ function saveBase64Image(base64Data, outputPath) {
 function requestJson(pathname, payload, timeoutMs = 60000) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify(payload);
-    const url = new URL(pathname, OPENAI_BASE_URL);
+    const url = new URL(`${OPENAI_BASE_URL.replace(/\/$/, "")}/${String(pathname).replace(/^\//, "")}`);
     const request = https.request(
       {
         protocol: url.protocol,
