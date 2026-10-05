@@ -77,7 +77,7 @@
       "source": "Source: Downtown Lawrenceville, BOO Fest event page.",
       "sourceVerified": true,
       "verification": {
-        "checkedAt": "2026-10-05T13:09:56.359Z",
+        "checkedAt": "2026-10-05T13:14:22.625Z",
         "loaded": true,
         "titleFound": true,
         "dateFound": true,
@@ -89,7 +89,15 @@
       "imageAlt": ""
     }
   ],
-  "cartoon": null,
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1791205975/gwinnett-newsletter/cartoons/2026-10-14-drain-outdoor-faucets.png",
+    "imageAlt": "Cartoon of a homeowner coiling a garden hose while a squirrel on the fence supervises with a tiny thermos",
+    "caption": "\"The squirrel says we're cutting it close this year.\"",
+    "closing": "Local wildlife has opinions about our schedules.",
+    "imagePrompt": "A homeowner in a light jacket carefully coils a long green garden hose on a suburban side yard, while a squirrel on the fence watches with a tiny thermos as if it is supervising. Style: bright, warm, family-friendly editorial newspaper cartoon for a neighborhood newsletter, clean linework, friendly expressions, soft colors, uncluttered composition, wide 16:9 landscape framing. Absolutely no words, letters, numbers, captions, signs, logos, or brand names anywhere in the image. Nobody looks embarrassed, unsafe, or ridiculed.",
+    "localFile": "assets/cartoons/2026-10-14-drain-outdoor-faucets.png",
+    "tipId": "drain-outdoor-faucets"
+  },
   "referralShare": {
     "title": "Who in your circle could use this week's hose and spigot idea?",
     "copy": "Some of my favorite conversations start with a forwarded email. If someone you know would enjoy Lawrenceville's BOO Fest, or is quietly thinking about buying or selling, I would be honored to help.",
@@ -111,7 +119,7 @@
     "featuredCounty": "Barrow County",
     "marketRotationIndex": 3,
     "marketCheckedFor": "2026-10-14",
-    "preparedAt": "2026-10-05T13:09:56.359Z",
+    "preparedAt": "2026-10-05T13:14:22.625Z",
     "preparedBy": "prestage"
   }
 }
