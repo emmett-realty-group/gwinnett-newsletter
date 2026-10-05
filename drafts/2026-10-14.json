@@ -1,0 +1,117 @@
+{
+  "issueDate": "Wednesday, October 14, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Put the Garden Hose to Bed Before a Hard Freeze, Lawrenceville's BOO Fest on Friday, October 23, and a quick Gwinnett and Barrow market check.",
+  "themeIndex": 4,
+  "dannysNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "We are in the thick of October now. I picked draining outdoor faucets and putting hoses away for this week's homeowner tip because it is easy to put off.",
+      "If you are looking for something local, Lawrenceville's BOO Fest is on Friday, October 23. Thanks for letting me land in your inbox each week."
+    ],
+    "author": "automated",
+    "composedFrom": {
+      "tipId": "drain-outdoor-faucets",
+      "eventId": "2026-lawrenceville-boo-fest"
+    }
+  },
+  "market": {
+    "title": "Gwinnett and Barrow County: September 2026 at a glance",
+    "featuredCounty": "Gwinnett County, Barrow County",
+    "reportingPeriod": "September 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "Homes in Gwinnett County spent a median of 57 days on the market in September 2026, 0.9% longer than a year earlier. About 27% of active listings had a price reduction.",
+      "Sellers in Barrow County added 198 new listings in September 2026, 16.5% more new listings than a year earlier, while 207 homes were pending.",
+      "The simple version for Gwinnett and Barrow County: buyers have more homes to compare than they did a year ago, so pricing and condition matter more than ever."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data, September 2026 (latest monthly release). Figures are countywide listing data, not closed sales."
+  },
+  "rotatingFeatures": [
+    {
+      "include": true,
+      "key": "homeowner-tip",
+      "type": "Homeowner / Seasonal Home Tip",
+      "label": "HOMEOWNER / SEASONAL HOME TIP",
+      "tipId": "drain-outdoor-faucets",
+      "title": "Put the Garden Hose to Bed Before a Hard Freeze",
+      "topic": "draining outdoor faucets and putting hoses away",
+      "shortTopic": "hose and spigot",
+      "cityState": "",
+      "availability": "",
+      "paragraphs": [
+        "Georgia winters are mild most days, but one hard freeze can still catch a hose that was left connected. UGA Extension's home checklist includes draining outdoor faucets and hoses and storing them for winter."
+      ],
+      "items": [
+        "Disconnect hoses from outdoor spigots.",
+        "Let the hose drain completely before coiling it.",
+        "Store it somewhere it will not sit in standing water.",
+        "If a spigot drips, make a note to have it repaired."
+      ],
+      "closing": "It takes about ten minutes, and your spring self will thank you.",
+      "link": "https://fieldreport.caes.uga.edu/publications/C1082/home-maintenance-checklist/",
+      "source": "Source: UGA Cooperative Extension, Home Maintenance Checklist (C1082).",
+      "sourceVerified": true,
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "include": true,
+      "key": "local-event",
+      "type": "Local Community Event",
+      "label": "LOCAL COMMUNITY EVENT",
+      "eventId": "2026-lawrenceville-boo-fest",
+      "title": "BOO Fest in Downtown Lawrenceville",
+      "shortName": "Lawrenceville's BOO Fest",
+      "cityState": "Lawrenceville, Georgia",
+      "availability": "Friday, October 23, 2026, evening (starts at 6 PM); free",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
+      "paragraphs": [
+        "Downtown Lawrenceville's BOO Fest is a free, family-friendly Halloween evening on the Lawrenceville Lawn, Bicentennial Plaza, and South Clayton Street.",
+        "Expect costumes, a treat trail, food vendors, and a few friendly spooky surprises."
+      ],
+      "items": [],
+      "closing": "The event page lists a 6 PM start; check it before heading out for the final end time.",
+      "link": "https://www.downtownlawrencevillega.com/193/BOO-Fest",
+      "source": "Source: Downtown Lawrenceville, BOO Fest event page.",
+      "sourceVerified": true,
+      "verification": {
+        "checkedAt": "2026-10-05T13:09:56.359Z",
+        "loaded": true,
+        "titleFound": true,
+        "dateFound": true,
+        "humanVerified": true,
+        "verifiedBy": "Claude (Cowork) research session; Downtown Lawrenceville event page",
+        "verifiedAt": "2026-09-28"
+      },
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  ],
+  "cartoon": null,
+  "referralShare": {
+    "title": "Who in your circle could use this week's hose and spigot idea?",
+    "copy": "Some of my favorite conversations start with a forwarded email. If someone you know would enjoy Lawrenceville's BOO Fest, or is quietly thinking about buying or selling, I would be honored to help.",
+    "ps": "If Lawrenceville's BOO Fest sounds like someone's kind of outing, feel free to forward this along."
+  },
+  "footerImageIndex": 4,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "automation": {
+    "pipelineVersion": 2,
+    "issueIsoDate": "2026-10-14",
+    "tipId": "drain-outdoor-faucets",
+    "eventId": "2026-lawrenceville-boo-fest",
+    "featuredCounty": "Barrow County",
+    "marketRotationIndex": 3,
+    "marketCheckedFor": "2026-10-14",
+    "preparedAt": "2026-10-05T13:09:56.359Z",
+    "preparedBy": "prestage"
+  }
+}
