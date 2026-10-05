@@ -276,8 +276,17 @@ async function main() {
     console.log(`NOT SENT: ${message.skip}`);
     return;
   }
-  const automation = C.readJson(path.join(root, "automation.local.json"));
-  const smtp = automation.smtp || {};
+  const automation = C.readJson(path.join(root, "automation.local.json"), {});
+  const smtp = {
+    host: "smtp.gmail.com",
+    port: 587,
+    enableSsl: true,
+    username: process.env.SMTP_USER || "dannyemmett@gmail.com",
+    passwordEnv: "GWINNETT_SMTP_PASSWORD",
+    fromAddress: process.env.SMTP_FROM || process.env.SMTP_USER || "dannyemmett@gmail.com",
+    fromDisplayName: "Danny Emmett",
+    ...(automation.smtp || {})
+  };
   const mime = buildMime({ fromAddress: smtp.fromAddress, fromDisplayName: smtp.fromDisplayName || smtp.fromAddress, ...message });
   if (!new RegExp(`^To: <${RECIPIENT.replace(/[.]/g, "\\.")}>$`, "m").test(mime) || /^(Cc|Bcc):/im.test(mime)) throw new Error("Refusing to send: message headers are not Danny-only.");
 

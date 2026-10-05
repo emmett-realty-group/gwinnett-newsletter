@@ -6,7 +6,7 @@ const C = require("./lib/common");
 const root = C.ROOT;
 const issueIso = process.argv[2] || C.upcomingWednesdayIso();
 const localConfig = path.join(root, "automation.local.json");
-if (process.env.GITHUB_ACTIONS === "true" || !require("fs").existsSync(localConfig)) {
+if (!require("fs").existsSync(localConfig)) {
   require("fs").copyFileSync(path.join(root, "automation.local.example.json"), localConfig);
 }
 

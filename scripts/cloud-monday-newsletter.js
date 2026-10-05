@@ -8,7 +8,7 @@ const issueArg = process.argv.find((value) => /^\d{4}-\d{2}-\d{2}$/.test(value))
 const issueIso = issueArg || C.upcomingWednesdayIso();
 const forceResend = process.argv.includes("--force-resend");
 const localConfig = path.join(root, "automation.local.json");
-if (process.env.GITHUB_ACTIONS === "true" || !require("fs").existsSync(localConfig)) {
+if (!require("fs").existsSync(localConfig)) {
   require("fs").copyFileSync(path.join(root, "automation.local.example.json"), localConfig);
 }
 
