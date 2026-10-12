@@ -54,5 +54,5 @@ jobs:
           git add newsletter-data.json issues/*.json data/newsletter-state.json
           git add drafts/*.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Archive weekly newsletter delivery"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -49,5 +49,5 @@ jobs:
           git add assets/cartoons/*.png
           git add drafts/*.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Prepare weekly newsletter draft"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

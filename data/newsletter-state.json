@@ -1,5 +1,5 @@
 {
-  "nextMarketRotationIndex": 3,
+  "nextMarketRotationIndex": 4,
   "preparedIssues": {
     "2026-08-26": {
       "issueIsoDate": "2026-08-26",
@@ -75,6 +75,15 @@
       "tipId": "gas-cans-garden-tools",
       "eventId": "2026-loganville-autumnfest",
       "preparedAt": "2026-10-05T12:51:55.274Z"
+    },
+    "2026-10-14": {
+      "issueIsoDate": "2026-10-14",
+      "issueDate": "Wednesday, October 14, 2026",
+      "featuredCounty": "Barrow County",
+      "marketRotationIndex": 3,
+      "tipId": "drain-outdoor-faucets",
+      "eventId": "2026-lawrenceville-boo-fest",
+      "preparedAt": "2026-10-12T14:13:21.566Z"
     }
   },
   "deliveryRecords": {
@@ -191,6 +200,18 @@
       "htmlSha256": "0802a7c652506309f26106b4d8b51006d7f3b65d486c8d7ac92438e757160fea",
       "sentAt": "2026-10-05T12:52:01.891Z",
       "forceResend": false
+    },
+    "2026-10-14": {
+      "issueIsoDate": "2026-10-14",
+      "issueDate": "Wednesday, October 14, 2026",
+      "status": "EMAILED_TO_DANNY",
+      "recipient": "dannyemmett@kw.com",
+      "emailSubject": "Gwinnett & Beyond Weekly - Newsletter for Wednesday, October 14, 2026",
+      "attachmentFilename": "Gwinnett-and-Beyond-Weekly-2026-10-14.html",
+      "sentAt": "2026-10-12T14:11:26Z",
+      "forceResend": false,
+      "recoveredFromRun": "https://github.com/emmett-realty-group/gwinnett-newsletter/actions/runs/38261024769",
+      "confirmedGmailMessageId": "1a130743f5e79824"
     }
   },
   "ruleUpdates": [
