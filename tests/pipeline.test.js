@@ -166,15 +166,15 @@ test("verifier catches placeholders, repeats, quiz content, missing cartoon, and
   assert.deepStrictEqual(regenerateAndVerify(clone()), []);
 });
 
-test("sender can only address dannyemmett@kw.com and has no raw mode", () => {
+test("sender can only address danny@ergga.com and has no raw mode", () => {
   const sender = require(path.join(REAL_ROOT, "scripts", "send-newsletter-to-danny.js"));
-  assert.strictEqual(sender.RECIPIENT, "dannyemmett@kw.com");
+  assert.strictEqual(sender.RECIPIENT, "danny@ergga.com");
   for (const bad of [["--raw-recipient", "x@y.com", "--issue-date", "2026-09-30"], ["--to", "stacy@example.com", "--issue-date", "2026-09-30"], ["--cc", "a@b.com", "--issue-date", "2026-09-30"]]) {
     assert.throws(() => sender.parseArgs(bad));
   }
   assert.equal(sender.parseArgs(["--prestage-alert", "--issue-date", "2026-10-07"]).mode, "prestage");
   const mime = sender.buildMime({ fromAddress: "dannyemmett@gmail.com", fromDisplayName: "Danny Emmett", subject: "t", text: "hello" });
-  assert.match(mime, /^To: <dannyemmett@kw\.com>$/m);
+  assert.match(mime, /^To: <danny@ergga\.com>$/m);
   assert.doesNotMatch(mime, /^(Cc|Bcc):/im);
   const wrapper = spawnSync(process.execPath, [path.join(REAL_ROOT, "scripts", "send-monday-approval-node.js"), "--raw-recipient", "x@y.com"], { encoding: "utf8" });
   assert.notStrictEqual(wrapper.status, 0);
@@ -193,10 +193,13 @@ test("sender refuses unverified, tampered, or already-sent issues", () => {
   const reportPath = path.join(reports, "2026-10-07-preparation.json");
   const run = () => spawnSync(process.execPath, [path.join(root, "scripts", "send-newsletter-to-danny.js"), "--issue-date", "2026-10-07", "--dry-run"], { cwd: root, encoding: "utf8" });
 
-  fs.writeFileSync(reportPath, JSON.stringify({ deliveryStatus: "VERIFICATION_FAILED", recipient: "dannyemmett@kw.com" }));
+  fs.writeFileSync(reportPath, JSON.stringify({ deliveryStatus: "VERIFICATION_FAILED", recipient: "danny@ergga.com" }));
   assert.match(run().stderr, /not ready to email/);
 
   fs.writeFileSync(reportPath, JSON.stringify({ deliveryStatus: "READY_FOR_REVIEW", verifierPassed: true, recipient: "dannyemmett@kw.com", attachmentPath: attachment, htmlSha256: "0000" }));
+  assert.match(run().stderr, /only allowed recipient/);
+
+  fs.writeFileSync(reportPath, JSON.stringify({ deliveryStatus: "READY_FOR_REVIEW", verifierPassed: true, recipient: "danny@ergga.com", attachmentPath: attachment, htmlSha256: "0000" }));
   assert.match(run().stderr, /changed after verification/);
 
   const state = JSON.parse(fs.readFileSync(statePath, "utf8"));
@@ -263,4 +266,7 @@ test("Windows task registration keeps Monday at 8 AM and leaves Sunday to Codex"
   assert.match(register, /\[switch\]\$DryRun/);
   assert.doesNotMatch(sunday, /send-newsletter-to-danny|Send-EmergencyNotice|SmtpClient/i);
   assert.match(sunday, /prestage-newsletter\.js/);
+  const monday = fs.readFileSync(path.join(REAL_ROOT, "scripts", "run-monday-newsletter.ps1"), "utf8");
+  assert.match(monday, /MailMessage\(\[string\]\$config\.smtp\.fromAddress, "danny@ergga\.com"/);
+  assert.doesNotMatch(monday, /dannyemmett@kw\.com/);
 });

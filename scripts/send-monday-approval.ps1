@@ -5,7 +5,7 @@ param(
   [string]$IssueDate
 )
 # Compatibility wrapper (legacy name). The active workflow has no approval step.
-# It forwards to scripts/run-monday-newsletter.ps1, which emails ONLY dannyemmett@kw.com.
+# It forwards to scripts/run-monday-newsletter.ps1, which emails ONLY danny@ergga.com.
 if ($SkipMarketFetch) { Write-Warning "-SkipMarketFetch is no longer supported; the Market Snapshot always uses live data." }
 $forward = @{}
 if ($ForceResend) { $forward.ForceResend = $true }

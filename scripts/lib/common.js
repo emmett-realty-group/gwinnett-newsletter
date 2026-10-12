@@ -9,7 +9,7 @@ const MASTER_SUBJECT_LINE = "A Short Weekly Update";
 const NEWSLETTER_TITLE = "Gwinnett & Beyond Weekly";
 const NEWSLETTER_SUBTITLE = "A short weekly update for homeowners, friends, and neighbors across Gwinnett and the surrounding counties.";
 // The ONLY address this project may ever email. Do not make this configurable.
-const APPROVED_RECIPIENT = "dannyemmett@kw.com";
+const APPROVED_RECIPIENT = "danny@ergga.com";
 const REQUIRED_URLS = [
   "tel:+14047718629",
   "sms:+14047718629",

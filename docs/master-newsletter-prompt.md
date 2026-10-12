@@ -90,7 +90,7 @@ The final Command-ready HTML should be generated, verified, and emailed only to 
 
 ### Default HTML Handoff Recipient
 
-[dannyemmett@kw.com](mailto:dannyemmett@kw.com)
+[danny@ergga.com](mailto:danny@ergga.com)
 
 ### Current Gmail Sending Account
 
@@ -877,7 +877,7 @@ Hard QA gate for the generated HTML and issue data.
 
 ### scripts/run-monday-newsletter.ps1 and scripts/send-newsletter-to-danny.js
 
-Local Windows orchestration and the cloud Node orchestration both call the same only email sender. The sender can address only dannyemmett@kw.com.
+Local Windows orchestration and the cloud Node orchestration both call the same only email sender. The sender can address only danny@ergga.com.
 
 ### content/homeowner-tips.json and content/event-queue.json
 

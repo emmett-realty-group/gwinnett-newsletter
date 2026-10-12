@@ -3,7 +3,7 @@ param(
   [switch]$DryRun,
   [string]$IssueDate
 )
-# Monday 8:00 AM Eastern: load Sunday's draft -> recheck -> verify -> email ONLY dannyemmett@kw.com.
+# Monday 8:00 AM Eastern: load Sunday's draft -> recheck -> verify -> email ONLY danny@ergga.com.
 # Never emails Stacy, subscribers, or contacts. On any failure Danny gets a short notice with no attachment.
 # -DryRun prepares and verifies into drafts/ without publishing anything or sending any email.
 
@@ -44,7 +44,7 @@ function Send-EmergencyNotice([string]$subject, [string]$body) {
     $client = New-Object System.Net.Mail.SmtpClient([string]$config.smtp.host, [int]$config.smtp.port)
     $client.EnableSsl = $true
     $client.Credentials = New-Object System.Net.NetworkCredential([string]$config.smtp.username, ($password -replace "\s", ""))
-    $message = New-Object System.Net.Mail.MailMessage([string]$config.smtp.fromAddress, "dannyemmett@kw.com", $subject, $body)
+    $message = New-Object System.Net.Mail.MailMessage([string]$config.smtp.fromAddress, "danny@ergga.com", $subject, $body)
     $client.Send($message)
     $message.Dispose(); $client.Dispose()
   } catch {

@@ -1,5 +1,5 @@
 "use strict";
-// The ONLY email sender in this project. It can send to exactly one address: dannyemmett@kw.com.
+// The ONLY email sender in this project. It can send to exactly one address: danny@ergga.com.
 // There is no option to change the recipient, add CC/BCC, or send raw messages.
 //
 //   node scripts/send-newsletter-to-danny.js --issue-date YYYY-MM-DD [--force-resend] [--dry-run]

@@ -65,7 +65,7 @@ The generator applies that rule automatically and overwrites any different `subj
 
 ## Weekly newsletter automation (Danny-only)
 
-**Generate -> Verify -> Email Danny.** Nothing is ever sent to Stacy, subscribers, or contacts. The only address the code can email is `dannyemmett@kw.com` (enforced in `scripts/lib/common.js` and `scripts/send-newsletter-to-danny.js`).
+**Generate -> Verify -> Email Danny.** Nothing is ever sent to Stacy, subscribers, or contacts. The only address the code can email is `danny@ergga.com` (enforced in `scripts/lib/common.js` and `scripts/send-newsletter-to-danny.js`).
 
 ### Schedule
 
