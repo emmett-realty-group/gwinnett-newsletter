@@ -1,0 +1,123 @@
+{
+  "issueDate": "Wednesday, October 21, 2026",
+  "subjectLine": "A Short Weekly Update",
+  "previewText": "Check the Fireplace Before the First Fire of the Season, The Snellville Fall Festival this weekend, and a quick Gwinnett market check.",
+  "themeIndex": 0,
+  "dannysNote": {
+    "greeting": "Hey friends,",
+    "paragraphs": [
+      "I hope your week is off to a good start. This week's homeowner idea is a fireplace and chimney check before the first fire. It is quick, and it is easy to forget.",
+      "And if you want a reason to get out and about, the Snellville Fall Festival is coming up this weekend. As always, I am glad you are here."
+    ],
+    "author": "automated",
+    "composedFrom": {
+      "tipId": "fireplace-damper-check",
+      "eventId": "2026-snellville-fall-festival"
+    }
+  },
+  "market": {
+    "title": "Gwinnett County: September 2026 at a glance",
+    "featuredCounty": "Gwinnett County",
+    "reportingPeriod": "September 2026",
+    "source": "Realtor.com Economic Research county inventory data",
+    "paragraphs": [
+      "Sellers in Gwinnett County added 1,126 new listings in September 2026, 5.6% more new listings than a year earlier, while 969 homes were pending.",
+      "The simple version for Gwinnett: buyers have more homes to compare than they did a year ago, so pricing and condition matter more than ever."
+    ],
+    "verificationNote": "Source: Realtor.com Economic Research county inventory data, September 2026 (latest monthly release). Figures are countywide listing data, not closed sales."
+  },
+  "rotatingFeatures": [
+    {
+      "include": true,
+      "key": "homeowner-tip",
+      "type": "Homeowner / Seasonal Home Tip",
+      "label": "HOMEOWNER / SEASONAL HOME TIP",
+      "tipId": "fireplace-damper-check",
+      "title": "Check the Fireplace Before the First Fire of the Season",
+      "topic": "a fireplace and chimney check before the first fire",
+      "shortTopic": "fireplace",
+      "cityState": "",
+      "availability": "",
+      "paragraphs": [
+        "Before the first cozy fire, open the damper, look up with a flashlight, and make sure nothing obvious is blocking the flue. The U.S. Fire Administration recommends having heating equipment and chimneys cleaned and inspected by a professional each year."
+      ],
+      "items": [
+        "Confirm the damper opens and closes fully.",
+        "Clear the hearth area; keep anything that can burn at least 3 feet away.",
+        "Schedule the yearly chimney cleaning and inspection if it is due."
+      ],
+      "closing": "A quick look now beats a smoky living room on the first chilly Friday night.",
+      "link": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/",
+      "source": "Source: U.S. Fire Administration, Heating Fire Safety.",
+      "sourceVerified": true,
+      "imageUrl": "",
+      "imageAlt": ""
+    },
+    {
+      "include": true,
+      "key": "local-event",
+      "type": "Local Community Event",
+      "label": "LOCAL COMMUNITY EVENT",
+      "eventId": "2026-snellville-fall-festival",
+      "title": "17th Annual Snellville Fall Festival",
+      "shortName": "the Snellville Fall Festival",
+      "cityState": "Snellville, Georgia",
+      "availability": "Saturday, October 24, 2026, 12-6 PM; free to attend",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "paragraphs": [
+        "Snellville's fall festival is free to attend, with craft and food vendors, live music, pumpkin decorating, and costume contests for all ages, including dogs.",
+        "A Kids Zone armband covers the rock wall, mini golf, trackless train, and inflatables."
+      ],
+      "items": [],
+      "closing": "2342 Oak Road, Snellville. The city lists the Kids Zone armband at $15 and pumpkin decorating at $2.",
+      "link": "https://experiencesnellville.com/otherevents/fall-festival/",
+      "source": "Source: Experience Snellville, Fall Festival event page.",
+      "sourceVerified": true,
+      "verification": {
+        "checkedAt": "2026-10-19T17:58:45.508Z",
+        "loaded": true,
+        "titleFound": true,
+        "dateFound": true,
+        "humanVerified": true,
+        "verifiedBy": "Claude (Cowork) research session; City of Snellville event page",
+        "verifiedAt": "2026-09-28"
+      },
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  ],
+  "cartoon": {
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1792367664/gwinnett-newsletter/cartoons/2026-10-21-fireplace-damper-check.png",
+    "imageAlt": "Cartoon of a homeowner shining a flashlight up a chimney where a surprised owl peeks down",
+    "caption": "\"Good news: the chimney is not empty. Bad news: it's rented.\"",
+    "closing": "Always check for tenants before lighting the first fire.",
+    "imagePrompt": "A family stands in a living room holding marshmallow roasting sticks and blankets, watching a homeowner kneel at the fireplace shining a flashlight up the chimney, where a surprised owl peeks back down. Style: bright, warm, family-friendly editorial newspaper cartoon for a neighborhood newsletter, clean linework, friendly expressions, soft colors, uncluttered composition, wide 16:9 landscape framing. Absolutely no words, letters, numbers, captions, signs, logos, or brand names anywhere in the image. Nobody looks embarrassed, unsafe, or ridiculed.",
+    "localFile": "assets/cartoons/2026-10-21-fireplace-damper-check.png",
+    "tipId": "fireplace-damper-check"
+  },
+  "referralShare": {
+    "title": "Know someone who would like the fireplace tip?",
+    "copy": "Feel free to pass this along to anyone who might enjoy the Snellville Fall Festival or could use the fireplace tip. And if someone you know has a real estate question, I am always happy to help.",
+    "ps": "Forwarding this is an easy way to share the Snellville Fall Festival with a friend who would enjoy it."
+  },
+  "footerImageIndex": 0,
+  "footerImages": [
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347671/gwinnett-newsletter/footers/around-gwinnett-3.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347672/gwinnett-newsletter/footers/around-gwinnett-4.jpg",
+    "https://res.cloudinary.com/agkgjldk/image/upload/v1782347673/gwinnett-newsletter/footers/around-gwinnett-5.jpg"
+  ],
+  "automation": {
+    "pipelineVersion": 2,
+    "issueIsoDate": "2026-10-21",
+    "tipId": "fireplace-damper-check",
+    "eventId": "2026-snellville-fall-festival",
+    "featuredCounty": "Gwinnett County",
+    "marketRotationIndex": 4,
+    "marketCheckedFor": "2026-10-21",
+    "preparedAt": "2026-10-19T17:58:45.509Z",
+    "preparedBy": "monday"
+  }
+}

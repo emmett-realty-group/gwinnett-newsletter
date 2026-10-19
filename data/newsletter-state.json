@@ -1,5 +1,5 @@
 {
-  "nextMarketRotationIndex": 4,
+  "nextMarketRotationIndex": 5,
   "preparedIssues": {
     "2026-08-26": {
       "issueIsoDate": "2026-08-26",
@@ -84,6 +84,15 @@
       "tipId": "drain-outdoor-faucets",
       "eventId": "2026-lawrenceville-boo-fest",
       "preparedAt": "2026-10-12T14:13:21.566Z"
+    },
+    "2026-10-21": {
+      "issueIsoDate": "2026-10-21",
+      "issueDate": "Wednesday, October 21, 2026",
+      "featuredCounty": "Gwinnett County",
+      "marketRotationIndex": 4,
+      "tipId": "fireplace-damper-check",
+      "eventId": "2026-snellville-fall-festival",
+      "preparedAt": "2026-10-19T17:58:45.609Z"
     }
   },
   "deliveryRecords": {
@@ -212,6 +221,17 @@
       "forceResend": false,
       "recoveredFromRun": "https://github.com/emmett-realty-group/gwinnett-newsletter/actions/runs/38261024769",
       "confirmedGmailMessageId": "1a130743f5e79824"
+    },
+    "2026-10-21": {
+      "issueIsoDate": "2026-10-21",
+      "issueDate": "Wednesday, October 21, 2026",
+      "status": "EMAILED_TO_DANNY",
+      "recipient": "danny@ergga.com",
+      "emailSubject": "Gwinnett & Beyond Weekly - Newsletter for Wednesday, October 21, 2026",
+      "attachmentFilename": "Gwinnett-and-Beyond-Weekly-2026-10-21.html",
+      "htmlSha256": "12725a9dc91eb7692559289a6f8bebf09a4e49dc08e71785003bfde6712cb52e",
+      "sentAt": "2026-10-19T17:58:48.030Z",
+      "forceResend": false
     }
   },
   "ruleUpdates": [
