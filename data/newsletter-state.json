@@ -1,5 +1,5 @@
 {
-  "nextMarketRotationIndex": 5,
+  "nextMarketRotationIndex": 6,
   "preparedIssues": {
     "2026-08-26": {
       "issueIsoDate": "2026-08-26",
@@ -93,6 +93,15 @@
       "tipId": "fireplace-damper-check",
       "eventId": "2026-snellville-fall-festival",
       "preparedAt": "2026-10-19T17:58:45.609Z"
+    },
+    "2026-10-28": {
+      "issueIsoDate": "2026-10-28",
+      "issueDate": "Wednesday, October 28, 2026",
+      "featuredCounty": "Rockdale County",
+      "marketRotationIndex": 5,
+      "tipId": "dust-ceiling-fans",
+      "eventId": "2026-christmas-canteen-lawrenceville",
+      "preparedAt": "2026-10-26T17:53:46.734Z"
     }
   },
   "deliveryRecords": {
@@ -231,6 +240,17 @@
       "attachmentFilename": "Gwinnett-and-Beyond-Weekly-2026-10-21.html",
       "htmlSha256": "12725a9dc91eb7692559289a6f8bebf09a4e49dc08e71785003bfde6712cb52e",
       "sentAt": "2026-10-19T17:58:48.030Z",
+      "forceResend": false
+    },
+    "2026-10-28": {
+      "issueIsoDate": "2026-10-28",
+      "issueDate": "Wednesday, October 28, 2026",
+      "status": "EMAILED_TO_DANNY",
+      "recipient": "danny@ergga.com",
+      "emailSubject": "Gwinnett & Beyond Weekly - Newsletter for Wednesday, October 28, 2026",
+      "attachmentFilename": "Gwinnett-and-Beyond-Weekly-2026-10-28.html",
+      "htmlSha256": "e1580619142e1fdaa6b03320c42980deaf0a8bcdc6a2d8fe66f8238fa985306a",
+      "sentAt": "2026-10-26T17:53:48.373Z",
       "forceResend": false
     }
   },

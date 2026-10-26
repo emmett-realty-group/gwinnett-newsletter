@@ -1,28 +1,29 @@
 {
-  "issueDate": "Wednesday, October 21, 2026",
+  "issueDate": "Wednesday, October 28, 2026",
   "subjectLine": "A Short Weekly Update",
-  "previewText": "Check the Fireplace Before the First Fire of the Season, The Snellville Fall Festival this weekend, and a quick Gwinnett market check.",
-  "themeIndex": 0,
+  "previewText": "Dust the Ceiling Fans Before Switching Seasons, Christmas Canteen on Thursday, November 19, and a quick Gwinnett and Rockdale market check.",
+  "themeIndex": 1,
   "dannysNote": {
     "greeting": "Hey friends,",
     "paragraphs": [
-      "I hope your week is off to a good start. This week's homeowner idea is a fireplace and chimney check before the first fire. It is quick, and it is easy to forget.",
-      "And if you want a reason to get out and about, the Snellville Fall Festival is coming up this weekend. As always, I am glad you are here."
+      "October is wrapping up, and November is right around the corner. This week's homeowner tip is dusting the ceiling fans, and it only takes a few minutes.",
+      "If you are looking for something local, Christmas Canteen is on Thursday, November 19. I hope something here makes your week a little easier."
     ],
     "author": "automated",
     "composedFrom": {
-      "tipId": "fireplace-damper-check",
-      "eventId": "2026-snellville-fall-festival"
+      "tipId": "dust-ceiling-fans",
+      "eventId": "2026-christmas-canteen-lawrenceville"
     }
   },
   "market": {
-    "title": "Gwinnett County: September 2026 at a glance",
-    "featuredCounty": "Gwinnett County",
+    "title": "Gwinnett and Rockdale County: September 2026 at a glance",
+    "featuredCounty": "Gwinnett County, Rockdale County",
     "reportingPeriod": "September 2026",
     "source": "Realtor.com Economic Research county inventory data",
     "paragraphs": [
-      "Sellers in Gwinnett County added 1,126 new listings in September 2026, 5.6% more new listings than a year earlier, while 969 homes were pending.",
-      "The simple version for Gwinnett: buyers have more homes to compare than they did a year ago, so pricing and condition matter more than ever."
+      "The median listing price in Gwinnett County was $449,945 in September 2026, about flat from a year earlier, or about $183 per square foot.",
+      "Counting pending sales, Rockdale County had 674 total listings in September 2026, with a pending ratio of about 0.33. The median listed home was about 2,001 square feet.",
+      "The simple version for Gwinnett and Rockdale County: buyers have more homes to compare than they did a year ago, so pricing and condition matter more than ever."
     ],
     "verificationNote": "Source: Realtor.com Economic Research county inventory data, September 2026 (latest monthly release). Figures are countywide listing data, not closed sales."
   },
@@ -32,23 +33,23 @@
       "key": "homeowner-tip",
       "type": "Homeowner / Seasonal Home Tip",
       "label": "HOMEOWNER / SEASONAL HOME TIP",
-      "tipId": "fireplace-damper-check",
-      "title": "Check the Fireplace Before the First Fire of the Season",
-      "topic": "a fireplace and chimney check before the first fire",
-      "shortTopic": "fireplace",
+      "tipId": "dust-ceiling-fans",
+      "title": "Dust the Ceiling Fans Before Switching Seasons",
+      "topic": "dusting the ceiling fans",
+      "shortTopic": "ceiling fan",
       "cityState": "",
       "availability": "",
       "paragraphs": [
-        "Before the first cozy fire, open the damper, look up with a flashlight, and make sure nothing obvious is blocking the flue. The U.S. Fire Administration recommends having heating equipment and chimneys cleaned and inspected by a professional each year."
+        "Ceiling fan blades collect dust quietly, then send it flying the first time you turn them on high. Dusting ceiling fan blades is on UGA Extension's seasonal home checklist."
       ],
       "items": [
-        "Confirm the damper opens and closes fully.",
-        "Clear the hearth area; keep anything that can burn at least 3 feet away.",
-        "Schedule the yearly chimney cleaning and inspection if it is due."
+        "Turn the fan off and let it stop completely.",
+        "Slide an old pillowcase over each blade and wipe as you pull it back, so the dust stays inside.",
+        "Use a sturdy step stool, not a chair."
       ],
-      "closing": "A quick look now beats a smoky living room on the first chilly Friday night.",
-      "link": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/",
-      "source": "Source: U.S. Fire Administration, Heating Fire Safety.",
+      "closing": "The pillowcase trick keeps the dust off the couch and off you.",
+      "link": "https://fieldreport.caes.uga.edu/publications/C1082/home-maintenance-checklist/",
+      "source": "Source: UGA Cooperative Extension, Home Maintenance Checklist (C1082).",
       "sourceVerified": true,
       "imageUrl": "",
       "imageAlt": ""
@@ -58,29 +59,29 @@
       "key": "local-event",
       "type": "Local Community Event",
       "label": "LOCAL COMMUNITY EVENT",
-      "eventId": "2026-snellville-fall-festival",
-      "title": "17th Annual Snellville Fall Festival",
-      "shortName": "the Snellville Fall Festival",
-      "cityState": "Snellville, Georgia",
-      "availability": "Saturday, October 24, 2026, 12-6 PM; free to attend",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-24",
+      "eventId": "2026-christmas-canteen-lawrenceville",
+      "title": "Christmas Canteen 2026",
+      "shortName": "Christmas Canteen",
+      "cityState": "Lawrenceville, Georgia",
+      "availability": "November 19 through December 23, 2026; performance dates and times vary",
+      "startDate": "2026-11-19",
+      "endDate": "2026-12-23",
       "paragraphs": [
-        "Snellville's fall festival is free to attend, with craft and food vendors, live music, pumpkin decorating, and costume contests for all ages, including dogs.",
-        "A Kids Zone armband covers the rock wall, mini golf, trackless train, and inflatables."
+        "Aurora Theatre's Christmas Canteen returns to the Lawrenceville Arts Center with holiday music, dance, and family-friendly comedy.",
+        "Performance dates and ticket availability vary, so check the official event page before choosing a show."
       ],
       "items": [],
-      "closing": "2342 Oak Road, Snellville. The city lists the Kids Zone armband at $15 and pumpkin decorating at $2.",
-      "link": "https://experiencesnellville.com/otherevents/fall-festival/",
-      "source": "Source: Experience Snellville, Fall Festival event page.",
+      "closing": "Lawrenceville Arts Center, 128 East Pike Street, Lawrenceville.",
+      "link": "https://www.lvilleartscenter.com/eventer/canteen26/",
+      "source": "Source: Lawrenceville Arts Center, Christmas Canteen 2026 event page.",
       "sourceVerified": true,
       "verification": {
-        "checkedAt": "2026-10-19T17:58:45.508Z",
+        "checkedAt": "2026-10-26T17:53:46.654Z",
         "loaded": true,
         "titleFound": true,
         "dateFound": true,
         "humanVerified": true,
-        "verifiedBy": "Claude (Cowork) research session; City of Snellville event page",
+        "verifiedBy": "OpenAI Codex research; official Lawrenceville Arts Center event page",
         "verifiedAt": "2026-09-28"
       },
       "imageUrl": "",
@@ -88,20 +89,20 @@
     }
   ],
   "cartoon": {
-    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1792367664/gwinnett-newsletter/cartoons/2026-10-21-fireplace-damper-check.png",
-    "imageAlt": "Cartoon of a homeowner shining a flashlight up a chimney where a surprised owl peeks down",
-    "caption": "\"Good news: the chimney is not empty. Bad news: it's rented.\"",
-    "closing": "Always check for tenants before lighting the first fire.",
-    "imagePrompt": "A family stands in a living room holding marshmallow roasting sticks and blankets, watching a homeowner kneel at the fireplace shining a flashlight up the chimney, where a surprised owl peeks back down. Style: bright, warm, family-friendly editorial newspaper cartoon for a neighborhood newsletter, clean linework, friendly expressions, soft colors, uncluttered composition, wide 16:9 landscape framing. Absolutely no words, letters, numbers, captions, signs, logos, or brand names anywhere in the image. Nobody looks embarrassed, unsafe, or ridiculed.",
-    "localFile": "assets/cartoons/2026-10-21-fireplace-damper-check.png",
-    "tipId": "fireplace-damper-check"
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1792972085/gwinnett-newsletter/cartoons/2026-10-28-dust-ceiling-fans.png",
+    "imageAlt": "Cartoon of a homeowner cleaning a ceiling fan with a pillowcase while the dog waits below wearing a towel",
+    "caption": "\"The dog has read about last year's fan cleaning.\"",
+    "closing": "Some lessons only need to be learned once.",
+    "imagePrompt": "A homeowner on a sturdy step stool slides a pillowcase over a ceiling fan blade, while below, the dog sits on the couch wearing a tiny towel on its head like it is expecting a dust storm. Style: bright, warm, family-friendly editorial newspaper cartoon for a neighborhood newsletter, clean linework, friendly expressions, soft colors, uncluttered composition, wide 16:9 landscape framing. Absolutely no words, letters, numbers, captions, signs, logos, or brand names anywhere in the image. Nobody looks embarrassed, unsafe, or ridiculed.",
+    "localFile": "assets/cartoons/2026-10-28-dust-ceiling-fans.png",
+    "tipId": "dust-ceiling-fans"
   },
   "referralShare": {
-    "title": "Know someone who would like the fireplace tip?",
-    "copy": "Feel free to pass this along to anyone who might enjoy the Snellville Fall Festival or could use the fireplace tip. And if someone you know has a real estate question, I am always happy to help.",
-    "ps": "Forwarding this is an easy way to share the Snellville Fall Festival with a friend who would enjoy it."
+    "title": "Know a neighbor who would enjoy Christmas Canteen?",
+    "copy": "If a friend or neighbor is thinking about a move, or just has a real estate question, I would be glad to help. Forwarding this issue is an easy way to share the Christmas Canteen details, too.",
+    "ps": "If Christmas Canteen sounds like someone's kind of outing, feel free to forward this along."
   },
-  "footerImageIndex": 0,
+  "footerImageIndex": 1,
   "footerImages": [
     "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
     "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
@@ -111,13 +112,13 @@
   ],
   "automation": {
     "pipelineVersion": 2,
-    "issueIsoDate": "2026-10-21",
-    "tipId": "fireplace-damper-check",
-    "eventId": "2026-snellville-fall-festival",
-    "featuredCounty": "Gwinnett County",
-    "marketRotationIndex": 4,
-    "marketCheckedFor": "2026-10-21",
-    "preparedAt": "2026-10-19T17:58:45.509Z",
+    "issueIsoDate": "2026-10-28",
+    "tipId": "dust-ceiling-fans",
+    "eventId": "2026-christmas-canteen-lawrenceville",
+    "featuredCounty": "Rockdale County",
+    "marketRotationIndex": 5,
+    "marketCheckedFor": "2026-10-28",
+    "preparedAt": "2026-10-26T17:53:46.654Z",
     "preparedBy": "monday"
   }
 }
