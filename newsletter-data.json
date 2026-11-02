@@ -1,29 +1,29 @@
 {
-  "issueDate": "Wednesday, October 28, 2026",
+  "issueDate": "Wednesday, November 4, 2026",
   "subjectLine": "A Short Weekly Update",
-  "previewText": "Dust the Ceiling Fans Before Switching Seasons, Christmas Canteen on Thursday, November 19, and a quick Gwinnett and Rockdale market check.",
-  "themeIndex": 1,
+  "previewText": "Check the Cords Before the Lights Go Up, Snellville's Christmas Lighted Parade on Saturday, November 28, and a quick Gwinnett and DeKalb market check.",
+  "themeIndex": 2,
   "dannysNote": {
     "greeting": "Hey friends,",
     "paragraphs": [
-      "October is wrapping up, and November is right around the corner. This week's homeowner tip is dusting the ceiling fans, and it only takes a few minutes.",
-      "If you are looking for something local, Christmas Canteen is on Thursday, November 19. I hope something here makes your week a little easier."
+      "A new month is underway, and November has a way of filling up fast. I picked checking cords before decorating for this week's homeowner tip because it is easy to put off.",
+      "If you are looking for something local, Snellville's Christmas Lighted Parade is on Saturday, November 28. Thanks for letting me land in your inbox each week."
     ],
     "author": "automated",
     "composedFrom": {
-      "tipId": "dust-ceiling-fans",
-      "eventId": "2026-christmas-canteen-lawrenceville"
+      "tipId": "holiday-cord-check",
+      "eventId": "2026-snellville-lighted-christmas-parade"
     }
   },
   "market": {
-    "title": "Gwinnett and Rockdale County: September 2026 at a glance",
-    "featuredCounty": "Gwinnett County, Rockdale County",
+    "title": "Gwinnett and DeKalb County: September 2026 at a glance",
+    "featuredCounty": "Gwinnett County, DeKalb County",
     "reportingPeriod": "September 2026",
     "source": "Realtor.com Economic Research county inventory data",
     "paragraphs": [
-      "The median listing price in Gwinnett County was $449,945 in September 2026, about flat from a year earlier, or about $183 per square foot.",
-      "Counting pending sales, Rockdale County had 674 total listings in September 2026, with a pending ratio of about 0.33. The median listed home was about 2,001 square feet.",
-      "The simple version for Gwinnett and Rockdale County: buyers have more homes to compare than they did a year ago, so pricing and condition matter more than ever."
+      "Counting pending sales, Gwinnett County had 4,831 total listings in September 2026, with a pending ratio of about 0.25. The median listed home was about 2,562 square feet.",
+      "Homes in DeKalb County spent a median of 59 days on the market in September 2026, 10.0% shorter than a year earlier. About 23% of active listings had a price reduction.",
+      "The simple version for Gwinnett and DeKalb County: buyers have more homes to compare than they did a year ago, so pricing and condition matter more than ever."
     ],
     "verificationNote": "Source: Realtor.com Economic Research county inventory data, September 2026 (latest monthly release). Figures are countywide listing data, not closed sales."
   },
@@ -33,21 +33,21 @@
       "key": "homeowner-tip",
       "type": "Homeowner / Seasonal Home Tip",
       "label": "HOMEOWNER / SEASONAL HOME TIP",
-      "tipId": "dust-ceiling-fans",
-      "title": "Dust the Ceiling Fans Before Switching Seasons",
-      "topic": "dusting the ceiling fans",
-      "shortTopic": "ceiling fan",
+      "tipId": "holiday-cord-check",
+      "title": "Check the Cords Before the Lights Go Up",
+      "topic": "checking cords before decorating",
+      "shortTopic": "cord check",
       "cityState": "",
       "availability": "",
       "paragraphs": [
-        "Ceiling fan blades collect dust quietly, then send it flying the first time you turn them on high. Dusting ceiling fan blades is on UGA Extension's seasonal home checklist."
+        "Before the decorations come out of storage, take a few minutes with the extension cords and light strands. UGA Extension's home checklist includes checking for damaged cords and wires and inspecting outlets for safety."
       ],
       "items": [
-        "Turn the fan off and let it stop completely.",
-        "Slide an old pillowcase over each blade and wipe as you pull it back, so the dust stays inside.",
-        "Use a sturdy step stool, not a chair."
+        "Look for cracked insulation, exposed wire, and bent or loose plugs.",
+        "Retire any cord that feels warm during normal use.",
+        "Avoid plugging too much into a single outlet."
       ],
-      "closing": "The pillowcase trick keeps the dust off the couch and off you.",
+      "closing": "A damaged strand is cheaper to replace than to worry about.",
       "link": "https://fieldreport.caes.uga.edu/publications/C1082/home-maintenance-checklist/",
       "source": "Source: UGA Cooperative Extension, Home Maintenance Checklist (C1082).",
       "sourceVerified": true,
@@ -59,29 +59,29 @@
       "key": "local-event",
       "type": "Local Community Event",
       "label": "LOCAL COMMUNITY EVENT",
-      "eventId": "2026-christmas-canteen-lawrenceville",
-      "title": "Christmas Canteen 2026",
-      "shortName": "Christmas Canteen",
-      "cityState": "Lawrenceville, Georgia",
-      "availability": "November 19 through December 23, 2026; performance dates and times vary",
-      "startDate": "2026-11-19",
-      "endDate": "2026-12-23",
+      "eventId": "2026-snellville-lighted-christmas-parade",
+      "title": "Snellville's 45th Annual Christmas Lighted Parade",
+      "shortName": "Snellville's Christmas Lighted Parade",
+      "cityState": "Snellville, Georgia",
+      "availability": "Saturday, November 28, 2026, 5-8 PM",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-28",
       "paragraphs": [
-        "Aurora Theatre's Christmas Canteen returns to the Lawrenceville Arts Center with holiday music, dance, and family-friendly comedy.",
-        "Performance dates and ticket availability vary, so check the official event page before choosing a show."
+        "Snellville's annual holiday celebration begins with a lighted parade and continues at Towne Green with family activities, treats, and free visits with Santa.",
+        "The organizer lists the parade start at 5:30 PM, with the overall event running from 5 to 8 PM."
       ],
       "items": [],
-      "closing": "Lawrenceville Arts Center, 128 East Pike Street, Lawrenceville.",
-      "link": "https://www.lvilleartscenter.com/eventer/canteen26/",
-      "source": "Source: Lawrenceville Arts Center, Christmas Canteen 2026 event page.",
+      "closing": "Towne Green, 2342 Oak Road, Snellville. Check the official page for parking and activity-ticket details.",
+      "link": "https://experiencesnellville.com/otherevents/lighted-christmas-parade/",
+      "source": "Source: Experience Snellville, official Lighted Christmas Parade event page.",
       "sourceVerified": true,
       "verification": {
-        "checkedAt": "2026-10-26T17:53:46.654Z",
+        "checkedAt": "2026-11-02T22:16:37.400Z",
         "loaded": true,
         "titleFound": true,
         "dateFound": true,
-        "humanVerified": true,
-        "verifiedBy": "OpenAI Codex research; official Lawrenceville Arts Center event page",
+        "humanVerified": false,
+        "verifiedBy": "OpenAI Codex research; official Experience Snellville event page",
         "verifiedAt": "2026-09-28"
       },
       "imageUrl": "",
@@ -89,20 +89,20 @@
     }
   ],
   "cartoon": {
-    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1792972085/gwinnett-newsletter/cartoons/2026-10-28-dust-ceiling-fans.png",
-    "imageAlt": "Cartoon of a homeowner cleaning a ceiling fan with a pillowcase while the dog waits below wearing a towel",
-    "caption": "\"The dog has read about last year's fan cleaning.\"",
-    "closing": "Some lessons only need to be learned once.",
-    "imagePrompt": "A homeowner on a sturdy step stool slides a pillowcase over a ceiling fan blade, while below, the dog sits on the couch wearing a tiny towel on its head like it is expecting a dust storm. Style: bright, warm, family-friendly editorial newspaper cartoon for a neighborhood newsletter, clean linework, friendly expressions, soft colors, uncluttered composition, wide 16:9 landscape framing. Absolutely no words, letters, numbers, captions, signs, logos, or brand names anywhere in the image. Nobody looks embarrassed, unsafe, or ridiculed.",
-    "localFile": "assets/cartoons/2026-10-28-dust-ceiling-fans.png",
-    "tipId": "dust-ceiling-fans"
+    "imageUrl": "https://res.cloudinary.com/agkgjldk/image/upload/v1793585452/gwinnett-newsletter/cartoons/2026-11-04-holiday-cord-check.png",
+    "imageAlt": "Cartoon of a homeowner surrounded by tangled holiday lights while a cat sits wrapped in one strand",
+    "caption": "\"Inspection is going well. Untangling is on day three.\"",
+    "closing": "Every family has a holiday lights tradition. This is ours.",
+    "imagePrompt": "In a living room, a homeowner sits in the middle of an enormous tangled ball of holiday light strands and extension cords, while the family cat is fully wrapped in one strand, looking unbothered. Style: bright, warm, family-friendly editorial newspaper cartoon for a neighborhood newsletter, clean linework, friendly expressions, soft colors, uncluttered composition, wide 16:9 landscape framing. Absolutely no words, letters, numbers, captions, signs, logos, or brand names anywhere in the image. Nobody looks embarrassed, unsafe, or ridiculed.",
+    "localFile": "assets/cartoons/2026-11-04-holiday-cord-check.png",
+    "tipId": "holiday-cord-check"
   },
   "referralShare": {
-    "title": "Know a neighbor who would enjoy Christmas Canteen?",
-    "copy": "If a friend or neighbor is thinking about a move, or just has a real estate question, I would be glad to help. Forwarding this issue is an easy way to share the Christmas Canteen details, too.",
-    "ps": "If Christmas Canteen sounds like someone's kind of outing, feel free to forward this along."
+    "title": "Know a neighbor who would enjoy Snellville's Christmas Lighted Parade?",
+    "copy": "Some of my favorite conversations start with a forwarded email. If someone you know would enjoy Snellville's Christmas Lighted Parade, or is quietly thinking about buying or selling, I would be honored to help.",
+    "ps": "Forwarding this is an easy way to share Snellville's Christmas Lighted Parade with a friend who would enjoy it."
   },
-  "footerImageIndex": 1,
+  "footerImageIndex": 2,
   "footerImages": [
     "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-1.jpg",
     "https://res.cloudinary.com/agkgjldk/image/upload/v1782347670/gwinnett-newsletter/footers/around-gwinnett-2.jpg",
@@ -112,13 +112,13 @@
   ],
   "automation": {
     "pipelineVersion": 2,
-    "issueIsoDate": "2026-10-28",
-    "tipId": "dust-ceiling-fans",
-    "eventId": "2026-christmas-canteen-lawrenceville",
-    "featuredCounty": "Rockdale County",
-    "marketRotationIndex": 5,
-    "marketCheckedFor": "2026-10-28",
-    "preparedAt": "2026-10-26T17:53:46.654Z",
+    "issueIsoDate": "2026-11-04",
+    "tipId": "holiday-cord-check",
+    "eventId": "2026-snellville-lighted-christmas-parade",
+    "featuredCounty": "DeKalb County",
+    "marketRotationIndex": 6,
+    "marketCheckedFor": "2026-11-04",
+    "preparedAt": "2026-11-02T22:16:37.400Z",
     "preparedBy": "monday"
   }
 }
